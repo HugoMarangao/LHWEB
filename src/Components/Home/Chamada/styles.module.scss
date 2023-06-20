@@ -1,0 +1,45 @@
+.Container{
+    width: 100%;
+    height: 25rem;
+    background-color: #20D3FC;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    position: relative; /* Adicione esta linha */
+
+    .ContainerUser{
+        display: flex;
+        position: relative; /* Adicione esta linha */
+
+        .user{
+            width: 50%;
+            display: flex;
+            position: relative; /* Adicione esta linha */
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+            .bol{
+                width: 300px;
+                height: 250px;
+                border-radius: 50%;
+                background-color: #f2f2f2;
+            }
+
+            .bolciador{
+                width: 300px;
+                height: 250px;
+                border-radius: 50%;
+                background-color: #9e2121;
+                position: absolute; /* Altere para absolute */
+                left: 30px; /* Ajuste conforme necessário */
+                top: 50px; /* Ajuste conforme necessário */
+            }
+
+            .text{
+                max-width: 50%;
+                margin-left: 10px;
+            }
+        }
+    }
+}

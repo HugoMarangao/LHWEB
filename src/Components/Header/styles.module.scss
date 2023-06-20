@@ -1,0 +1,118 @@
+/* src/Componets/Header/styles.module.scss */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0rem 10rem;
+    z-index: 1000;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: #0f1a28;
+    font-size: 18px;
+    font-weight: bold;
+
+    .logoContainer {
+        margin: 0;
+        padding: 0;
+      }
+
+      .logo{
+        width: 180px;
+        height: 80px;
+        background-image: url('/logo.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      
+  }
+
+  
+  
+  .header.scrolling {
+    background-color: #f2f2f2;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+
+  
+  .nav a:hover {
+    color: #75e2ff;
+  }
+  
+
+  .header.scrolling .nav a:hover,
+  .header.scrolling .nav a.active {
+    color: #75e2ff !important;
+  }
+  
+  .header.showHeader {
+    transform: translateY(0);
+  }
+  
+  .header.scrolling:not(.showHeader) {
+    transform: translateY(-100%);
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 1rem;
+    }
+  
+    .nav {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #f2f2f2;
+    }
+  
+    .nav a {
+      padding: 1rem;
+    }
+  
+    .mobileMenuOpen {
+      display: flex;
+    }
+  
+    .menuIcon {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 20px;
+      cursor: pointer;
+    }
+  
+    .menuIcon span {
+      display: block;
+      height: 3px;
+      background-color: #1e1d1d;
+    }
+  
+    .header.scrolling .menuIcon span {
+      background-color: #111010;
+    }
+    
+  }
+  
+  
+  // Passo 4: Oculte o ícone do menu em telas maiores
+  @media (min-width: 769px) {
+    .menuIcon {
+      display: none;
+    }
+  }
+  
