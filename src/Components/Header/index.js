@@ -56,8 +56,8 @@ const Header = () => {
         <Rotas href="/" active={router.pathname === '/'}>
           Home
         </Rotas>
-        <Rotas href="/Cerca" active={router.pathname === "/chisiamo"}>
-          Cerca
+        <Rotas href="/Produtos" active={router.pathname === "/Produtos"}>
+          Produtos
         </Rotas>
         <Rotas href="/port" active={router.pathname === "/port"}>
           Destaques

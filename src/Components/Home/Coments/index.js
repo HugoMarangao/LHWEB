@@ -67,11 +67,15 @@ const Coments = () => {
            </Slider>
            <div className={styles.comentarios}>
                 <div className={styles.desing}>
-                    <div className={styles.bolblue}/>
-                    <div className={styles.product}/>
+                    <div className={styles.bolblue}>
+                    <div className={styles.product}>
                     <div className={styles.logo}>
                         <Image src={'/assets/Parceiros/horadosono.png'} alt={`Logo do parceiro hora do sono`} width={120} height={100} />
                     </div>
+                    </div>
+                    </div>
+                    
+                    
                     <div className={styles.comentvero}>
                         <h1>Anne</h1>
                         <h2><b>{"\\\\"} </b>Responsavel pelo Marketing</h2>

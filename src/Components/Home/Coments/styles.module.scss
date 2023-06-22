@@ -31,23 +31,24 @@
 
         .desing{
             display: flex;
-
+            justify-content: space-around;
             .bolblue{
                 width: 30%;
                 height: 400px;
                 background-color: #20D3FC;
                 border-radius: 50%;
+                display: flex;
+                justify-content: flex-end;
             }
 
             .product{
                 background-image: url('/assets/Products/iphone.png');
                 background-size: contain;
                 width: 200px;
+                height: 400px;
                 background-position: center;
                 background-repeat: no-repeat;
-                position: relative;
-                top: 40px;
-                left: -175px;
+                
             }
 
             .logo{
@@ -58,10 +59,8 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                position: relative;
-                left: -300px;
-                top:230px;
                 z-index: 1;
+                margin: 190px 50px;
             }
 
             .comentvero{
@@ -82,11 +81,8 @@
             }
         }
     }
-
     @media (max-width: 768px) {
 
-        margin-top: 0px;
-        padding: 10px;
 
         .Titulo{
             display: flex;
@@ -95,77 +91,78 @@
     
             h1{
                 color: black;
-                font-size: 25px;
+                font-size: 40px;
                 z-index: 1;
             }
     
             .linha{
-                width: 50px;
+                width: 90px;
                 height: 9px;
                 background-color: #20D3FC;
                 border-radius: 20px;
                 position: relative;
-                top:10px;
-                left: -49px;
+                top:40px;
+                left: -213px;
             }
         }
-
         .comentarios{
-            height: 25rem;
-    
-            .desing{
-                display: flex;
-    
-                .bolblue{
-                    width: 40%;
-                    height: 200px;
-                    background-color: #20D3FC;
-                    border-radius: 50%;
-                    display: none;
-                }
-    
-                .product{
-                    background-image: url('/assets/Products/iphone.png');
-                    background-size: contain;
-                    width: 50%;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    position: relative;
-                    top: 40px;
-                    left: -5px;
-                }
-    
-                .logo{
-                    width: 120px;
-                    height: 150px;
-                    background-color: #A3DACB;
-                    border-radius: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position: relative;
-                    left: -50px;
-                    top:180px
-                }
-    
-                .comentvero{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    color: black;
-                    width: 50%;
-    
-                    h1{
-                        font-size: 30px;
-                    }
-                    h2{
-                        font-size: 20px;
-                        b{
-                            color: #20D3FC;
-                        }
-                    }
-                }
+          .desing{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+      
+            .bolblue{
+                width: 200px;
+                height: 200px;
+               
             }
+      
+            .product{
+              background-image: url('/assets/Products/iphone.png');
+              background-size: contain;
+              background-position: center;
+              background-repeat: no-repeat;
+              width: 200px;
+              height: 200px;
+              /* Remova o 'top' e 'left' que você tinha aqui antes */
+            }
+      
+            .logo{
+              width: 100px;
+              height: 100px;
+              background-color: #A3DACB;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+                position: relative;
+                top:-60px;
+                left:30px
+              /* Remova o 'top' e 'left' que você tinha aqui antes */
+            }
+      
+            .comentvero{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              color: black;
+              width: 100%;
+              margin-top: 20px; /* Adicione uma margem superior se necessário */
+      
+              h1{
+                font-size: 30px;
+              }
+              h2{
+                font-size: 20px;
+                b{
+                  color: #20D3FC;
+                }
+              }
+            }
+          }
         }
-    }
+      }
+      
 }

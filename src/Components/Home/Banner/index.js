@@ -9,19 +9,11 @@ const Banner = () => {
     return(
 
         <div className={styles.container}>
-            <div className={styles.bolText}>
-                <h1>Crescemos com sua <br/> empresa</h1>
-                <div className={styles.traso}/>
-                <p>com a LHWEB voce cria sua  plataforma e <br/> <b>impulsiona</b> suas acoes de <b>vendas e marketing</b></p>
-                <button>
-                    quero criar minha plataforma
-                </button>
-            </div>
-            <div className={styles.bolblue}/>
-            <div className={styles.bolImage}/>
-            <div className={styles.Conteinerminibol}>
-                <div className={styles.minibol}/>
-            </div>
+            <video autoPlay loop muted className={styles.video}>
+                <source src="/assets/Banner/banner.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
         </div>
     
     );

@@ -42,4 +42,47 @@
             }
         }
     }
+
+    @media (max-width: 768px) {
+        height: 47rem;
+        .ContainerUser{
+            margin-top: 10px;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            .user{
+                width: 100%;
+                display: flex;
+                position: relative; /* Adicione esta linha */
+                padding: 3px;
+                align-items: center;
+                justify-content: center;
+                
+                flex-direction: column;
+                .bol{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    background-color: #f2f2f2;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+    
+                .bolciador{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    background-color: #9e2121;
+                    position: absolute; /* Altere para absolute */
+                    left: 30px; /* Ajuste conforme necessário */
+                    top: 15px; /* Ajuste conforme necessário */
+                }
+    
+                .text{
+                    max-width: 100%;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
 }
