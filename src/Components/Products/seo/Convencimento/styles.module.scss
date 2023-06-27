@@ -1,0 +1,642 @@
+.container{
+    width: 100%;
+    height: 100%;
+
+    .planos{
+        width: 100%;
+        height: 39rem;
+        background-color: #20D3FC;
+        display: flex;
+        padding: 50px;
+
+        .box{
+            margin: 10px;
+            padding: 8px;
+            border: 2px solid #f2f2f2;
+            border-radius: 15px;
+            box-shadow: 2px 2px 4px rgba(254, 254, 254, 0.2); 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            h2{
+                font-size: 35px;
+            }
+
+            li{
+                font-size: 18px;
+                padding: 5px;
+            }
+
+            h3{
+                font-size: 35px;
+            }
+
+            button{
+                width: 40%;
+                border: 2px solid #f2f2f2;
+                padding: 10px;
+                border-radius: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .funcionalidades{
+        padding-top: 20px;
+        .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: black;
+
+            h1{
+                font-size: 30px;
+            }
+
+            p{
+                color: #afafaf;
+                font-size: 26px;
+                max-width: 50%;
+                b{
+                    color: black;
+                }
+            }
+           
+            button{
+                margin-top: 10px;
+                background-color: #20D3FC;
+                padding: 10px;
+                width: 20%;
+                border-radius: 10px;
+                color: #f2f2f2;
+                font-size: 18px;
+
+                
+            }
+        }
+
+        .flex{
+            display: flex;
+            padding: 10px;
+            .icons{
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                justify-content: center;
+                .box{
+                    display: flex;
+                    padding: 15px;
+                    .icon{
+                        cursor: pointer;
+                        padding: 15px;
+                        height: 50px;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 15px;
+                    }
+                    .icon:hover{
+                        padding: 15px;
+                        height: 50px;
+                        box-shadow: 2px 2px 4px rgba(3, 164, 218, 0.2); 
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 15px;
+                        transform: scale(1.1);
+                    }
+                    .boxText{
+                        margin-left: 10px;
+                        color: #afafaf;
+                        display: flex;
+                        flex-direction: column;
+                        h3{
+                            color: black;
+                        }
+                    }
+                   
+                }
+
+                .box.active {
+                    .icon{
+                        cursor: pointer;
+                        padding: 15px;
+                        height: 50px;
+                        box-shadow: 10px 10px 10px rgba(3, 164, 218, 0.2); 
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 15px;
+                    }
+                  }
+                
+            }
+
+          .funcao{
+            width: 70%;
+            height: 100%;
+            display: flex;
+           
+            .mobile{
+                width: 40%;
+                height: 500px;
+                background-image: url('/assets/Products/iphone.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               flex-direction: column;
+                h2{
+                    font-size: 50px;                   
+                }
+
+                .box{
+                    height: 130px;
+                    background-color: #f2f2f2aa;
+                    color: black;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 20px;
+                    border-radius: 20px;
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+                    position: relative;
+                    left: 130px;
+                    h2{
+                        font-size: 15px;
+                    }
+
+                    .logo{
+                        background-image: url('/logo.png');
+                        width: 100px;
+                        height: 50px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                }
+            }
+
+            .conteudo{
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                margin-left: 150px;
+                .box{
+                    width: 90%;
+                    height: 80%;
+                    border-radius: 20px;
+                    padding: 10px;
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+                    p{
+                        margin: 15px;
+                        color: #afafaf;
+                        font-size: 20px;
+                        b{
+                            color: black;
+                        }
+                    }
+                }
+            }
+          }
+        }
+    }
+
+    .flex{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        .produto{
+            width: 50%;
+            height: 100%;
+
+            .bol{
+                width: 50%;
+                height: 300px;
+                background-color: #20D3FC;
+                border-radius: 50%;
+
+                .boltrasada{
+                    width: 100%;
+                    height: 300px;
+                    border:3px dotted #d4d4d4;
+                    border-radius: 50%;
+                    position: relative;
+                    left: 200px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .Imagem{
+                        width: 200%;
+                        height: 500px;
+                        background-image: url('/assets/Products/iphone.png');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        transform: rotate(-30deg);
+                    }
+                }
+            }
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            color: black;
+            padding: 20px;
+
+            h1{
+                margin: 0 auto;
+                font-size: 35px;
+            }
+
+            p{
+                color: #afafaf;
+                font-size: 20px;
+                padding: 10px;
+                b{
+                    color:black
+                }
+            }
+
+            button{
+                margin: 0 auto;
+                background-color: #20D3FC;
+                width: 50%;
+                padding: 10px;
+                border-radius: 15px;
+
+                h1{
+                    color: #f2f2f2;
+                }
+            }
+        }
+    }
+
+    
+      
+
+    .empresas{
+       width: 100%;
+       .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            color: black;
+            font-size: 35px;
+        }
+       }
+
+       .comentarios{
+        height: 25rem;
+
+        .desing{
+            display: flex;
+            justify-content: space-around;
+            .bolblue{
+                width: 30%;
+                height: 400px;
+                background-color: #20D3FC;
+                border-radius: 50%;
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .product{
+                background-image: url('/assets/Products/iphone.png');
+                background-size: contain;
+                width: 200px;
+                height: 400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                
+            }
+
+            .logo{
+                width: 200px;
+                height: 200px;
+                background-color: #A3DACB;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1;
+                margin: 190px 50px;
+            }
+
+            .comentvero{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: black;
+
+                h1{
+                    font-size: 30px;
+                }
+                h2{
+                    font-size: 30px;
+                    b{
+                        color: #20D3FC;
+                    }
+                }
+            }
+        }
+       
+    }
+
+   
+
+    
+    }
+
+    @media (max-width: 768px) {
+        overflow: hidden;
+
+        .funcionalidades{
+            padding-top: 10px;
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: black;
+    
+                h1{
+                    font-size: 40px;
+                }
+    
+                p{
+                    color: #afafaf;
+                    font-size: 25px;
+                    max-width: 100%;
+                    b{
+                        color: black;
+                    }
+                }
+    
+                button{
+                    margin-top: 10px;
+                    background-color: #20D3FC;
+                    padding: 10px;
+                    width: 80%;
+                    border-radius: 10px;
+                    color: #f2f2f2;
+                    font-size: 18px;
+                }
+            }
+    
+            .flex{
+                display: flex;
+                flex-direction: column;
+                padding: 15px;
+                .icons{
+                    display: flex;
+                    flex-direction:row;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    .box{
+                        cursor: pointer;
+                        display: flex;
+                        padding: 3px 15px;
+                       
+                        .icon{
+                            padding: 10px;
+                            height: 50px;
+                            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 15px;
+                        }
+    
+                        .boxText{
+                            margin-left: 10px;
+                            color: #afafaf;
+                            display: none;
+                            flex-direction: column;
+                            h3{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                .funcao{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                  
+                    .mobile{
+                        width: 100%;
+                        height: 400px;
+                        background-image: url('/assets/Products/iphone.png');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                       flex-direction: column;
+                        h2{
+                            font-size: 50px;
+                            
+                        }
+    
+                        .box{
+                            width: 300px;
+                            height: 100px;
+                            background-color: #f2f2f2aa;
+                            color: black;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            padding: 10px;
+                            border-radius: 20px;
+                            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+                            position: relative;
+                            left: 70px;
+                            h2{
+                                font-size: 15px;
+                            }
+                            p{
+                                font-size: 10px;
+                            }
+    
+                            .logo{
+                                background-image: url('/logo.png');
+                                width: 100px;
+                                height: 50px;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                            }
+                        }
+                    }
+    
+                    .conteudo{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        margin-left: 0px;
+                        .box{
+                            width: 100%;
+                            height: 80%;
+                            border-radius: 20px;
+                            padding: 10px;
+                            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+                            p{
+                                margin: 15px;
+                                color: #afafaf;
+                                font-size: 20px;
+                                b{
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .flex{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            .produto{
+                width: 100%;
+                height: 100%;
+    
+                .bol{
+                    width: 100%;
+                    height: 300px;
+                    background-color: #20D3FC;
+                    border-radius: 50%;
+    
+                    .boltrasada{
+                        width: 100%;
+                        height: 300px;
+                        border:3px dotted #d4d4d4;
+                        border-radius: 50%;
+                        position: relative;
+                        top: 10px;
+                        left: 0px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .Imagem{
+                            width: 100%;
+                            height: 350px;
+                            background-image: url('/assets/Products/iphone.png');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            transform: rotate(-30deg);
+                        }
+                    }
+                }
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+                color: black;
+                padding: 20px;
+    
+                h1{
+                    margin: 0 auto;
+                    font-size: 35px;
+                }
+    
+                p{
+                    color: #afafaf;
+                    font-size: 20px;
+                    padding: 10px;
+                    b{
+                        color:black
+                    }
+                }
+    
+                button{
+                    margin: 0 auto;
+                    background-color: #20D3FC;
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 15px;
+    
+                    h1{
+                        color: #f2f2f2;
+                    }
+                }
+            }
+        }
+        .empresas{
+            
+            .comentarios{
+                .desing{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+            
+                  .bolblue{
+                      width: 300px;
+                      height: 200px;
+                     
+                  }
+            
+                  .product{
+                    background-image: url('/assets/Products/iphone.png');
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 200px;
+                    height: 200px;
+                    /* Remova o 'top' e 'left' que você tinha aqui antes */
+                  }
+            
+                  .logo{
+                    width: 100px;
+                    height: 100px;
+                    background-color: #A3DACB;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                      position: relative;
+                      top:-60px;
+                      left:30px
+                    /* Remova o 'top' e 'left' que você tinha aqui antes */
+                  }
+            
+                  .comentvero{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: black;
+                    width: 100%;
+                    margin-top: 20px; /* Adicione uma margem superior se necessário */
+            
+                    h1{
+                      font-size: 30px;
+                    }
+                    h2{
+                      font-size: 20px;
+                      b{
+                        color: #20D3FC;
+                      }
+                    }
+                  }
+                }
+              }
+        }
+    }
+}

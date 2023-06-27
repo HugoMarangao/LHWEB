@@ -1,0 +1,100 @@
+{
+    "DesingWeb": {
+      "title": "Design Web",
+      "description": "Boostez votre business en ligne avec un site web professionnel et attractif. Augmentez votre visibilité, engagez votre public cible et convertissez les visiteurs en clients satisfaits."
+    },
+    "App": {
+      "title": "App",
+      "description": "Transformez votre business avec une application personnalisée. Augmentez l'efficacité, engagez les clients et boostez vos ventes. Investissez dans le succès de votre entreprise avec notre développement d'applications."
+    },
+    "SEO": {
+      "title": "SEO",
+      "description": "Atteignez les premières positions dans les moteurs de recherche avec notre design web optimisé pour le SEO. Augmentez la visibilité de votre entreprise, attirez du trafic qualifié et boostez vos ventes."
+    },
+    "Marktingppc": {
+      "title": "Marketing PPC",
+      "description": "Boostez votre présence en ligne avec des stratégies de marketing digital efficaces. Atteignez votre public cible, augmentez la visibilité de votre marque et convertissez les leads en clients."
+    },
+    "EmailMarkting": {
+      "title": "Email Marketing",
+      "description": "Gagnez vos clients avec des campagnes d'email marketing personnalisées. Augmentez le taux d'ouverture, l'engagement et la conversion. Tenez vos clients informés et boostez vos ventes."
+    },
+    "nossosclientes": {
+      "title": "Nos clients nous aiment"
+  },
+  "chamada": {
+    "title": "Pourquoi choisir LH Web ?",
+    "description": "Connectez-vous au succès avec Luiz Otavio Marangão Souza, co-fondateur de LH Web. Expert en marketing digital, il propulse les entreprises vers de nouveaux sommets. Son expertise et sa focalisation sur le client sont essentiels pour obtenir des résultats exceptionnels. Découvrez des opportunités de croissance uniques à votre portée.",
+    "description1": "Découvrez l'innovation avec Hugo Marangão, co-fondateur de LH Web. Avec sa passion pour des solutions personnalisées et intuitives, il ouvre la voie en matière de technologie et d'innovation. Sa vision stratégique et ses compétences techniques exceptionnelles garantissent des produits et services de haute qualité, adaptés à vos besoins uniques."
+    },
+    "conversaoApp": {
+      "title": "Ventes et bien plus encore",
+      "description": "Saviez-vous qu'une application peut être la",
+      "descriptiondestaque": "plateforme de marketing",
+      "description1": "de votre marque?",
+      "description2": "C'est un",
+      "descriptiondestaque1": "canal direct avec votre client",
+      "description3": ", bien plus qu'une simple extension de votre site web ou d'un nouveau canal de vente.",
+      "description4": "Avec une application, vous établissez une",
+      "descriptiondestaque2": "connexion entre votre marque et votre client",
+      "description5": ", en offrant la meilleure expérience possible.",
+      "button": "Créer une app",
+
+      "title2":"76+ applications créées",
+      "title3":"Fonctionnalités",
+      "description6":"Divers outils pour que votre magasin ait plus de ",
+      "descriptiondestaque3":"conversion",
+      "description7":"une plus grande",
+      "descriptiondestaque4":"engagement",
+      "description8":"et gagner la",
+      "descriptiondestaque5":"fidélité",
+      "description9":"de vos clients.",
+      "button1":"voir tout",
+
+      "titleicon": "Notifications push illimitées",
+      "descriptionicon": "Ayez un canal de contact direct avec vos clients.",
+      "titleicon1": "Intégré à votre magasin",
+      "descriptionicon1": "Votre application est une extension de votre site",
+      "titleicon2": "Application Android et iOS",
+      "descriptionicon2": "Disponible dans les principaux magasins.",
+      "titleicon3": "Testez avant de publier",
+      "descriptionicon3": "Voyez l'application sur votre téléphone."
+    },
+    "conversaoDesing": {
+      "title": "Boostez Votre Business",
+      "description": "Un ",
+      "descriptiondestaque": "site web",
+      "description1": "n'est pas seulement une présence en ligne, mais un",
+      "descriptiondestaque1": "canal direct d'interaction",
+      "description2": "avec votre client.",
+      "description3": "Avec un ",
+      "descriptiondestaque2": "design bien structuré",
+      "description4": ", votre site devient un lien entre la marque et le client, offrant une ",
+      "descriptiondestaque3": "expérience de navigation optimisée",
+      "description5": "Un site de haute qualité augmente non seulement la ",
+      "descriptiondestaque4": "reconnaissance de la marque",
+      "description6": ", mais améliore également le ",
+      "descriptiondestaque5": "engagement du client",
+      "description7": " et stimule les ventes.",
+      "button": "Créer un site",
+      "title2": "96+ sites créés",
+      "title3": "Fonctionnalités",
+      "description8": "Divers outils pour que votre magasin ait plus de ",
+      "descriptiondestaque6": "conversion",
+      "description9": ", une plus grande ",
+      "descriptiondestaque7": "engagement",
+      "description10": "et gagne la ",
+      "descriptiondestaque8": "fidélité",
+      "description11": " de vos clients. ",
+      "button1": "voir tout",
+      "titleicon": "Design Réactif",
+      "descriptionicon": "Votre site parfait sur n'importe quel appareil.",
+      "titleicon1": "Optimisation pour les moteurs de recherche",
+      "descriptionicon1": "Votre site plus visible pour vos clients.",
+      "titleicon2": "Expérience Utilisateur",
+      "descriptionicon2": "Une navigation agréable pour vos visiteurs.",
+      "titleicon3": "Haute Performance",
+      "descriptionicon3": "Votre site rapide et efficace."
+    }
+  }
+  

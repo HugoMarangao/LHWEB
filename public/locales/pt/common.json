@@ -1,0 +1,102 @@
+{
+    "DesingWeb": {
+      "title": "Desing Web",
+      "description": "Impulsione seu negócio online com um site profissional e atraente. Aumente a visibilidade, engaje seu público-alvo e converta visitantes em clientes satisfeitos."
+    },
+    "App":{
+        "title": "App",
+        "description": "Transforme seu negócio com um aplicativo personalizado. Aumente a eficiência, engaje clientes e impulsione suas vendas. Invista no sucesso do seu negócio com nosso desenvolvimento de aplicativos"
+    },
+    "SEO":{
+        "title":"SEO",
+        "description":"Alcance as primeiras posições nos mecanismos de busca com nosso design web otimizado para SEO. Aumente a visibilidade da sua empresa, atraia tráfego qualificado e impulsione suas vendas."
+    },
+    "Marktingppc":{
+        "title":"Marketing PPC",
+        "description":"Potencialize sua presença online com estratégias de marketing digital eficientes. Alcance seu público-alvo, aumente a visibilidade da sua marca e converta leads em clientes."
+    },
+    "EmailMarkting":{
+        "title":"Email Marketing",
+        "description":"Conquiste seus clientes com campanhas personalizadas de email marketing. Aumente a taxa de abertura, engajamento e conversão. Mantenha seus clientes informados e impulsione suas vendas"
+    },
+    "nossosclientes":{
+        "title":"Nossos clientes nos amam"
+    },
+    "chamada":{
+        "title":"Por que Escolher a LH Web?",
+        "description":"Conecte-se ao sucesso com Luiz Otavio Marangão Souza, co-fundador da LH Web. Especialista em marketing digital, ele impulsiona empresas a alcançarem novos patamares. Sua expertise e foco no cliente são essenciais para conquistar resultados excepcionais. Descubra as oportunidades únicas de crescimento ao seu alcance.",
+        "description1":"Descubra a inovação com Hugo Marangão, co-fundador da LH Web. Com sua paixão por soluções personalizadas e intuitivas, ele lidera o caminho em tecnologia e inovação. Sua visão estratégica e habilidades técnicas excepcionais garantem produtos e serviços de alta qualidade, adaptados às suas necessidades únicas."
+    },
+    "conversaoApp":{
+        "title":"Vendas e muito mais",
+        "description":"Você sabia que um aplicativo pode ser a própria",
+        "descriptiondestaque":"plataforma de marketing",
+        "description1":"da sua marca?",
+        "description2":"É um",
+        "descriptiondestaque1":"canal direto com seu cliente",
+        "description3":", muito mais do que apenas a extensão do seu site ou um novo canal de vendas.",
+        "description4":", Com um aplicativo você constrói uma ",
+        "descriptiondestaque2":"conexão entre a sua marca e o seu cliente",
+        "description5":", oferecendo a melhor experiência possível.",
+        "button":"Criar App",
+
+        "title2":"76+ aplicativos criados",
+        "title3":"Funcionalidades",
+        "description6":"Diversas ferramentas para sua loja ter mais ",
+        "descriptiondestaque3":"conversão",
+        "description7":", um maior ",
+        "descriptiondestaque4":"engajamento",
+        "description8":"e conquistar a ",
+        "descriptiondestaque5":"fidelidade",
+        "description9":" dos seus clientes. ",
+        "button1":"veja todas",
+
+        "titleicon":"Notificações push ilimitadas",
+        "descriptionicon":"Tenha um canal de contato direto com seus clientes.",
+        "titleicon1":"Integrado com a sua loja",
+        "descriptionicon1":"seu app e uma extesao do seu site",
+        "titleicon2":"Aplicativo Android e iOS",
+        "descriptionicon2":"Disponível nas principais lojas.",
+        "titleicon3":"Teste antes de publicar",
+        "descriptionicon3":"Veja o aplicativo no seu celular."
+    },
+
+    "conversaoDesing":{
+        "title":"Potencialize seu Negócio",
+        "description":"Um ",
+        "descriptiondestaque":"website",
+        "description1":"não é apenas uma presença online, mas um",
+        "descriptiondestaque1":"canal direto de interação",
+        "description2":"com seu cliente.",  
+        "description3":"Com um ",
+        "descriptiondestaque2":"design bem estruturado",
+        "description4":", seu site se torna um elo entre a marca e o cliente, proporcionando uma ",
+        "descriptiondestaque3":"experiência de navegação otimizada",
+        "description5":"Um site de alta qualidade não apenas aumenta o ",
+        "descriptiondestaque4":"reconhecimento da marca",
+        "description6":", mas também melhora o ",
+        "descriptiondestaque5":"engajamento do cliente",
+        "description7":" e impulsiona as vendas.",
+        "button":"Criar Site",
+
+        "title2":"96+ sites criados",
+        "title3":"Funcionalidades",
+        "description8":"Diversas ferramentas para sua loja ter mais ",
+        "descriptiondestaque6":"conversão",
+        "description9":", um maior ",
+        "descriptiondestaque7":"engajamento",
+        "description10":"e conquistar a ",
+        "descriptiondestaque8":"fidelidade",
+        "description11":" dos seus clientes. ",
+        "button1":"veja todas",
+
+        "titleicon":"Design Responsivo",
+        "descriptionicon":"Seu site perfeito em qualquer dispositivo.",
+        "titleicon1":"Otimização para motores de busca",
+        "descriptionicon1":"Seu site mais visível para seus clientes.",
+        "titleicon2":"Experiência do Usuário",
+        "descriptionicon2":"Uma navegação agradável para seus visitantes.",
+        "titleicon3":"Alta Performance",
+        "descriptionicon3":"Seu site rápido e eficiente."
+    }
+  }

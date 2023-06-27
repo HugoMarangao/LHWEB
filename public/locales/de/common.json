@@ -1,0 +1,89 @@
+{
+    "DesingWeb": {
+      "title": "Webdesign",
+      "description": "Steigern Sie Ihr Online-Geschäft mit einer professionellen und attraktiven Website. Erhöhen Sie die Sichtbarkeit, binden Sie Ihre Zielgruppe ein und verwandeln Sie Besucher in zufriedene Kunden."
+    },
+    "App": {
+      "title": "App",
+      "description": "Verwandeln Sie Ihr Geschäft mit einer individuellen Anwendung. Steigern Sie die Effizienz, binden Sie Kunden ein und steigern Sie Ihren Umsatz. Investieren Sie in den Erfolg Ihres Unternehmens mit unserer Anwendungsentwicklung."
+    },
+    "SEO": {
+      "title": "SEO",
+      "description": "Erreichen Sie die Top-Positionen in den Suchmaschinen mit unserem für SEO optimierten Webdesign. Erhöhen Sie die Sichtbarkeit Ihres Unternehmens, ziehen Sie qualifizierten Traffic an und steigern Sie Ihren Umsatz."
+    },
+    "Marktingppc": {
+      "title": "PPC-Marketing",
+      "description": "Steigern Sie Ihre Online-Präsenz mit effizienten digitalen Marketingstrategien. Erreichen Sie Ihre Zielgruppe, erhöhen Sie die Sichtbarkeit Ihrer Marke und wandeln Sie Leads in Kunden um."
+    },
+    "EmailMarkting": {
+      "title": "E-Mail-Marketing",
+      "description": "Gewinnen Sie Ihre Kunden mit personalisierten E-Mail-Marketing-Kampagnen. Steigern Sie die Öffnungsrate, das Engagement und die Conversion. Halten Sie Ihre Kunden informiert und steigern Sie Ihren Umsatz."
+    },
+    "nossosclientes": {
+      "title": "Unsere Kunden lieben uns"
+    },
+    "chamada": {
+      "title": "Warum LH Web wählen?",
+      "description": "Verbinden Sie sich mit Erfolg mit Luiz Otavio Marangão Souza, Mitbegründer von LH Web. Als Experte für digitales Marketing bringt er Unternehmen auf neue Höhen. Seine Expertise und Kundenorientierung sind entscheidend für außergewöhnliche Ergebnisse. Entdecken Sie einzigartige Wachstumschancen, die in Ihrer Reichweite liegen.",
+      "description1": "Entdecken Sie Innovation mit Hugo Marangão, Mitbegründer von LH Web. Mit seiner Leidenschaft für maßgeschneiderte und intuitive Lösungen ebnet er den Weg in Technologie und Innovation. Seine strategische Vision und außergewöhnlichen technischen Fähigkeiten gewährleisten hochwertige Produkte und Dienstleistungen, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind."
+    },
+    "conversaoApp": {
+      "title": "Verkäufe und vieles mehr",
+      "description": "Wussten Sie, dass eine App das",
+      "descriptiondestaque": "Marketingplattform",
+      "description1": "Ihrer Marke sein kann?",
+      "description2": "Es ist ein",
+      "descriptiondestaque1": "direkter Kanal zu Ihrem Kunden",
+      "description3": ", viel mehr als nur eine Erweiterung Ihrer Website oder ein neuer Verkaufskanal.",
+      "description4": "Mit einer App bauen Sie eine",
+      "descriptiondestaque2": "Verbindung zwischen Ihrer Marke und Ihrem Kunden",
+      "description5": ", indem Sie die bestmögliche Erfahrung bieten.",
+      "button": "App erstellen",
+
+      "titleicon": "Unbegrenzte Push-Benachrichtigungen",
+      "descriptionicon": "Haben Sie einen direkten Kontaktweg zu Ihren Kunden.",
+      "titleicon1": "Integriert in Ihren Shop",
+      "descriptionicon1": "Ihre App ist eine Erweiterung Ihrer Website",
+      "titleicon2": "Android- und iOS-Anwendung",
+      "descriptionicon2": "Verfügbar in den großen Geschäften.",
+      "titleicon3": "Testen Sie vor der Veröffentlichung",
+      "descriptionicon3": "Sehen Sie die Anwendung auf Ihrem Handy."
+     },
+     "conversaoDesing": {
+      "title": "Stärken Sie Ihr Geschäft",
+      "description": "Eine ",
+      "descriptiondestaque": "Website",
+      "description1": "ist nicht nur eine Online-Präsenz, sondern ein",
+      "descriptiondestaque1": "direkter Interaktionskanal",
+      "description2": "mit Ihrem Kunden.",
+      "description3": "Mit einem ",
+      "descriptiondestaque2": "gut strukturiertem Design",
+      "description4": ", wird Ihre Website zu einer Verbindung zwischen der Marke und dem Kunden und bietet ein ",
+      "descriptiondestaque3": "optimiertes Surf-Erlebnis",
+      "description5": "Eine hochwertige Website erhöht nicht nur das ",
+      "descriptiondestaque4": "Markenbewusstsein",
+      "description6": ", sondern verbessert auch die ",
+      "descriptiondestaque5": "Kundenbindung",
+      "description7": " und steigert den Verkauf.",
+      "button": "Website erstellen",
+      "title2": "96+ erstellte Websites",
+      "title3": "Funktionen",
+      "description8": "Verschiedene Tools, damit Ihr Geschäft mehr ",
+      "descriptiondestaque6": "Konversion",
+      "description9": ", eine größere ",
+      "descriptiondestaque7": "Engagement",
+      "description10": "und gewinnt die ",
+      "descriptiondestaque8": "Treue",
+      "description11": " Ihrer Kunden. ",
+      "button1": "Alle sehen",
+      "titleicon": "Responsive Design",
+      "descriptionicon": "Ihre perfekte Website auf jedem Gerät.",
+      "titleicon1": "Suchmaschinenoptimierung",
+      "descriptionicon1": "Ihre Website sichtbarer für Ihre Kunden.",
+      "titleicon2": "Benutzererfahrung",
+      "descriptionicon2": "Eine angenehme Navigation für Ihre Besucher.",
+      "titleicon3": "Hohe Leistung",
+      "descriptionicon3": "Ihre schnelle und effiziente Website."
+    }
+  }
+  

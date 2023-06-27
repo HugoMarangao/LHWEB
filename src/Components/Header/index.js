@@ -59,10 +59,10 @@ const Header = () => {
         <Rotas href="/Produtos" active={router.pathname === "/Produtos"}>
           Produtos
         </Rotas>
-        <Rotas href="/port" active={router.pathname === "/port"}>
+        <Rotas href="/Destaque" active={router.pathname === "/Destaque"}>
           Destaques
         </Rotas>
-        <Rotas href="/contati" active={router.pathname === "/contati"}>
+        <Rotas href="/Contati" active={router.pathname === "/Contati"}>
           Contatti
         </Rotas>       
       </nav>

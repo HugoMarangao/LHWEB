@@ -1,0 +1,100 @@
+{
+    "DesingWeb": {
+      "title": "Web Design",
+      "description": "Boost your online business with a professional and attractive website. Increase visibility, engage your target audience, and convert visitors into satisfied customers."
+    },
+    "App": {
+      "title": "App",
+      "description": "Transform your business with a customized application. Increase efficiency, engage customers and boost your sales. Invest in your business success with our application development."
+    },
+    "SEO": {
+      "title": "SEO",
+      "description": "Reach the top positions in the search engines with our web design optimized for SEO. Increase your company's visibility, attract qualified traffic and boost your sales."
+    },
+    "Marktingppc": {
+      "title": "PPC Marketing",
+      "description": "Boost your online presence with efficient digital marketing strategies. Reach your target audience, increase your brand visibility and convert leads into customers."
+    },
+    "EmailMarkting": {
+      "title": "Email Marketing",
+      "description": "Win your customers with personalized email marketing campaigns. Increase the opening rate, engagement and conversion. Keep your customers informed and boost your sales."
+    },
+    "nossosclientes": {
+      "title": "Our clients love us"
+   },
+   "chamada": {
+    "title": "Why Choose LH Web?",
+    "description": "Connect to success with Luiz Otavio Marangão Souza, co-founder of LH Web. An expert in digital marketing, he propels businesses to new heights. His expertise and customer focus are essential in achieving exceptional results. Discover unique growth opportunities within your reach.",
+    "description1": "Uncover innovation with Hugo Marangão, co-founder of LH Web. With his passion for customized and intuitive solutions, he leads the way in technology and innovation. His strategic vision and exceptional technical skills ensure high-quality products and services tailored to your unique needs."
+    },
+    "conversaoApp": {
+      "title": "Sales and Much More",
+      "description": "Did you know that an app can be the",
+      "descriptiondestaque": "marketing platform",
+      "description1": "of your brand?",
+      "description2": "It is a",
+      "descriptiondestaque1": "direct channel with your customer",
+      "description3": ", much more than just an extension of your website or a new sales channel.",
+      "description4": "With an app, you build a",
+      "descriptiondestaque2": "connection between your brand and your customer",
+      "description5": ", offering the best possible experience.",
+      "button": "Create App",
+
+      "title2":"76+ apps created",
+      "title3":"Features",
+      "description6":"Various tools for your store to have more ",
+      "descriptiondestaque3":"conversion ",
+      "description7":" a greater",
+      "descriptiondestaque4":"engagement",
+      "description8":"and win the",
+      "descriptiondestaque5":"loyalty",
+      "description9":"of your customers.",
+      "button1":"see all",
+
+      "titleicon": "Unlimited push notifications",
+      "descriptionicon": "Have a direct contact channel with your customers.",
+      "titleicon1": "Integrated with your store",
+      "descriptionicon1": "Your app is an extension of your site",
+      "titleicon2": "Android and iOS application",
+      "descriptionicon2": "Available in major stores.",
+      "titleicon3": "Test before publishing",
+      "descriptionicon3": "See the application on your phone."
+  },
+  "conversaoDesing": {
+    "title": "Boost Your Business",
+    "description": "A ",
+    "descriptiondestaque": "website",
+    "description1": "is not just an online presence, but a",
+    "descriptiondestaque1": "direct channel of interaction",
+    "description2": "with your client.",
+    "description3": "With a ",
+    "descriptiondestaque2": "well-structured design",
+    "description4": ", your site becomes a link between the brand and the client, providing an ",
+    "descriptiondestaque3": "optimized browsing experience",
+    "description5": "A high-quality site not only increases the ",
+    "descriptiondestaque4": "brand recognition",
+    "description6": ", but also improves the ",
+    "descriptiondestaque5": "customer engagement",
+    "description7": " and drives sales.",
+    "button": "Create Website",
+    "title2": "96+ websites created",
+    "title3": "Features",
+    "description8": "Various tools for your store to have more ",
+    "descriptiondestaque6": "conversion",
+    "description9": ", a greater ",
+    "descriptiondestaque7": "engagement",
+    "description10": "and win the ",
+    "descriptiondestaque8": "loyalty",
+    "description11": " of your customers. ",
+    "button1": "see all",
+    "titleicon": "Responsive Design",
+    "descriptionicon": "Your perfect site on any device.",
+    "titleicon1": "Search Engine Optimization",
+    "descriptionicon1": "Your site more visible to your customers.",
+    "titleicon2": "User Experience",
+    "descriptionicon2": "A pleasant navigation for your visitors.",
+    "titleicon3": "High Performance",
+    "descriptionicon3": "Your fast and efficient site."
+  }
+  }
+  
