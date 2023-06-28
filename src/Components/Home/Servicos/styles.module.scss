@@ -1,7 +1,8 @@
 .Container{
     width: 100%;
-
     padding: 20px;
+
+    .Slider{display: none;}
 
     .flex{
         width: 100%;
@@ -102,6 +103,58 @@
                 margin-right: 60px;
                 justify-content: center;
             }
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        .Slider{
+            display: block;
+          .SliderC{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .bol{
+                width: 80%;
+                margin: 0 auto;
+                height: 300px;
+                background-color: #20D3FC;
+                border-radius: 50%;
+
+                .boltrasada{
+                    .imagem{
+                        width: 300px;
+                        height: 300px;
+                        background-image: url('/assets/Products/computer.png');
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+            .text{
+                color: black;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 0px;
+                justify-content: center;
+                h1{
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+          }
+        }
+
+        .flex{
+            display: none;
         }
     }
 }

@@ -7,11 +7,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FiUsers,FiPieChart,FiSearch,FiMail } from 'react-icons/fi';
-
+import { useTranslation } from 'next-i18next'; 
 
 const ConvencimentoMarketing = ({id}) => {
       const [activeButton, setActiveButton] = useState(null);
-
+      const { t } = useTranslation('common');
       const [parceiros, setParceiros] = useState([
         { id: 1, src: '/assets/Parceiros/babita.png' },
         { id: 2, src: '/assets/Parceiros/brilhodemulher.png' },
@@ -196,19 +196,19 @@ const ConvencimentoMarketing = ({id}) => {
                     </div>
                 </div>
                 <div className={styles.text}>
-                    <h1>Impulsione seu Negócio</h1>
-                    <p>Você sabia que o <b>marketing digital</b> pode ser o grande diferencial da sua marca?</p>
-                    <p>É um <b>canal direto com seu público-alvo</b>, muito mais efetivo do que métodos tradicionais de marketing.</p>
-                    <p>Com uma estratégia de marketing digital, você constrói uma <b>relação mais próxima e engajada com seu público</b>, oferecendo conteúdo relevante e personalizado.</p>
+                    <h1>{t('conversaoMarketing.title')}</h1>
+                    <p>{t('conversaoMarketing.description')}<b>{t('conversaoMarketing.descriptiondestaque')}</b>{t('conversaoMarketing.description1')}</p>
+                    <p>{t('conversaoMarketing.description2')}<b>{t('conversaoMarketing.descriptiondestaque1')}</b>{t('conversaoMarketing.description3')}</p>
+                    <p>{t('conversaoMarketing.description4')}<b>{t('conversaoMarketing.descriptiondestaque2')}</b>{t('conversaoMarketing.description5')}</p>
                     <button>
-                        <h1>Iniciar Estratégia</h1>
+                        <h1>{t('conversaoMarketing.button')}</h1>
                     </button>
                 </div>
 
            </div>
            <div className={styles.empresas}>
                 <div className={styles.text}>
-                    <h1>76+ aplicativos criados</h1>
+                    <h1>{t('conversaoMarketing.title2')}</h1>
                 </div>
 
                 <Slider {...settings}>
@@ -243,10 +243,10 @@ const ConvencimentoMarketing = ({id}) => {
            </div>
            <div className={styles.funcionalidades}>
                 <div className={styles.text}>
-                    <h1>Funcionalidades</h1>
-                    <p>Diversas ferramentas para sua loja ter mais <b>conversão</b>, um maior <b>engajamento</b> e conquistar a <b>fidelidade</b> dos seus clientes.</p>
+                    <h1>{t('conversaoMarketing.title3')}</h1>
+                    <p>{t('conversaoMarketing.description6')}<b>{t('conversaoMarketing.descriptiondestaque3')}</b>{t('conversaoMarketing.description7')}<b>{t('conversaoMarketing.descriptiondestaque4')}</b>{t('conversaoMarketing.description8')}<b>{t('conversaoMarketing.descriptiondestaque5')}</b>{t('conversaoMarketing.description9')}</p>
                     <button>
-                        <h2>veja todas</h2>
+                        <h2>{t('conversaoMarketing.button1')}</h2>
                     </button>
                 </div>
                 <div className={styles.flex}>
@@ -256,8 +256,8 @@ const ConvencimentoMarketing = ({id}) => {
                 <FiPieChart size={35} color='#000'/>
             </div>
             <div className={styles.boxText}>
-                <h3>Analytics em Tempo Real</h3>
-                <p>Entenda melhor o comportamento do seu público.</p>
+                <h3>{t('conversaoMarketing.titleicon')}</h3>
+                <p>{t('conversaoMarketing.descriptionicon')}</p>
             </div>
         </button>
         <button className={`${styles.box} ${slide === 1 ? styles.active : ''}`} onClick={() => setSlide(1)}>
@@ -265,8 +265,8 @@ const ConvencimentoMarketing = ({id}) => {
                 <FiSearch size={35} color='#000'/>
             </div>
             <div className={styles.boxText}>
-                <h3>SEO</h3>
-                <p>Otimização para motores de busca.</p>
+                <h3>{t('conversaoMarketing.titleicon1')}</h3>
+                <p>{t('conversaoMarketing.descriptionicon1')}</p>
             </div>
         </button>
         <button className={`${styles.box} ${slide === 2 ? styles.active : ''}`} onClick={() => setSlide(2)}>
@@ -274,8 +274,8 @@ const ConvencimentoMarketing = ({id}) => {
                 <FiUsers size={35} color='#000'/>
             </div>
             <div className={styles.boxText}>
-                <h3>Publicidade em Mídias Sociais</h3>
-                <p>Engaje seu público.</p>
+                <h3>{t('conversaoMarketing.titleicon2')}</h3>
+                <p>{t('conversaoMarketing.descriptionicon2')}</p>
             </div>
         </button>
         <button className={`${styles.box} ${slide === 3 ? styles.active : ''}`} onClick={() => setSlide(3)}>
@@ -283,8 +283,8 @@ const ConvencimentoMarketing = ({id}) => {
                 <FiMail size={35} color='#000'/>
             </div>
             <div className={styles.boxText}>
-                <h3>E-mail Marketing</h3>
-                <p>Mantenha seus clientes envolvidos.</p>
+                <h3>{t('conversaoMarketing.titleicon3')}</h3>
+                <p>{t('conversaoMarketing.descriptionicon3')}.</p>
             </div>
         </button>
     </div>

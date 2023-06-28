@@ -1,19 +1,18 @@
 // components/Header.js
 import React, { useState, useEffect } from 'react';
-import { useRouter } from 'next/router';
 import styles from './styles.module.scss';
 import Image from 'next/image';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { FiBell } from 'react-icons/fi';
-import { AiOutlineMobile} from 'react-icons/ai';
-import { FaVial } from 'react-icons/fa';
-import {FcMultipleDevices} from 'react-icons/fc';
+import { FiTarget,FiTrendingUp } from 'react-icons/fi';
+import { useTranslation } from 'next-i18next'; 
+import { FaChartLine,FaRegEye } from 'react-icons/fa';
+
 
 const ConvencimentoSeo = ({id}) => {
       const [activeButton, setActiveButton] = useState(null);
-
+      const { t } = useTranslation('common');
       const [parceiros, setParceiros] = useState([
         { id: 1, src: '/assets/Parceiros/babita.png' },
         { id: 2, src: '/assets/Parceiros/brilhodemulher.png' },
@@ -67,13 +66,8 @@ switch(slide) {
         </div>
         <div className={styles.conteudo}>
             <div className={styles.box}>
-            <p>Quer anunciar uma oferta especial,
-                descontos exclusivos ou lembrar
-                seus clientes de finalizar a compra 
-                que ficou parada no carinho  </p>
-            <p>Notifique-os pelo celular a 
-                qualquer momento<b> sem nenhum 
-                risco de cair no spam!</b></p>
+            <p>Quer compreender melhor o desempenho do seu site e onde há espaço para melhorias? </p>
+            <p>Nossa <b>análise SEO abrangente</b> fornece insights valiosos que permitem otimizar seu site e aumentar seu tráfego e conversões.</p>
             </div>
         </div>
     </div>
@@ -94,13 +88,8 @@ switch(slide) {
    </div>
    <div className={styles.conteudo}>
        <div className={styles.box}>
-       <p>Quer anunciar uma oferta especial,
-           descontos exclusivos ou lembrar
-           seus clientes de finalizar a compra 
-           que ficou parada no carinho  </p>
-       <p>Notifique-os pelo celular a 
-           qualquer momento<b> sem nenhum 
-           risco de cair no spam!</b></p>
+       <p>Deseja alcançar o público certo e melhorar seu ranking nas pesquisas?</p>
+       <p>Com a <b>otimização de palavras-chave</b>, ajudamos você a escolher as palavras-chave certas para direcionar o público certo para o seu site.</p>
        </div>
    </div>
 </div>
@@ -121,13 +110,8 @@ switch(slide) {
        </div>
        <div className={styles.conteudo}>
            <div className={styles.box}>
-           <p>Quer anunciar uma oferta especial,
-               descontos exclusivos ou lembrar
-               seus clientes de finalizar a compra 
-               que ficou parada no carinho  </p>
-           <p>Notifique-os pelo celular a 
-               qualquer momento<b> sem nenhum 
-               risco de cair no spam!</b></p>
+           <p>Quer que seu site apareça nas primeiras posições dos resultados de busca?</p>
+           <p>Nossas técnicas de SEO aumentam a <b>visibilidade do seu site</b>, tornando-o mais fácil de ser encontrado pelos motores de busca.</p>
            </div>
        </div>
    </div>
@@ -148,13 +132,8 @@ switch(slide) {
            </div>
            <div className={styles.conteudo}>
                <div className={styles.box}>
-               <p>Quer anunciar uma oferta especial,
-                   descontos exclusivos ou lembrar
-                   seus clientes de finalizar a compra 
-                   que ficou parada no carinho  </p>
-               <p>Notifique-os pelo celular a 
-                   qualquer momento<b> sem nenhum 
-                   risco de cair no spam!</b></p>
+               <p>Quer aumentar a quantidade de visitantes no seu site sem gastar com anúncios?</p>
+                    <p>Nossos serviços de SEO dão um <b>impulso no seu tráfego orgânico</b>, atraindo mais visitantes através de resultados de busca orgânicos.</p>
                </div>
            </div>
        </div>
@@ -215,18 +194,18 @@ switch(slide) {
                     </div>
                 </div>
                 <div className={styles.text}>
-                    <h1>Vendas e muito mais</h1>
-                    <p>Você sabia que um aplicativo pode ser a própria <b>plataforma de marketing</b> da sua marca?</p>
-                    <p>É um <b>canal direto com seu cliente</b>, muito mais do que apenas a extensão do seu site ou um novo canal de vendas.</p>
-                    <p>Com um aplicativo você constrói uma <b>conexão entre a sua marca e o seu cliente</b>, oferecendo a melhor experiência possível.</p>
+                    <h1>{t('conversaoSeo.title')}</h1>
+                    <p>{t('conversaoSeo.description')}<b>{t('conversaoSeo.descriptiondestaque')}</b>{t('conversaoSeo.description1')}</p>
+                    <p>{t('conversaoSeo.description2')}<b>{t('conversaoSeo.descriptiondestaque1')}</b>{t('conversaoSeo.description3')}</p>
+                    <p>{t('conversaoSeo.description4')}<b>{t('conversaoSeo.descriptiondestaque2')}</b>{t('conversaoSeo.description5')}</p>
                     <button>
-                       <h1>Criar App</h1>
+                        <h1>{t('conversaoSeo.button')}</h1>
                     </button>
                 </div>
            </div>
            <div className={styles.empresas}>
                 <div className={styles.text}>
-                    <h1>76+ aplicativos criados</h1>
+                    <h1>{t('conversaoSeo.title2')}</h1>
                 </div>
 
                 <Slider {...settings}>
@@ -260,66 +239,70 @@ switch(slide) {
                 </Slider>
            </div>
            <div className={styles.funcionalidades}>
-                <div className={styles.text}>
-                    <h1>Funcionalidades</h1>
-                    <p>Diversas ferramentas para sua loja ter mais <b>conversão</b>, um maior <b>engajamento</b> e conquistar a <b>fidelidade</b> dos seus clientes.</p>
+                 <div className={styles.text}>
+                    <h1>{t('conversaoSeo.title3')}</h1>
+                    <p>{t('conversaoSeo.description6')}<b>{t('conversaoSeo.descriptiondestaque3')}</b>{t('conversaoSeo.description7')}<b>{t('conversaoSeo.descriptiondestaque4')}</b>{t('conversaoSeo.description8')}<b>{t('conversaoSeo.descriptiondestaque5')}</b>{t('conversaoSeo.description9')}</p>
                     <button>
-                        <h2>veja todas</h2>
+                        <h2>{t('conversaoSeo.button1')}</h2>
                     </button>
                 </div>
                 <div className={styles.flex}>
-                        <div className={styles.icons}>
-                                <button className={`${styles.box} ${activeButton === 0 ? styles.active : ''}`} onClick={() => {setSlide(0); setActiveButton(0);}}>
-
-                                    <div className={styles.icon}>
-                                        <FiBell  size={35} color='#000'/>
-                                    </div>
-                                    <div className={styles.boxText}>
-                                        <h3>Notificações push ilimitadas</h3>
-                                        <p>Tenha um canal de contato direto com seus clientes.</p>
-                                    </div>
-                                </button>
-                                <button className={`${styles.box} ${activeButton === 1 ? styles.active : ''}`} onClick={() => {setSlide(1); setActiveButton(1);}}>
-
-                                  <div className={styles.icon}>
-                                    <FcMultipleDevices size={35} color='#000'/>
-                                    </div>
-                                    <div className={styles.boxText}>
-                                        <h3>Integrado com a sua loja</h3>
-                                        <p>seu app e uma extesao do seu site</p>
-                                    </div>
-                                  
-                                  </button>
-                                  <button className={`${styles.box} ${activeButton === 2 ? styles.active : ''}`} onClick={() => {setSlide(2); setActiveButton(2);}}>
-
-                                <div className={styles.icon}>
-                                    <AiOutlineMobile size={35} color='#000'/>
-                                    </div>
-                                    <div className={styles.boxText}>
-                                        <h3>Aplicativo Android e iOS</h3>
-                                        <p>Disponível nas principais lojas.</p>
-                                    </div>
-                                    
-                                </button>
-                                <button className={`${styles.box} ${activeButton === 3 ? styles.active : ''}`} onClick={() => {setSlide(3); setActiveButton(3);}}>
-
-                                <div className={styles.icon}>
-                                    <FaVial  size={35} color='#000'/>
-                                </div>
-                                    <div className={styles.boxText}>
-                                        <h3>Teste antes de publicar</h3>
-                                        <p>Veja o aplicativo no seu celular.</p>
-                                    </div>
-                                   
-                                </button>
+                    <div className={styles.icons}>
+                        <button className={`${styles.box} ${activeButton === 0 ? styles.active : ''}`} onClick={() => {setSlide(0); setActiveButton(0);}}>
+                        <div className={styles.icon}>
+                            <FaChartLine size={35} color='#000'/>
                         </div>
-                        <Slider >
-                            {slideContent}
-                        </Slider>
+                        <div className={styles.boxText}>
+                            <h3>{t('conversaoSeo.titleicon')}</h3>
+                            <p>{t('conversaoSeo.descriptionicon')}</p>
+                        </div>
+                    </button>
+                    <button className={`${styles.box} ${activeButton === 1 ? styles.active : ''}`} onClick={() => {setSlide(1); setActiveButton(1);}}>
+
+                        <div className={styles.icon}>
+                            <FiTarget size={35} color='#000'/>
+                        </div>
+                        <div className={styles.boxText}>
+                            <h3>{t('conversaoSeo.titleicon1')}</h3>
+                            <p>{t('conversaoSeo.descriptionicon1')}</p>
+                        </div>
+
+                    </button>
+                    <button className={`${styles.box} ${activeButton === 2 ? styles.active : ''}`} onClick={() => {setSlide(2); setActiveButton(2);}}>
+
+                        <div className={styles.icon}>
+                            <FaRegEye size={35} color='#000'/>
+                        </div>
+                        <div className={styles.boxText}>
+                             <h3>{t('conversaoSeo.titleicon2')}</h3>
+                             <p>{t('conversaoSeo.descriptionicon2')}</p>
+                        </div>
+
+                    </button>
+                    <button className={`${styles.box} ${activeButton === 3 ? styles.active : ''}`} onClick={() => {setSlide(3); setActiveButton(3);}}>
+
+                        <div className={styles.icon}>
+                            <FiTrendingUp size={35} color='#000'/>
+                        </div>
+                        <div className={styles.boxText}>
+                            <h3>{t('conversaoSeo.titleicon3')}</h3>
+                            <p>{t('conversaoSeo.descriptionicon3')}.</p>
+                        </div>
+
+                    </button>
+                </div>
+                <Slider >
+                    {slideContent}
+                </Slider>
                 </div>
            </div>
            <div className={styles.planos}>
-                <div className={styles.box}>
+            <div className={styles.titulo}> 
+                <h2>Crie o app da sua loja</h2>
+                <h3>escolha seu plano!</h3>
+            </div>
+            <div className={styles.containerplanos}>
+            <div className={styles.box}>
                         <h2>Essencial</h2>
                         <li>Desenvolvimento de um aplicativo funcional e intuitivo que atenda às necessidades básicas dos usuários.</li>
                         <li>Recursos principais, como cadastro de usuários, autenticação, navegação básica entre telas e notificações push para manter os usuários engajados</li>
@@ -352,6 +335,7 @@ switch(slide) {
                             Crie seu App
                         </button>
                 </div>
+            </div>
            </div>
         </div>
     

@@ -84,6 +84,71 @@
       "descriptionicon2": "Eine angenehme Navigation für Ihre Besucher.",
       "titleicon3": "Hohe Leistung",
       "descriptionicon3": "Ihre schnelle und effiziente Website."
-    }
+    },"conversaoMarketing": {
+      "title": "Steigern Sie Ihr Geschäft",
+      "description": "Wussten Sie, dass ",
+      "descriptiondestaque": "digitales Marketing",
+      "description1": " der große Unterschied für Ihre Marke sein kann?",
+      "description2": "Es ist ein ",
+      "descriptiondestaque1": "direkter Kanal zu Ihrer Zielgruppe",
+      "description3": ", viel effektiver als traditionelle Marketingmethoden.",
+      "description4": "Mit einer digitalen Marketingstrategie bauen Sie eine ",
+      "descriptiondestaque2": "engere und engagiertere Beziehung zu Ihrem Publikum auf",
+      "description5": ", indem Sie relevanten und personalisierten Inhalt anbieten.",
+      "button": "Strategie starten",
+      "title2": "76+ erstellte Apps",
+      "title3": "Funktionen",
+      "description6": "Verschiedene Tools, damit Ihr Geschäft mehr ",
+      "descriptiondestaque3": "Konversion",
+      "description7": ", eine größere ",
+      "descriptiondestaque4": "Engagement",
+      "description8": "und die ",
+      "descriptiondestaque5": "Treue",
+      "description9": " Ihrer Kunden erlangen kann. ",
+      "button1": "alles sehen",
+      "titleicon": "Echtzeitanalytik",
+      "descriptionicon": "Besser verstehen Sie das Verhalten Ihres Publikums.",
+      "titleicon1": "SEO",
+      "descriptionicon1": "Suchmaschinenoptimierung.",
+      "titleicon2": "Soziale Medien Werbung",
+      "descriptionicon2": "Binden Sie Ihr Publikum ein",
+      "titleicon3": "E-Mail-Marketing",
+      "descriptionicon3": "Halten Sie Ihre Kunden engagiert."
+  },
+  "conversaoSeo":{
+    "title":"Traffic und vieles mehr",
+    "description":"Wussten Sie, dass Suchmaschinenoptimierung (SEO) das hauptsächliche ",
+    "descriptiondestaque":"Marketinginstrument",
+    "description1":" für Ihre Marke sein kann?",
+    "description2":"Es ist ein ",
+    "descriptiondestaque1":"direkter Kanal zu Ihrer Zielgruppe",
+    "description3":", viel mehr als nur die Verbesserung des Rankings Ihrer Website in den Suchergebnissen.",
+    "description4":"Mit einer gut implementierten SEO-Strategie bauen Sie eine ",
+    "descriptiondestaque2":"Verbindung zwischen Ihrer Marke und Ihrem Kunden",
+    "description5":", und bieten das bestmögliche Sucherlebnis an.",
+    "button":"SEO optimieren",
+
+    "title2":"76+ erstellte Apps",
+    "title3":"Funktionen",
+    "description6":"Verschiedene Tools für Ihren Shop, um mehr ",
+    "descriptiondestaque3":"Konversionen",
+    "description7":" zu haben, ein größeres ",
+    "descriptiondestaque4":"Engagement",
+    "description8":" zu erzielen und die ",
+    "descriptiondestaque5":"Treue",
+    "description9":" Ihrer Kunden zu gewinnen. ",
+    "button1":"alles sehen",
+
+    "titleicon":"Umfassende SEO-Analyse",
+    "descriptionicon":"Erhalten Sie wertvolle Einblicke in die SEO-Performance Ihrer Website.",
+    "titleicon1":"Schlüsselwortoptimierung",
+    "descriptionicon1":"Erreichen Sie Ihre Zielgruppe mit den richtigen Schlüsselwörtern.",
+    "titleicon2":"Erhöhte Sichtbarkeit der Website",
+    "descriptionicon2":"Erscheinen Sie in den Top-Positionen der Suchergebnisse.",
+    "titleicon3":"Steigerung des organischen Traffics",
+    "descriptionicon3":"Ziehen Sie mehr Besucher durch organische Suchergebnisse an."
+}
+
+  
   }
   

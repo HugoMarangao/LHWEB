@@ -96,7 +96,73 @@
     "descriptionicon2": "Una navigazione piacevole per i tuoi visitatori.",
     "titleicon3": "Alta Performance",
     "descriptionicon3": "Il tuo sito veloce ed efficiente."
-  }
+  },
+  "conversaoMarketing": {
+    "title": "Potenzia il tuo Business",
+    "description": "Sapevi che il ",
+    "descriptiondestaque": "marketing digitale",
+    "description1": " può fare la differenza per il tuo marchio?",
+    "description2": "È un ",
+    "descriptiondestaque1": "canale diretto con il tuo pubblico di riferimento",
+    "description3": ", molto più efficace dei metodi di marketing tradizionali.",
+    "description4": "Con una strategia di marketing digitale, costruisci un ",
+    "descriptiondestaque2": "rapporto più stretto e impegnato con il tuo pubblico",
+    "description5": ", offrendo contenuti rilevanti e personalizzati.",
+    "button": "Inizia Strategia",
+    "title2": "76+ applicazioni create",
+    "title3": "Funzionalità",
+    "description6": "Vari strumenti per il tuo negozio per avere più ",
+    "descriptiondestaque3": "conversione",
+    "description7": ", un maggiore ",
+    "descriptiondestaque4": "coinvolgimento",
+    "description8": "e conquistare la ",
+    "descriptiondestaque5": "fedeltà",
+    "description9": " dei tuoi clienti. ",
+    "button1": "vedi tutto",
+    "titleicon": "Analitica in Tempo Reale",
+    "descriptionicon": "Capisci meglio il comportamento del tuo pubblico.",
+    "titleicon1": "SEO",
+    "descriptionicon1": "Ottimizzazione per i motori di ricerca.",
+    "titleicon2": "Pubblicità sui Social Media",
+    "descriptionicon2": "Impegnati con il tuo pubblico",
+    "titleicon3": "E-mail Marketing",
+    "descriptionicon3": "Mantieni i tuoi clienti coinvolti."
+},
+"conversaoSeo":{
+  "title":"Traffico e molto di più",
+  "description":"Sapevi che l'ottimizzazione per i motori di ricerca (SEO) può essere il principale ",
+  "descriptiondestaque":"strumento di marketing",
+  "description1":" per il tuo brand?",
+  "description2":"È un ",
+  "descriptiondestaque1":"canale diretto verso il tuo target",
+  "description3":", molto più che migliorare semplicemente la classifica del tuo sito nelle ricerche.",
+  "description4":"Con una strategia SEO ben implementata, costruisci una ",
+  "descriptiondestaque2":"connessione tra il tuo brand e il tuo cliente",
+  "description5":", offrendo la migliore esperienza di ricerca possibile.",
+  "button":"Ottimizzare SEO",
+
+  "title2":"76+ applicazioni create",
+  "title3":"Funzionalità",
+  "description6":"Diverse strumenti per il tuo negozio avere più ",
+  "descriptiondestaque3":"conversioni",
+  "description7":", un maggiore ",
+  "descriptiondestaque4":"coinvolgimento",
+  "description8":"e conquistare la ",
+  "descriptiondestaque5":"fedeltà",
+  "description9":" dei tuoi clienti. ",
+  "button1":"vedi tutte",
+
+  "titleicon":"Analisi SEO completa",
+  "descriptionicon":"Ottieni preziosi insight sulle prestazioni SEO del tuo sito.",
+  "titleicon1":"Ottimizzazione delle parole chiave",
+  "descriptionicon1":"Raggiungi il tuo pubblico di destinazione con le parole chiave giuste.",
+  "titleicon2":"Aumento della visibilità del sito",
+  "descriptionicon2":"Apparisci nelle prime posizioni dei risultati di ricerca.",
+  "titleicon3":"Aumento del traffico organico",
+  "descriptionicon3":"Attira più visitatori attraverso risultati di ricerca organici."
+}
+
+
   
   }
   

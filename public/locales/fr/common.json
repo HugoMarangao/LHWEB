@@ -95,6 +95,72 @@
       "descriptionicon2": "Une navigation agréable pour vos visiteurs.",
       "titleicon3": "Haute Performance",
       "descriptionicon3": "Votre site rapide et efficace."
-    }
+    },
+    "conversaoMarketing": {
+      "title": "Boostez votre Business",
+      "description": "Saviez-vous que le ",
+      "descriptiondestaque": "marketing numérique",
+      "description1": " peut faire toute la différence pour votre marque?",
+      "description2": "C'est un ",
+      "descriptiondestaque1": "canal direct avec votre public cible",
+      "description3": ", bien plus efficace que les méthodes de marketing traditionnelles.",
+      "description4": "Avec une stratégie de marketing numérique, vous construisez une ",
+      "descriptiondestaque2": "relation plus proche et plus engagée avec votre public",
+      "description5": ", en offrant un contenu pertinent et personnalisé.",
+      "button": "Commencer la Stratégie",
+      "title2": "76+ applications créées",
+      "title3": "Fonctionnalités",
+      "description6": "Divers outils pour que votre magasin ait plus de ",
+      "descriptiondestaque3": "conversion",
+      "description7": ", une plus grande ",
+      "descriptiondestaque4": "engagement",
+      "description8": "et conquérir la ",
+      "descriptiondestaque5": "fidélité",
+      "description9": " de vos clients. ",
+      "button1": "voir tout",
+      "titleicon": "Analytique en Temps Réel",
+      "descriptionicon": "Mieux comprendre le comportement de votre public.",
+      "titleicon1": "SEO",
+      "descriptionicon1": "Optimisation pour les moteurs de recherche.",
+      "titleicon2": "Publicité sur les Réseaux Sociaux",
+      "descriptionicon2": "Engagez votre public",
+      "titleicon3": "E-mail Marketing",
+      "descriptionicon3": "Gardez vos clients engagés."
+  },
+  "conversaoSeo":{
+    "title":"Trafic et bien plus",
+    "description":"Saviez-vous que l'optimisation pour les moteurs de recherche (SEO) peut être l'outil ",
+    "descriptiondestaque":"de marketing principal",
+    "description1":" pour votre marque ?",
+    "description2":"C'est un ",
+    "descriptiondestaque1":"canal direct vers votre public cible",
+    "description3":", bien plus que simplement améliorer le classement de votre site dans les recherches.",
+    "description4":"Avec une stratégie de SEO bien mise en œuvre, vous construisez un ",
+    "descriptiondestaque2":"lien entre votre marque et votre client",
+    "description5":", offrant la meilleure expérience de recherche possible.",
+    "button":"Optimiser SEO",
+
+    "title2":"76+ applications créées",
+    "title3":"Fonctionnalités",
+    "description6":"Divers outils pour votre boutique pour avoir plus de ",
+    "descriptiondestaque3":"conversions",
+    "description7":", un plus grand ",
+    "descriptiondestaque4":"engagement",
+    "description8":"et pour gagner la ",
+    "descriptiondestaque5":"fidélité",
+    "description9":" de vos clients. ",
+    "button1":"voir tout",
+
+    "titleicon":"Analyse SEO complète",
+    "descriptionicon":"Obtenez des informations précieuses sur les performances SEO de votre site.",
+    "titleicon1":"Optimisation des mots-clés",
+    "descriptionicon1":"Atteignez votre public cible avec les bons mots-clés.",
+    "titleicon2":"Augmentation de la visibilité du site",
+    "descriptionicon2":"Apparaissez dans les premières positions des résultats de recherche.",
+    "titleicon3":"Boost de trafic organique",
+    "descriptionicon3":"Attirez plus de visiteurs grâce aux résultats de recherche organiques."
+}
+
+  
   }
   

@@ -95,6 +95,72 @@
     "descriptionicon2": "A pleasant navigation for your visitors.",
     "titleicon3": "High Performance",
     "descriptionicon3": "Your fast and efficient site."
-  }
+  },
+  "conversaoMarketing": {
+    "title": "Boost your Business",
+    "description": "Did you know that ",
+    "descriptiondestaque": "digital marketing",
+    "description1": " can be the big difference for your brand?",
+    "description2": "It is a ",
+    "descriptiondestaque1": "direct channel with your target audience",
+    "description3": ", much more effective than traditional marketing methods.",
+    "description4": "With a digital marketing strategy, you build a ",
+    "descriptiondestaque2": "closer and more engaged relationship with your audience",
+    "description5": ", offering relevant and personalized content.",
+    "button": "Start Strategy",
+    "title2": "76+ apps created",
+    "title3": "Features",
+    "description6": "Various tools for your store to have more ",
+    "descriptiondestaque3": "conversion",
+    "description7": ", a greater ",
+    "descriptiondestaque4": "engagement",
+    "description8": "and conquer the ",
+    "descriptiondestaque5": "loyalty",
+    "description9": " of your customers. ",
+    "button1": "see all",
+    "titleicon": "Real Time Analytics",
+    "descriptionicon": "Understand your audience behavior better.",
+    "titleicon1": "SEO",
+    "descriptionicon1": "Search engine optimization.",
+    "titleicon2": "Social Media Advertising",
+    "descriptionicon2": "Engage your audience",
+    "titleicon3": "E-mail Marketing",
+    "descriptionicon3": "Keep your customers engaged."
+},
+"conversaoSeo":{
+  "title":"Traffic and much more",
+  "description":"Did you know that search engine optimization (SEO) can be the main ",
+  "descriptiondestaque":"marketing tool",
+  "description1":" for your brand?",
+  "description2":"It's a ",
+  "descriptiondestaque1":"direct channel to your target audience",
+  "description3":", much more than just improving your site's ranking in searches.",
+  "description4":"With a well-implemented SEO strategy, you build a ",
+  "descriptiondestaque2":"connection between your brand and your customer",
+  "description5":", offering the best possible search experience.",
+  "button":"Optimize SEO",
+
+  "title2":"76+ apps created",
+  "title3":"Features",
+  "description6":"Various tools for your store to have more ",
+  "descriptiondestaque3":"conversion",
+  "description7":", greater ",
+  "descriptiondestaque4":"engagement",
+  "description8":"and to earn ",
+  "descriptiondestaque5":"loyalty",
+  "description9":" from your customers. ",
+  "button1":"see all",
+
+  "titleicon":"Comprehensive SEO Analysis",
+  "descriptionicon":"Gain valuable insights into your site's SEO performance.",
+  "titleicon1":"Keyword Optimization",
+  "descriptionicon1":"Reach your target audience with the right keywords.",
+  "titleicon2":"Increased Site Visibility",
+  "descriptionicon2":"Appear in the top positions of search results.",
+  "titleicon3":"Organic Traffic Boost",
+  "descriptionicon3":"Attract more visitors through organic search results."
+}
+
+
   }
   

@@ -28,6 +28,68 @@ const Servicos = () => {
     return(
 
         <div className={styles.Container}>
+           <div className={styles.Slider}>
+            <Slider {...settings}>
+            <div onClick={() => router.push('/Produtos/designweb')} className={styles.SliderC}>
+                        <div className={styles.bol}>
+                            <div className={styles.boltrasada}>
+                                <div className={styles.imagem}/>
+                            </div>
+                        </div>
+                        <div className={styles.text}>
+                            <h1>{t('DesingWeb.title')}</h1>
+                            <p>{t('DesingWeb.description')}</p>
+                        </div>
+                    </div>
+                    <div  onClick={() => router.push('/Produtos/criacaodeapps')} className={styles.SliderC}>
+                    <div className={styles.bol}>
+                            <div className={styles.boltrasada}>
+                                <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/app.png')`}}/>
+                            </div>
+                        </div>
+                        <div className={styles.text}>
+                            <h1>{t('App.title')}</h1>
+                            <p>{t('App.description')}</p>
+                        </div>
+                       
+                    </div>
+                    <div onClick={() => router.push('/Produtos/seo')} className={styles.SliderC}>
+                        <div className={styles.bol}>
+                            <div className={styles.boltrasada}>
+                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/seo.png')`}}/>
+                            </div>
+                        </div>
+                        <div className={styles.text}>
+                            <h1>{t('SEO.title')}</h1>
+                            <p>{t('SEO.description')}</p>
+                        </div>
+                    </div>
+                    <div onClick={() => router.push('/Produtos/marketingdigital')} className={styles.SliderC}>
+                        <div className={styles.bol}>
+                            <div className={styles.boltrasada}>
+                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/maketing.png')`}}/>
+                            </div>
+                        </div>
+                        <div className={styles.text}>
+                            <h1>{t('Marktingppc.title')}</h1>
+                            <p>{t('Marktingppc.description')}</p>
+                        </div>
+                       
+                    </div>
+                    <div  onClick={() => router.push('/Produtos/marketingdigital')} className={styles.SliderC}>
+                        <div className={styles.bol}>
+                            <div className={styles.boltrasada}>
+                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/emailmaketing.png')`}}/>
+                            </div>
+                        </div>
+                        <div className={styles.text}>
+                            <h1>{t('EmailMarkting.title')}</h1>
+                            <p>{t('EmailMarkting.description')}</p>
+                        </div>
+                    </div>
+            </Slider>
+           </div>
+
            <div className={styles.flex}>
                     <div onClick={() => router.push('/Produtos/designweb')} className={styles.direita}>
                         <div className={styles.bol}>
@@ -52,6 +114,7 @@ const Servicos = () => {
                         </div>
                     </div>
            </div>
+
            <div className={styles.flex}>
                     <div onClick={() => router.push('/Produtos/seo')} className={styles.direita}>
                         <div className={styles.bol}>
@@ -76,6 +139,7 @@ const Servicos = () => {
                         </div>
                     </div>
            </div>
+
            <div className={styles.flex}>
                     <div  onClick={() => router.push('/Produtos/marketingdigital')} className={styles.direita}>
                         <div className={styles.bol}>
