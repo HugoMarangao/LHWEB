@@ -43,10 +43,15 @@ const Produto = () => {
 };
 
 export default Produto;
-export async function getStaticPaths({ locale }) {
+export async function getStaticPaths({ locales }) {
   const paths = [];
+  const products = ['designweb', 'criacaodeapps', 'marketingdigital', 'seo'];
 
-  // Obtenha os produtos ou quaisquer dados necessários aqui
+  for (const locale of locales) {
+    for (const product of products) {
+      paths.push({ params: { id: product }, locale });
+    }
+  }
 
   return { paths, fallback: true };
 }
