@@ -4,8 +4,9 @@ import { useRouter } from 'next/router';
 import styles from './styles.module.scss';
 import Rotas from '../Config/Rotas';
 import Image from 'next/image';
-
+import { useTranslation } from 'next-i18next'; 
 const Header = () => {
+  const { t } = useTranslation('common');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
   const [scrollDirection, setScrollDirection] = useState('up');
@@ -54,16 +55,16 @@ const Header = () => {
       </div>
       <nav className={`${styles.nav} ${mobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
         <Rotas href="/" active={router.pathname === '/'}>
-          Home
+          {t('Header.Home')}
         </Rotas>
         <Rotas href="/Produtos" active={router.pathname === "/Produtos"}>
-          Produtos
+          {t('Header.product')}
         </Rotas>
         <Rotas href="/Destaque" active={router.pathname === "/Destaque"}>
-          Destaques
+          {t('Header.stars')}
         </Rotas>
         <Rotas href="/Contati" active={router.pathname === "/Contati"}>
-          Contatti
+          {t('Header.Contact')}
         </Rotas>       
       </nav>
     </header>

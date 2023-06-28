@@ -164,5 +164,11 @@
         "descriptionicon2":"Apareça nas primeiras posições dos resultados de busca.",
         "titleicon3":"Impulso no tráfego orgânico",
         "descriptionicon3":"Atraia mais visitantes através de resultados de busca orgânica."
+    },
+    "Header":{
+        "Home":"Home",
+        "product": "Produtos",
+        "stars":"Destaque",
+        "Contact":"Contato"
     }
   }

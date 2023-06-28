@@ -160,7 +160,14 @@
   "descriptionicon2":"Apparisci nelle prime posizioni dei risultati di ricerca.",
   "titleicon3":"Aumento del traffico organico",
   "descriptionicon3":"Attira più visitatori attraverso risultati di ricerca organici."
+},
+"Header":{
+  "Home":"Home",
+  "product": "Productos",
+  "stars":"Rilievo",
+  "Contact":"Contacto"
 }
+
 
 
   

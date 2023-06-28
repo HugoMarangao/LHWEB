@@ -159,7 +159,14 @@
     "descriptionicon2":"Apparaissez dans les premières positions des résultats de recherche.",
     "titleicon3":"Boost de trafic organique",
     "descriptionicon3":"Attirez plus de visiteurs grâce aux résultats de recherche organiques."
+},
+"Header":{
+  "Home":"Accueil",
+  "product": "Produits",
+  "stars":"En vedette",
+  "Contact":"Contact"
 }
+
 
   
   }

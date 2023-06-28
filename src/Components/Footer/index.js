@@ -5,7 +5,9 @@ import styles from './styles.module.scss';
 import Rotas from '../Config/Rotas';
 import Image from 'next/image';
 import { AiFillFacebook,AiOutlineInstagram,AiOutlineYoutube } from 'react-icons/ai';
+import { useTranslation } from 'next-i18next'; 
 const Footer = () => {
+  const { t } = useTranslation('common');
   const router = useRouter();
 
   return (
@@ -18,16 +20,16 @@ const Footer = () => {
        
         <div className={styles.logo}/>
         <Rotas href="/" active={router.pathname === '/'}>
-          Home
+          {t('Header.Home')}
         </Rotas>
         <Rotas href="/Produtos" active={router.pathname === "/Produtos"}>
-          Produtos
+          {t('Header.product')}
         </Rotas>
         <Rotas href="/Destaques" active={router.pathname === "/Destaques"}>
-          Destaques
+          {t('Header.stars')}
         </Rotas>
         <Rotas href="/Contatti" active={router.pathname === "/Contatti"}>
-          Contatti
+          {t('Header.Contact')}
         </Rotas>       
       </div>
       <div className={styles.menu}>

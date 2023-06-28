@@ -147,7 +147,14 @@
     "descriptionicon2":"Erscheinen Sie in den Top-Positionen der Suchergebnisse.",
     "titleicon3":"Steigerung des organischen Traffics",
     "descriptionicon3":"Ziehen Sie mehr Besucher durch organische Suchergebnisse an."
+},
+"Header":{
+  "Home":"Zuhause",
+  "product": "Produkte",
+  "stars":"Highlights",
+  "Contact":"Kontakt"
 }
+
 
   
   }

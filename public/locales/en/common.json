@@ -159,7 +159,14 @@
   "descriptionicon2":"Appear in the top positions of search results.",
   "titleicon3":"Organic Traffic Boost",
   "descriptionicon3":"Attract more visitors through organic search results."
+},
+"Header":{
+  "Home":"Home",
+  "product": "Products",
+  "stars":"Highlights",
+  "Contact":"Contact"
 }
+
 
 
   }
