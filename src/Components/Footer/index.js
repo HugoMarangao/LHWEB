@@ -20,13 +20,13 @@ const Footer = () => {
         <Rotas href="/" active={router.pathname === '/'}>
           Home
         </Rotas>
-        <Rotas href="/Cerca" active={router.pathname === "/chisiamo"}>
-          Cerca
+        <Rotas href="/Produtos" active={router.pathname === "/Produtos"}>
+          Produtos
         </Rotas>
-        <Rotas href="/port" active={router.pathname === "/port"}>
+        <Rotas href="/Destaques" active={router.pathname === "/Destaques"}>
           Destaques
         </Rotas>
-        <Rotas href="/contati" active={router.pathname === "/contati"}>
+        <Rotas href="/Contatti" active={router.pathname === "/Contatti"}>
           Contatti
         </Rotas>       
       </div>
@@ -36,7 +36,7 @@ const Footer = () => {
           <AiFillFacebook size={35} color='#000'/>
           <AiOutlineYoutube size={35} color='#000'/>
         </div>
-        <Rotas href="/" active={router.pathname === '/tutoriais'}>
+        <Rotas href="https://www.youtube.com/@LHWeb/featured" active={router.pathname === '/tutoriais'}>
           tutoriais
         </Rotas>
         <Rotas href="/Cerca" active={router.pathname === "/chisiamo"}>
