@@ -10,10 +10,18 @@ const Apresentacao = () => {
 
         <div className={styles.container}>
             <div className={styles.text}>
-                <h1>Conquiste seus clientes com um design web único e uma estrutura intuitiva.</h1>
-                <p>Crie presença online excepcional com websites modernos, funcionais e personalizados. Reflete sua marca e proporciona uma experiência excepcional aos usuários.</p>
+                <h1>Impulsione seu negocio para o proximo nivel com solucoes tecnologicas inovadoras</h1>
             </div>
-            <div className={styles.image}/>
+            <div className={styles.image}>
+                <div className={styles.computer}>
+                    <h2>Criacao top</h2>
+                    <p>Ofereca esperiencia expecianais ao seu cliente com um desing reattivo e atraente. com uma strategia SEO mirada, seu site apresentara bons resultados</p>
+                </div>
+                <div className={styles.iphone}>
+                    <h2>Potencialise seu negocio</h2>
+                    <p>Coloque sua empresa em app com nossa empresa Gestao de modo eficiente, teste agora</p>
+                </div>
+            </div>
         </div>
     
     );
