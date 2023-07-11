@@ -1,0 +1,291 @@
+.container{
+    width: 100%;
+    color: black;
+    .Conteudo{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        .box{
+            background-color: rgba(255, 255, 255, 0.728);
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+
+          
+
+            h3{
+                font-size: 30px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .objetivos{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+
+        .icons{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .box{
+                display:flex ;
+                align-items: center;
+                margin: 10px 0;
+                button{
+                    margin-right: 10px;
+                    padding: 3px;
+                    border-radius: 8px;
+                }
+                .selected {
+                    box-shadow: 0px 0px 10px #20D3FC;
+                }
+                
+                .unselected {
+                    box-shadow: 0px 0px 10px #000;
+                }
+            }
+        }
+        .apresentacao{
+            width: 70%;
+            position: relative;
+
+            .bol{
+                width: 650px;
+                height: 650px;
+                border-radius: 50%;
+                background-color: #20D3FC;
+                display: flex;
+                justify-content: flex-end;
+              
+                .boltrasada{
+                  width: 650px;
+                  height: 650px;
+                  border-radius: 50%;
+                  border: 3px dotted #d4d4d4;
+                  position: relative;
+                  left: 330px;
+                }
+              }
+              .computer {
+                width: 100%;
+                height: 750px;
+                background-image: url('/assets/Products/mac.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                /* Ajuste estes valores conforme necessário para mover o computer para a posição correta */
+                top: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .box{
+                    width: 45%;
+                    height: 55%;
+                    background-color: #ffffffd0;
+                    position: relative;
+                    left: -14px;
+                    top: -14px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                        .logo{
+                            width: 100%;
+                            height: 100px;
+                            background-image: url('/logo.png');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                        }
+                        .text{
+                            padding: 10px;
+
+                            li{
+                                margin: 8px;
+                            }
+                        }
+                }
+            }
+        }
+    }
+    @media(max-width: 1024px) {
+        .Conteudo{
+            flex-direction: column;
+        }
+
+        .objetivos{
+            flex-direction: column;
+
+         .icons{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                h3{
+                    display: none;
+                }
+         }
+         .apresentacao{
+            width: 100%;
+            height: 700px;
+            position: relative;
+            margin-top: 30px;
+            .bol{
+                width: 550px;
+                height: 550px;
+                border-radius: 50%;
+                background-color: #20D3FC;
+                display: flex;
+                justify-content: flex-end;
+              
+                .boltrasada{
+                    width: 550px;
+                    height: 550px;
+                  border-radius: 50%;
+                  border: 3px dotted #d4d4d4;
+                  position: relative;
+                  left: 130px;
+                }
+              }
+              .computer {
+                width: 100%;
+                height: 700px;
+                background-image: url('/assets/Products/mac.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                /* Ajuste estes valores conforme necessário para mover o computer para a posição correta */
+                top: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .box{
+                    width: 55%;
+                    height: 53%;
+                    background-color: #ffffffd0;
+                    position: relative;
+                    left: -10px;
+                    top: -10px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                        .logo{
+                            width: 150px;
+                            height: 150px;
+                            background-image: url('/logo.png');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            margin: 0 auto;
+                        }
+                        .text{
+                            padding: 10px;
+
+                            li{
+                                margin: 0px;
+                            }
+                        }
+                }
+            }
+        }
+        }
+    }
+    @media(max-width: 768px) {
+        .Conteudo{
+            flex-direction: column;
+        }
+
+        .objetivos{
+            flex-direction: column;
+
+         .icons{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                h3{
+                    display: none;
+                }
+         }
+         .apresentacao{
+            width: 100%;
+            height: 700px;
+            position: relative;
+            margin-top: 30px;
+            .bol{
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                background-color: #20D3FC;
+                display: flex;
+                justify-content: flex-end;
+              
+                .boltrasada{
+                  width: 350px;
+                  height: 350px;
+                  border-radius: 50%;
+                  border: 3px dotted #d4d4d4;
+                  position: relative;
+                  left: 30px;
+                }
+              }
+              .computer {
+                width: 100%;
+                height: 700px;
+                background-image: url('/assets/Products/iphone.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                /* Ajuste estes valores conforme necessário para mover o computer para a posição correta */
+                top: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .box{
+                    width: 75%;
+                    height: 83%;
+                    background-color: #ffffffd0;
+                    position: relative;
+                    left: 10px;
+                    top: 20px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                        .logo{
+                            width: 150px;
+                            height: 150px;
+                            background-image: url('/logo.png');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            margin: 0 auto;
+                        }
+                        .text{
+                            padding: 10px;
+
+                            li{
+                                margin: 0px;
+                            }
+                        }
+                }
+            }
+        }
+        }
+    }
+}

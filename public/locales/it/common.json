@@ -163,13 +163,107 @@
 },
 "Header":{
   "Home":"Home",
-  "product": "Productos",
-  "stars":"Rilievo",
-  "Contact":"Contacto"
-}
+  "product": "Servizi",
+  "stars":"Su di noi",
+  "Contact":"Contatto"
+},
+"apresentacao":{
+  "titulo":"Porta la tua attività al livello successivo con soluzioni tecnologiche innovative"
+},"servicos":{
+  "titulo":"Creazione di App",
+  "descricao":"Creiamo la tua app come desideri",
+  "titulo1":"Design Web",
+  "descricao1":"Creiamo il tuo sito con un design moderno",
+  "titulo2":"SEO",
+  "descricao2":"Miglioriamo il ranking del tuo sito sui motori di ricerca",
+  "titulo3":"Marketing Digitale",
+  "descricao3":"Aiutiamo a promuovere il tuo business online",
+  "button":"Scopri di più!"
+},
+"descricao":{
+  "titulo":"Sviluppa la tua applicazione",
+  "descricao":"Sfrutta il potere delle applicazioni mobili per raggiungere il tuo pubblico ovunque si trovi.",
+  "descricaop":"Offri un'esperienza esclusiva ai tuoi clienti e espandi la tua presenza nel mercato.",
+  "titulo1":"Vendite e molto altro",
+  "descricao1":"Sapevi che avere una piattaforma online può potenziare le tue vendite e migliorare l'immagine del tuo marchio?",
+  "descricaop1":"Metti in risalto i tuoi prodotti e servizi, condividi informazioni rilevanti e coinvolgi il tuo pubblico in modo efficace.",
+  "titulo2":"Espandi il tuo pubblico",
+  "descricao2":"Il nostro team esperto di marketing digitale offre strategie personalizzate per aumentare la tua visibilità, attirare più clienti e potenziare le tue vendite.",
+  "descricaop2":"Utilizziamo una varietà di canali, come i social media, l'email marketing e la pubblicità online, per ottenere i migliori risultati per la tua attività.",
+  "titulo3":"Migliora la tua presenza online",
+  "descricao3":"Il nostro team di esperti SEO è pronto ad aiutarti a raggiungere posizioni migliori nei risultati di ricerca.",
+  "descricaop3":"Aumenta il traffico organico del tuo sito e potenzia le tue vendite.",
+  "button":"Crea piattaforma"
+},
+"banner":{
+  "titulo":"Benvenuti su LH Web",
+  "subtitulo":"La nostra storia e l'impegno per il successo dei clienti!"
+},
+"objetivos":{
+  "titulo":"Missione:",
+  "subtitulo":"Presso LH Web, la nostra missione è stimolare la crescita dei nostri clienti attraverso strategie web marketing innovative. Siamo impegnati a fornire soluzioni personalizzate e risultati misurabili, garantendo il successo digitale di ogni azienda che serviamo.",
+  "titulo1":"Visione:",
+  "subtitulo1":"Il nostro obiettivo è trasformare la presenza online delle aziende, creando un'identità digitale solida e rilevante. Crediamo nel potere del web marketing per permettere ai nostri clienti di emergere in un mondo sempre più connesso. Vogliamo essere riconosciuti come leader nel settore, fornendo risultati eccezionali e stabilendo partnership durature basate sulla fiducia e l'eccellenza.",
+  "titulo2":"Valori:",
+  "subtitulo2":"Presso LH Web, crediamo nell'innovazione come motore del successo. Ricerchiamo continuamente soluzioni creative ed efficaci per soddisfare le esigenze specifiche di ogni cliente. Il nostro team è guidato dall'eccellenza in tutto ciò che facciamo, dallo sviluppo di siti web alle strategie di SEO e marketing sui social media. Valorizziamo la misurazione dei risultati, poiché crediamo che la trasparenza e l'analisi siano essenziali per il successo dei nostri clienti. Costruiamo relazioni solide e durature con i nostri clienti, basate sulla fiducia e sulla collaborazione.",
+  "objetivo":"Aumentare il numero di clienti dell'X% entro X mesi:",
+  "objetivo1":"Aumentare il fatturato annuo dell'X% attraverso la vendita di prodotti/servizi:",
+  "objetivo2":"Espandersi in nuovi mercati verticali entro X anni:",
+  "objetivo3":"Migliorare l'esperienza del cliente:",
+  "objetivo4":"Aumentare l'efficienza operativa:",
+  "objetivo5":"Migliorare la presenza online e la visibilità del marchio:"
+},
+"descricoes":{
+  "descricoes":"Applicheremo tecniche di marketing digitale innovative per ampliare la tua base di clienti.",
+  "descricoes1":"Useremo tecniche di segmentazione per identificare e raggiungere potenziali nuovi clienti.",
+  "descricoes2":"Le nostre strategie SEO avanzate aumenteranno la visibilità della tua attività online.",
+  "descricoes3":"Con il nostro approccio basato sui dati, monitoreremo costantemente le prestazioni e adegueremo le strategie secondo necessità.",
+  "descricoes4":"Massimizzeremo i ricavi della tua azienda, promuovendo efficacemente i tuoi prodotti o servizi.",
+  "descricoes5":"Implementeremo strategie di prezzo e promozione attraenti per aumentare le vendite.",
+  "descricoes6":"Lavoreremo a stretto contatto con il tuo team per capire il tuo business e fornire strategie di marketing efficaci.",
+  "descricoes7":"Le nostre analisi delle prestazioni aiuteranno a identificare le aree di opportunità per stimolare le vendite.",
+  "descricoes8":"Aiuteremo la tua azienda a identificare e penetrare nuovi mercati verticali.",
+  "descricoes9":"La nostra conoscenza del marketing digitale ci permette di capire quali canali e strategie sono più efficaci per raggiungere diversi mercati.",
+  "descricoes10":"Implementeremo strategie di marketing su misura per garantire il massimo impatto in ogni nuovo mercato.",
+  "descricoes11":"Misseremo e valuteremo il successo di ogni incursione in nuovi mercati, apprendendo e adattando il nostro approccio nel tempo.",
+  "descricoes12":"Implementeremo soluzioni tecnologiche che rendono l'esperienza del cliente più piacevole ed efficiente.",
+  "descricoes13":"Il nostro focus sul cliente significa che cerchiamo sempre modi per migliorare la loro soddisfazione e lealtà.",
+  "descricoes14":"Lavoreremo per capire le esigenze e i desideri del tuo cliente, utilizzando queste informazioni per informare la nostra strategia.",
+  "descricoes15":"Le nostre analisi delle prestazioni permetteranno di regolare costantemente le nostre strategie per servire al meglio il tuo cliente.",
+  "descricoes16":"Implementeremo tecnologie e pratiche che aumentano l'efficienza delle operazioni della tua attività.",
+  "descricoes17":"La nostra esperienza nell'automazione del marketing può aiutare a rendere il tuo team più produttivo e i tuoi processi più efficienti.",
+  "descricoes18":"Il nostro impegno per l'innovazione significa che stiamo sempre cercando modi per fare le cose meglio.",
+  "descricoes19":"Useremo l'analisi delle prestazioni per identificare aree di opportunità per migliorare l'efficienza.",
+  "descricoes20":"Implementeremo strategie di SEO e di marketing dei contenuti per aumentare la presenza online della tua attività.",
+  "descricoes21":"Useremo i social media e altre piattaforme digitali per aumentare la visibilità del tuo marchio.",
+  "descricoes22":"Il nostro approccio basato sui dati ci permette di misurare il successo delle nostre strategie e di adattarci secondo necessità.",
+  "descricoes23":"Il nostro focus sull'innovazione ci aiuta a rimanere al passo con le tendenze e a garantire che il tuo marchio sia notato."
+},
+
+  "slide0":{
+      "title":"Offerte esclusive!!!",
+      "message":"Approfitta delle offerte e prodotti esclusivi dell'app!!",
+      "desc1":"Vuoi annunciare un'offerta speciale, sconti esclusivi, o ricordare ai tuoi clienti di finalizzare l'acquisto che è rimasto nel carrello?",
+      "desc2":"Notificali via telefono in qualsiasi momento<b> senza alcun rischio di cadere nello spam!</b>"
+  },
+  "slide1":{
+      "title":"Offerte esclusive!!!",
+      "message":"Approfitta delle offerte e prodotti esclusivi dell'app!!",
+      "desc1":"Hai registrato un nuovo prodotto nel pannello del tuo negozio? sarà disponibile in qualsiasi momento<b> nel tuo app</b>"
+  },
+  "slide2":{
+      "title":"Offerte esclusive!!!",
+      "message":"Approfitta delle offerte e prodotti esclusivi dell'app!!",
+      "desc1":"La tua app disponibile per il download nei negozi <b> Android</b> e <b>IOS.</b>"
+  },
+  "slide3":{
+      "title":"Offerte esclusive!!!",
+      "message":"Approfitta delle offerte e prodotti esclusivi dell'app!!",
+      "desc1":"Usa il visualizzatore LHWEB per testare la tua applicazione <b>prima che sia pubblicata</b>"
+  }
 
 
 
-  
+
   }
   

@@ -9,7 +9,15 @@ import { useTranslation } from 'next-i18next';
 const Footer = () => {
   const { t } = useTranslation('common');
   const router = useRouter();
+  const [hoveredIcon, setHoveredIcon] = useState(null);
 
+  const handleMouseEnter = (iconName) => {
+    setHoveredIcon(iconName);
+  }
+
+  const handleMouseLeave = () => {
+    setHoveredIcon(null);
+  }
   return (
     <div className={styles.container}>
       <div className={styles.chamada}>
@@ -34,9 +42,29 @@ const Footer = () => {
       </div>
       <div className={styles.menu}>
         <div className={styles.icons}>
-          <AiOutlineInstagram size={35} color='#000'/>
-          <AiFillFacebook size={35} color='#000'/>
-          <AiOutlineYoutube size={35} color='#000'/>
+        <button><AiOutlineInstagram 
+        size={35} 
+        color={hoveredIcon === 'instagram' ? '#20D3FC' : '#000'} 
+        onMouseEnter={() => handleMouseEnter('instagram')}
+        onMouseLeave={handleMouseLeave}
+      />
+      </button>
+      <button>
+        <AiFillFacebook 
+          size={35} 
+          color={hoveredIcon === 'facebook' ? '#20D3FC' : '#000'} 
+          onMouseEnter={() => handleMouseEnter('facebook')}
+          onMouseLeave={handleMouseLeave}
+        />
+      </button>
+      <button>
+      <AiOutlineYoutube 
+        size={35} 
+        color={hoveredIcon === 'youtube' ? '#20D3FC' : '#000'} 
+        onMouseEnter={() => handleMouseEnter('youtube')}
+        onMouseLeave={handleMouseLeave}
+      />
+      </button>
         </div>
         <Rotas href="https://www.youtube.com/@LHWeb/featured" active={router.pathname === '/tutoriais'}>
           tutoriais

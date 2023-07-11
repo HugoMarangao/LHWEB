@@ -133,7 +133,7 @@
       display: flex;
       justify-content: space-between;
       padding: 5px;
-
+     
       svg {
         margin-right: 20px; /* Ou qualquer valor que você preferir */
       }
@@ -141,7 +141,13 @@
       svg:last-child {
         margin-right: 0; /* Para garantir que não haja margem no último ícone */
       }
+
+      button{
+        margin: 10px;
+      }
     }
+
+    
   }
 
   /* Add this to display links and menu side by side */

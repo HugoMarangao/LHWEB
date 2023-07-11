@@ -1,4 +1,5 @@
 import WhatsAppButton from "@/Components/Config/WhatsAppButton";
+import Contato from "@/Components/Contato";
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 import Banner from "@/Components/Home/Banner";
@@ -14,6 +15,7 @@ export default function Home() {
         <Servicos/>
         <Coments/>
         <Chamada/>
+        <Contato/>
         <WhatsAppButton/>
         <Footer/>
     </>

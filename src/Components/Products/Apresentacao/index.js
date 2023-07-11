@@ -3,14 +3,14 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import styles from './styles.module.scss';
 import Image from 'next/image';
-
+import { useTranslation } from 'next-i18next'; 
 const Apresentacao = () => {
-
+    const { t } = useTranslation('common');
     return(
 
         <div className={styles.container}>
             <div className={styles.text}>
-                <h1>Impulsione seu negocio para o proximo nivel com solucoes tecnologicas inovadoras</h1>
+                <h1>{t('apresentacao.titulo')}</h1>
             </div>
             <div className={styles.image}>
                 <div className={styles.computer}>

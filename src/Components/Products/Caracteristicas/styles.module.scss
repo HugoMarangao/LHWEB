@@ -6,7 +6,19 @@
         align-items: center;
         justify-content: center;
 
+        .image{
+          width: 200px;
+          height: 300px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          position: absolute;
+          top:-155px
+        }
+
         .box {
+          height: 200px;
+          position: relative;
             padding: 10px;
             margin: 10px;
             border: 1px solid #D9D9D9;
@@ -19,19 +31,326 @@
             transition: transform 0.3s ease; /* Define a transição suave */
             cursor: pointer;
             color: black;
+
+            h1{
+              font-size: 20px;
+              padding: 10px;
+            }
+
+            p{
+              font-size: 18px;
+            }
+
+            button{
+              background-color: #20D3FC;
+              padding: 10px;
+              color: #f2f2f2;
+              border-radius: 8px;
+              font-size: 15px;
+            }
           }
           
           .box:hover {
             transform: scale(1.1); /* Aumenta a escala em 10% */
           }
+
+         
     }
 
+    .curiosidade{
+      padding: 30px;
+      display: flex; /* Adicionado */
+      justify-content: space-between;
+     
+      .servicos{
+        width: 50%;
+
+        .bol{
+          width: 50%;
+          height: 350px;
+          border-radius: 50%;
+          background-color: #20D3FC;
+          position: relative;
+
+          .boltrasada{
+            width: 100%;
+            height: 350px;
+            border-radius: 50%;
+            border: 1px solid #D9D9D9;
+            position: relative;
+            left: 50px;
+            top:30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .imageS{
+              width: 500px;
+              height: 500px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              position: absolute;
+              right: -40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .boxS{
+                width: 100%;
+                height: 200px;
+                background-color: #fffbfbdc;
+                border-radius: 8px;
+                position: relative;
+                left: 160px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                color: #000;
+
+                h2{
+                  font-size: 20px;
+                  margin: 0 auto;
+                }
+
+                button{
+                  background-color: #20D3FC;
+                  padding: 10px;
+                  margin: 10px auto;
+                  color: #f2f2f2;
+                  border-radius: 10px;
+                  
+
+                }
+
+              }
+            }
+          }
+        }
+      }
+
+
+      .servicos2{
+        width: 50%;
+        margin-top: 190px;
+        .bol{
+          width: 50%;
+          height: 350px;
+          border-radius: 50%;
+          background-color: #20D3FC;
+          position: relative;
+
+          .boltrasada{
+            width: 100%;
+            height: 350px;
+            border-radius: 50%;
+            border: 1px solid #D9D9D9;
+            position: relative;
+            left: 50px;
+            top:30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .imageS{
+              width: 500px;
+              height: 500px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              position: absolute;
+              right: -40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .boxS{
+                width: 100%;
+                height: 200px;
+                background-color: #fffbfbdc;
+                border-radius: 8px;
+                position: relative;
+                left: 160px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                color: #000;
+
+                h2{
+                  font-size: 20px;
+                  margin: 0 auto;
+                }
+
+                button{
+                  background-color: #20D3FC;
+                  padding: 10px;
+                  margin: 10px auto;
+                  color: #f2f2f2;
+                  border-radius: 10px;
+                  
+
+                }
+
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+    .curiosidade2{
+      padding: 30px;
+      display: flex; /* Adicionado */
+      justify-content: space-between;
+     
+      .servicos{
+        width: 50%;
+       
+        .bol{
+          width: 50%;
+          height: 350px;
+          border-radius: 50%;
+          background-color: #20D3FC;
+          position: relative;
+
+          .boltrasada{
+            width: 100%;
+            height: 350px;
+            border-radius: 50%;
+            border: 1px solid #D9D9D9;
+            position: relative;
+            left: 50px;
+            top:30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .imageS{
+              width: 500px;
+              height: 500px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              position: absolute;
+              right: -40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .boxS{
+                width: 100%;
+                height: 220px;
+                background-color: #fffbfbdc;
+                border-radius: 8px;
+                position: relative;
+                left: 160px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                color: #000;
+
+                h2{
+                  font-size: 20px;
+                  margin: 0 auto;
+                }
+
+                button{
+                  background-color: #20D3FC;
+                  padding: 10px;
+                  margin: 10px auto;
+                  color: #f2f2f2;
+                  border-radius: 10px;
+                  
+
+                }
+
+              }
+            }
+          }
+        }
+      }
+
+
+      .servicos2{
+        width: 50%;
+        margin-top: 190px;
+        .bol{
+          width: 50%;
+          height: 350px;
+          border-radius: 50%;
+          background-color: #20D3FC;
+          position: relative;
+
+          .boltrasada{
+            width: 100%;
+            height: 350px;
+            border-radius: 50%;
+            border: 1px solid #D9D9D9;
+            position: relative;
+            left: 50px;
+            top:30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .imageS{
+              width: 500px;
+              height: 500px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              position: absolute;
+              right: -40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .boxS{
+                width: 100%;
+                height: 200px;
+                background-color: #fffbfbdc;
+                border-radius: 8px;
+                position: relative;
+                left: 160px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                color: #000;
+
+                h2{
+                  font-size: 20px;
+                  margin: 0 auto;
+                }
+
+                button{
+                  background-color: #20D3FC;
+                  padding: 10px;
+                  margin: 10px auto;
+                  color: #f2f2f2;
+                  border-radius: 10px;
+                  
+
+                }
+
+              }
+            }
+          }
+        }
+      }
+    }
     @media (max-width: 768px) {
       .flex{
         flex-direction: column;
+        .image{
+          width: 200px;
+          height: 300px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          position: absolute;
+          top:-135px
+        }
 
         .box {
           width: 100%;
+          height: 235px;
           padding: 10px;
           margin: 10px;
           border: 1px solid #D9D9D9;
@@ -48,6 +367,289 @@
         
         .box:hover {
           transform: scale(1.1); /* Aumenta a escala em 10% */
+        }
+      }
+
+      .curiosidade{
+        padding: 10px;
+        display: flex; /* Adicionado */
+        align-items: center;
+        flex-direction: column;
+        .servicos{
+          width: 100%;
+  
+          .bol{
+            width: 100%;
+            height: 350px;
+            border-radius: 50%;
+            background-color: #20D3FC;
+            position: relative;
+  
+            .boltrasada{
+              width: 100%;
+              height: 350px;
+              border-radius: 50%;
+              border: 1px solid #D9D9D9;
+              position: relative;
+              left: 0px;
+              top:0px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .imageS{
+                width: 400px;
+                height: 400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: relative;
+                right: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+  
+                .boxS{
+                  width: 100%;
+                  height: 200px;
+                  background-color: #fffbfbdc;
+                  border-radius: 8px;
+                  position: relative;
+                  left: 0px;
+                  padding: 10px;
+                  display: flex;
+                  flex-direction: column;
+                  color: #000;
+  
+                  h2{
+                    font-size: 20px;
+                    margin: 0 auto;
+                  }
+  
+                  button{
+                    background-color: #20D3FC;
+                    padding: 10px;
+                    margin: 10px auto;
+                    color: #f2f2f2;
+                    border-radius: 10px;
+                    
+  
+                  }
+  
+                }
+              }
+            }
+          }
+        }
+  
+  
+        .servicos2{
+          width: 100%;
+          margin-top: 100px;
+          width: 100%;
+  
+          .bol{
+            width: 100%;
+            height: 350px;
+            border-radius: 50%;
+            background-color: #20D3FC;
+            position: relative;
+  
+            .boltrasada{
+              width: 100%;
+              height: 350px;
+              border-radius: 50%;
+              border: 1px solid #D9D9D9;
+              position: relative;
+              left: 0px;
+              top:0px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .imageS{
+                width: 550px;
+                height: 550px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: relative;
+                right: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+  
+                .boxS{
+                  width: 100%;
+                  height: 200px;
+                  background-color: #fffbfbdc;
+                  border-radius: 8px;
+                  position: relative;
+                  left: 0px;
+                  padding: 10px;
+                  display: flex;
+                  flex-direction: column;
+                  color: #000;
+  
+                  h2{
+                    font-size: 20px;
+                    margin: 0 auto;
+                  }
+  
+                  button{
+                    background-color: #20D3FC;
+                    padding: 10px;
+                    margin: 10px auto;
+                    color: #f2f2f2;
+                    border-radius: 10px;
+                    
+  
+                  }
+  
+                }
+              }
+            }
+          }
+        }
+      }
+  
+  
+      .curiosidade2{
+        padding: 10px;
+        display: flex; /* Adicionado */
+        flex-direction: column;
+       
+        .servicos{         
+          width: 100%;
+  
+          .bol{
+            width: 100%;
+            height: 350px;
+            border-radius: 50%;
+            background-color: #20D3FC;
+            position: relative;
+  
+            .boltrasada{
+              width: 100%;
+              height: 350px;
+              border-radius: 50%;
+              border: 1px solid #D9D9D9;
+              position: relative;
+              left: 0px;
+              top:0px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .imageS{
+                width: 400px;
+                height: 400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: relative;
+                right: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+  
+                .boxS{
+                  width: 100%;
+                  height: 300px;
+                  background-color: #fffbfbdc;
+                  border-radius: 8px;
+                  position: relative;
+                  left: 0px;
+                  padding: 10px;
+                  display: flex;
+                  flex-direction: column;
+                  color: #000;
+  
+                  h2{
+                    font-size: 20px;
+                    margin: 0 auto;
+                  }
+  
+                  button{
+                    background-color: #20D3FC;
+                    padding: 10px;
+                    margin: 10px auto;
+                    color: #f2f2f2;
+                    border-radius: 10px;
+                    
+  
+                  }
+  
+                }
+              }
+            }
+          }
+        }
+  
+  
+        .servicos2{
+          width: 50%;
+          margin-top: 100px;
+          width: 100%;
+  
+          .bol{
+            width: 100%;
+            height: 350px;
+            border-radius: 50%;
+            background-color: #20D3FC;
+            position: relative;
+  
+            .boltrasada{
+              width: 100%;
+              height: 350px;
+              border-radius: 50%;
+              border: 1px solid #D9D9D9;
+              position: relative;
+              left: 0px;
+              top:0px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .imageS{
+                width: 500px;
+                height: 500px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: relative;
+                right: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+  
+                .boxS{
+                  width: 100%;
+                  height: 200px;
+                  background-color: #fffbfbdc;
+                  border-radius: 8px;
+                  position: relative;
+                  left: 0px;
+                  padding: 10px;
+                  display: flex;
+                  flex-direction: column;
+                  color: #000;
+  
+                  h2{
+                    font-size: 20px;
+                    margin: 0 auto;
+                  }
+  
+                  button{
+                    background-color: #20D3FC;
+                    padding: 10px;
+                    margin: 10px auto;
+                    color: #f2f2f2;
+                    border-radius: 10px;
+                    
+  
+                  }
+  
+                }
+              }
+            }
+          }
         }
       }
     }

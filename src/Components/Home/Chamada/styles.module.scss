@@ -1,7 +1,7 @@
 .Container{
     width: 100%;
     height: 100%;
-    background-color: #20D3FC;
+    background-image: url('/assets/Banner/‎‎banner2.‎001.‎001.jpeg');
     display: flex;
     align-items: center;
     padding: 30px;
@@ -20,15 +20,15 @@
             align-items: center;
             justify-content: center;
             .bol{
-                width: 50%;
-                height: 300px;
+                width: 350px;
+                height: 350px;
                 border-radius: 50%;
                 background-color: #f2f2f2;
             }
 
             .bolciador{
-                width: 100%;
-                height: 300px;
+                width: 350px;
+                height: 350px;
                 border-radius: 50%;
                 background-color: #9e2121;
                 position: relative;
@@ -92,8 +92,9 @@
                     height: 150px;
                     border-radius: 50%;
                     background-color: #f2f2f2;
-                    display: flex;
-                    justify-content: flex-end;
+                   
+                    
+                    
                 }
     
                 .bolciador{
@@ -101,7 +102,7 @@
                     height: 150px;
                     border-radius: 50%;
                     background-color: #9e2121;
-                    position: absolute; /* Altere para absolute */
+                    position: relative; /* Altere para absolute */
                     left: 30px; /* Ajuste conforme necessário */
                     top: 15px; /* Ajuste conforme necessário */
                 }

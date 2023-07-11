@@ -162,10 +162,108 @@
 },
 "Header":{
   "Home":"Home",
-  "product": "Products",
-  "stars":"Highlights",
+  "product": "Services",
+  "stars":"About Us",
   "Contact":"Contact"
+},
+"apresentacao":{
+  "titulo":"Boost your business to the next level with innovative technological solutions"
+},"servicos":{
+  "titulo":"App Creation",
+  "descricao":"We create your app as you wish",
+  "titulo1":"Web Design",
+  "descricao1":"We create your site with modern design",
+  "titulo2":"SEO",
+  "descricao2":"We improve your site's ranking in search engines",
+  "titulo3":"Digital Marketing",
+  "descricao3":"We help boost your online business",
+  "button":"Discover More!"
+},
+"descricao":{
+  "titulo":"Develop your application",
+  "descricao":"Harness the power of mobile apps to reach your target audience wherever they are.",
+  "descricaop":"Offer an exclusive experience to your customers and expand your market presence.",
+  "titulo1":"Sales and much more",
+  "descricao1":"Did you know that having an online platform can boost your sales and enhance your brand image?",
+  "descricaop1":"Highlight your products and services, share relevant information, and engage your audience effectively.",
+  "titulo2":"Expand your audience",
+  "descricao2":"Our experienced digital marketing team offers custom strategies to increase your visibility, attract more customers, and boost your sales.",
+  "descricaop2":"We use a variety of channels, such as social media, email marketing, and online advertising, to achieve the best results for your business.",
+  "titulo3":"Improve your online presence",
+  "descricao3":"Our SEO expert team is ready to help you achieve higher positions in search results.",
+  "descricaop3":"Increase your website's organic traffic and boost your sales.",
+  "button":"Create Platform"
+},
+"banner":{
+  "titulo":"Welcome to LH Web",
+  "subtitulo":"Our Story and Commitment to Customer Success!"
+},
+"objetivos":{
+  "titulo":"Mission:",
+  "subtitulo":"At LH Web, our mission is to drive our clients' growth through innovative web marketing strategies. We are committed to delivering personalized solutions and measurable results, ensuring the digital success of every business we serve.",
+  "titulo1":"Vision:",
+  "subtitulo1":"Our goal is to transform companies' online presence by creating a solid and relevant digital identity. We believe in the power of web marketing to enable our clients to stand out in an increasingly connected world. We aim to be recognized as industry leaders, delivering exceptional results and establishing long-lasting partnerships based on trust and excellence.",
+  "titulo2":"Values:",
+  "subtitulo2":"At LH Web, we believe in innovation as a driver for success. We are constantly seeking creative and effective solutions to meet each client's specific needs. Our team is driven by excellence in everything we do, from website development to SEO strategies and social media marketing. We value result measurement, as we believe that transparency and analysis are essential for our clients' success. We build solid, long-lasting relationships with our clients, based on trust and collaboration.",
+  "objetivo":"Increase the number of clients by X% within X months:",
+  "objetivo1":"Increase annual revenue by X% through the sale of products/services:",
+  "objetivo2":"Expand into new vertical markets within X years:",
+  "objetivo3":"Improve customer experience:",
+  "objetivo4":"Increase operational efficiency:",
+  "objetivo5":"Improve online presence and brand visibility:"
+},
+"descricoes":{
+  "descricoes":"We will apply innovative digital marketing techniques to expand your customer base.",
+  "descricoes1":"We will use segmentation techniques to identify and reach potential new customers.",
+  "descricoes2":"Our advanced SEO strategies will increase the visibility of your online business.",
+  "descricoes3":"With our data-driven approach, we will constantly monitor performance and adjust strategies as needed.",
+  "descricoes4":"We will maximize your company's revenue by effectively promoting your products or services.",
+  "descricoes5":"We will implement attractive pricing and promotion strategies to increase sales.",
+  "descricoes6":"We will work closely with your team to understand your business and provide effective marketing strategies.",
+  "descricoes7":"Our performance analytics will help identify opportunity areas to boost sales.",
+  "descricoes8":"We will help your company identify and penetrate new vertical markets.",
+  "descricoes9":"Our knowledge of digital marketing allows us to understand which channels and strategies are most effective for reaching different markets.",
+  "descricoes10":"We will implement tailored marketing strategies to ensure maximum impact in each new market.",
+  "descricoes11":"We will measure and evaluate the success of each foray into new markets, learning and adapting our approach over time.",
+  "descricoes12":"We will implement technology solutions that make the customer experience more enjoyable and efficient.",
+  "descricoes13":"Our customer focus means we are always looking for ways to improve their satisfaction and loyalty.",
+  "descricoes14":"We will work to understand your customer's needs and desires, using this information to inform our strategy.",
+  "descricoes15":"Our performance analytics will enable us to continually adjust our strategies to better serve your customer.",
+  "descricoes16":"We will implement technologies and practices that increase the efficiency of your business operations.",
+  "descricoes17":"Our experience in marketing automation can help make your team more productive and your processes more efficient.",
+  "descricoes18":"Our commitment to innovation means we are always looking for ways to do things better.",
+  "descricoes19":"We will use performance analysis to identify areas of opportunity for efficiency improvement.",
+  "descricoes20":"We will implement SEO and content marketing strategies to increase your business's online presence.",
+  "descricoes21":"We will utilize social media and other digital platforms to increase your brand's visibility.",
+  "descricoes22":"Our data-driven approach allows us to measure the success of our strategies and adjust as needed.",
+  "descricoes23":"Our focus on innovation helps us stay ahead of trends and ensure that your brand is seen."
+},
+"slide0": {
+  "title": "Exclusive offers!!!",
+  "message": "Take advantage of the app's exclusive offers and products!!",
+  "desc1": "Want to advertise a special offer, exclusive discounts or remind your customers to finalize the purchase that was left in the shopping cart",
+  "desc2": "Notify them on your mobile at any time <b> without any risk of falling into spam! </b>"
+},
+"slide1": {
+  "title": "Exclusive offers!!!",
+  "message": "Take advantage of the app's exclusive offers and products!!",
+  "desc": "Registered a new product in your store's panel? it will be available at the same moment in your app"
+},
+"slide2": {
+  "title": "Exclusive offers!!!",
+  "message": "Take advantage of the app's exclusive offers and products!!",
+  "desc": "Your own app available for download in the <b> Android </b> and <b> IOS </b> stores."
+},
+"slide3": {
+  "title": "Exclusive offers!!!",
+  "message": "Take advantage of the app's exclusive offers and products!!",
+  "desc": "Use the LHWEB viewer to test your app <b> even before it's published </b>"
 }
+
+
+
+
+
 
 
 

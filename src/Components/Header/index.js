@@ -60,7 +60,7 @@ const Header = () => {
         <Rotas href="/Produtos" active={router.pathname === "/Produtos"}>
           {t('Header.product')}
         </Rotas>
-        <Rotas href="/Destaque" active={router.pathname === "/Destaque"}>
+        <Rotas href="/SobreNois" active={router.pathname === "/SobreNois"}>
           {t('Header.stars')}
         </Rotas>
         <Rotas href="/Contati" active={router.pathname === "/Contati"}>

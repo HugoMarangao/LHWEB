@@ -167,8 +167,105 @@
     },
     "Header":{
         "Home":"Home",
-        "product": "Produtos",
-        "stars":"Destaque",
+        "product": "Serviços",
+        "stars":"Sobre Nois",
         "Contact":"Contato"
+    },
+    "apresentacao":{
+        "titulo":"Impulsione seu negocio para o proximo nivel com solucoes tecnologicas inovadoras"
+    },
+    "servicos":{
+        "titulo":"Criacao de Apps",
+        "descricao":"criamos seu app como voce desejar",
+        "titulo1":"Design Web",
+        "descricao1":"criamos seu site com design moderno",
+        "titulo2":"SEO",
+        "descricao2":"melhoramos o ranking do seu site nos motores de busca",
+        "titulo3":"Marketing Digital",
+        "descricao3":"ajudamos a impulsionar o seu negócio online",
+        "button":"Descubra Mais!"
+    },
+    "descricao":{
+        "titulo":"Desenvolva seu aplicativo",
+        "descricao":"Aproveite o poder dos aplicativos móveis para alcançar seu público-alvo onde quer que estejam.",
+        "descricaop":"Ofereça uma experiência exclusiva aos seus clientes e expanda sua presença no mercado.",
+        "titulo1":"Vendas e muito mais",
+        "descricao1":"Você sabia que ter uma plataforma online pode impulsionar suas vendas e melhorar a imagem da sua marca?",
+        "descricaop1":"Destaque seus produtos e serviços, compartilhe informações relevantes e envolva seu público de forma eficaz.",
+        "titulo2":"Expanda seu público",
+        "descricao2":"Nossa equipe experiente em marketing digital oferece estratégias personalizadas para aumentar sua visibilidade, atrair mais clientes e impulsionar suas vendas.",
+        "descricaop2":"Utilizamos uma variedade de canais, como mídia social, e-mail marketing e publicidade online, para alcançar os melhores resultados para o seu negócio.",
+        "titulo3":"Melhore sua presença online",
+        "descricao3":"Nossa equipe de especialistas em SEO está pronta para ajudá-lo a alcançar melhores posições nos resultados de pesquisa.",
+        "descricaop3":"Aumente o tráfego orgânico do seu site e impulsione suas vendas.",
+        "button":"Criar Plataforma"
+    },
+    "banner":{
+        "titulo":"Bem-vindo à LH Web",
+        "subtitulo":"Nossa História e Compromisso com o Sucesso dos Clientes!"
+    },
+    "objetivos":{
+        "titulo":"Missão:",
+        "subtitulo":"Na LH Web, nossa missão é impulsionar o crescimento dos nossos clientes por meio de estratégias inovadoras de web marketing. Estamos comprometidos em oferecer soluções personalizadas e resultados mensuráveis, garantindo o sucesso digital de cada negócio que atendemos.",
+        "titulo1":"Visão:",
+        "subtitulo1":"Nosso objetivo é transformar a presença online das empresas, criando uma identidade digital sólida e relevante. Acreditamos no poder do web marketing para capacitar nossos clientes a se destacarem em um mundo cada vez mais conectado. Queremos ser reconhecidos como líderes no setor, proporcionando resultados excepcionais e estabelecendo parcerias duradouras baseadas em confiança e excelência.",
+        "titulo2":"Valores:",
+        "subtitulo2":"Na LH Web, acreditamos na inovação como um motor para o sucesso. Buscamos constantemente soluções criativas e eficazes para atender às necessidades específicas de cada cliente. Nossa equipe é movida pela excelência em tudo o que fazemos, desde o desenvolvimento de websites até estratégias de SEO e marketing nas redes sociais. Valorizamos a mensuração de resultados, pois acreditamos que a transparência e a análise são essenciais para o sucesso dos nossos clientes. Construímos relacionamentos sólidos e duradouros com nossos clientes, baseados na confiança e na colaboração.",
+        "objetivo":"Aumentar o número de clientes em X% dentro de X meses:",
+        "objetivo1":"Aumentar a receita anual em X% através da venda de produtos/serviços:",
+        "objetivo2":"Expandir para novos mercados verticais dentro de X anos:",
+        "objetivo3":"Melhorar a experiência do cliente:",
+        "objetivo4":"Aumentar a eficiência operacional:",
+        "objetivo5":"Melhorar a presença online e a visibilidade da marca:"
+    },
+    "descricoes":{
+        "descricoes":"Aplicaremos técnicas de marketing digital inovadoras para ampliar a sua base de clientes.",
+        "descricoes1":"Usaremos técnicas de segmentação para identificar e atingir potenciais novos clientes.",
+        "descricoes2":"Nossas estratégias de SEO avançado aumentarão a visibilidade de seu negócio online.",
+        "descricoes3":"Com a nossa abordagem orientada a dados, monitoraremos constantemente o desempenho e ajustaremos as estratégias conforme necessário.",
+        "descricoes4":"Maximizaremos a receita da sua empresa, promovendo seus produtos ou serviços de maneira eficaz.",
+        "descricoes5":"Implementaremos estratégias de preço e promoção atraentes para aumentar as vendas.",
+        "descricoes6":"Trabalharemos em estreita colaboração com a sua equipe para entender o seu negócio e oferecer estratégias de marketing que funcionem.",
+        "descricoes7":"Nossas análises de desempenho ajudarão a identificar áreas de oportunidade para impulsionar as vendas.",
+        "descricoes8":"Ajudaremos sua empresa a identificar e penetrar em novos mercados verticais.",
+        "descricoes9":"Nosso conhecimento de marketing digital nos permite entender quais canais e estratégias são mais eficazes para alcançar diferentes mercados.",
+        "descricoes10":"Implementaremos estratégias de marketing adaptadas para garantir o máximo impacto em cada novo mercado.",
+        "descricoes11":"Mediremos e avaliaremos o sucesso de cada incursão em novos mercados, aprendendo e adaptando nossa abordagem ao longo do tempo.",
+        "descricoes12":"Implementaremos soluções de tecnologia que tornam a experiência do cliente mais agradável e eficiente.",
+        "descricoes13":"Nosso foco no cliente significa que sempre procuramos maneiras de melhorar sua satisfação e lealdade.",
+        "descricoes14":"Vamos trabalhar para entender as necessidades e desejos do seu cliente, usando essas informações para informar nossa estratégia.",
+        "descricoes15":"Nossas análises de desempenho permitirão ajustar constantemente nossas estratégias para melhor atender ao seu cliente.",
+        "descricoes16":"Vamos implementar tecnologias e práticas que aumentem a eficiência das operações do seu negócio.",
+        "descricoes17":"Nossa experiência em automação de marketing pode ajudar a tornar sua equipe mais produtiva e seus processos mais eficientes.",
+        "descricoes18":"Nosso compromisso com a inovação significa que estamos sempre procurando maneiras de fazer as coisas melhor.",
+        "descricoes19":"Usaremos análise de desempenho para identificar áreas de oportunidade para melhorar a eficiência.",
+        "descricoes20":"Implementaremos estratégias de SEO e marketing de conteúdo para aumentar a presença online do seu negócio.",
+        "descricoes21":"Usaremos as redes sociais e outras plataformas digitais para aumentar a visibilidade da sua marca.",
+        "descricoes22":"Nossa abordagem orientada a dados nos permite medir o sucesso das nossas estratégias e ajustar conforme necessário.",
+        "descricoes23":"Nosso foco em inovação nos ajuda a manter-se à frente das tendências e garantir que sua marca seja vista."
+    },
+    "slide0": {
+        "title": "Ofertas exclusivas!!!",
+        "message": "Aproveite as ofertas e produtos exclusivos do aplicativo!!",
+        "desc1": "Quer anunciar uma oferta especial, descontos exclusivos ou lembrar seus clientes de finalizar a compra que ficou parada no carrinho",
+        "desc2": "Notifique-os pelo celular a qualquer momento <b> sem nenhum risco de cair no spam! </b>"
+    },
+    "slide1": {
+        "title": "Ofertas exclusivas!!!",
+        "message": "Aproveite as ofertas e produtos exclusivos do aplicativo!!",
+        "desc": "Cadastrou um novo produto no painel da sua loja? ele estará disponível no mesmo momento no seu aplicativo"
+    },
+    "slide2": {
+        "title": "Ofertas exclusivas!!!",
+        "message": "Aproveite as ofertas e produtos exclusivos do aplicativo!!",
+        "desc": "Seu próprio aplicativo disponível para download nas lojas do <b> Android </b> e <b> IOS </b>."
+    },
+    "slide3": {
+        "title": "Ofertas exclusivas!!!",
+        "message": "Aproveite as ofertas e produtos exclusivos do aplicativo!!",
+        "desc": "Utilize o visualizador da LHWEB para testar seu aplicativo <b> antes mesmo de ele ser publicado </b>"
     }
+    
+
+
   }

@@ -63,19 +63,14 @@ switch(slide) {
             <h2>12:25</h2>
             <div className={styles.box}>
             <div className={styles.logo}/>
-            <h2>Ofertas exclusivas!!!</h2>
-            <p>Aproveite as ofertas e produtos exclusivos do aplicativo!!</p>
+            <h2>{t('slide0.title')}</h2>
+            <p>{t('slide0.message')}</p>
         </div>
         </div>
         <div className={styles.conteudo}>
             <div className={styles.box}>
-            <p>Quer anunciar uma oferta especial,
-                descontos exclusivos ou lembrar
-                seus clientes de finalizar a compra 
-                que ficou parada no carinho  </p>
-            <p>Notifique-os pelo celular a 
-                qualquer momento<b> sem nenhum 
-                risco de cair no spam!</b></p>
+            <p>{t('slide0.desc1')}</p>
+            <p>{t('slide0.desc2')}</p>
             </div>
         </div>
     </div>
@@ -90,14 +85,13 @@ switch(slide) {
        <h2>12:25</h2>
        <div className={styles.box}>
        <div className={styles.logo}/>
-       <h2>Ofertas exclusivas!!!</h2>
-       <p>Aproveite as ofertas e produtos exclusivos do aplicativo!!</p>
+       <h2>{t('slide1.title')}</h2>
+       <p>{t('slide1.message')}</p>
    </div>
    </div>
    <div className={styles.conteudo}>
        <div className={styles.box}>
-       <p>Cadastrou um novo produto no painel da sua loja? ele estara disponivel no
-           qualquer momento<b> mesmo momento</b> no seu aplicativo</p>
+       <p>{t('slide1.desc')}</p>
        </div>
    </div>
 </div>
@@ -112,7 +106,7 @@ switch(slide) {
            <h2>12:25</h2>
            <div className={styles.box}>
            <div className={styles.logo}/>
-           <h2>Ofertas exclusivas!!!</h2>
+           <h2>{t('slide1.desc')}</h2>
            <p>Aproveite as ofertas e produtos exclusivos do aplicativo!!</p>
        </div>
        </div>
