@@ -9,6 +9,8 @@
   position: relative; /* Adicione isto */
   overflow: hidden; 
   justify-content: center;
+  max-width: 1600px;
+  margin: 0 auto;
 
   .chamada{
     border: 1px solid #D9D9D9;
@@ -30,7 +32,7 @@
     .logo{
       width: 250px;
       height: 90px;
-      background-image: url('/logo.png');
+      background-image: url('/logo.webp');
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;

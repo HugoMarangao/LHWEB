@@ -263,7 +263,16 @@
     "servico5": "E-Mail-Marketing",
     "input4": "Beschreibung",
     "button": "Senden"
+},
+"intro":{
+  "titulo":"Bauen Sie Ihre Zukunft mit",
+  "subtitulo":"zielgerichteten Werbekampagnen",
+  "subtitulo1":"fortgeschrittene SEO-Strategien",
+  "subtitulo2":"ansprechendes Social-Media-Marketing",
+  "subtitulo3":"individuelle Website-Entwicklung",
+  "subtitulo4":"innovative App-Entwicklung"
 }
+
 
 
 

@@ -47,7 +47,7 @@ const Servicos = () => {
             <div onClick={() => router.push('/Produtos/designweb')} className={styles.SliderC}>
                         <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                                <div className={styles.imagem}/>
+                                <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/computer.png')`}}/>
                             </div>
                         </div>
                         <div className={styles.text}>
@@ -58,7 +58,7 @@ const Servicos = () => {
                     <div  onClick={() => router.push('/Produtos/criacaodeapps')} className={styles.SliderC}>
                     <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                                <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/app.png')`}}/>
+                                <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/app.webp')`}}/>
                             </div>
                         </div>
                         <div className={styles.text}>
@@ -70,7 +70,7 @@ const Servicos = () => {
                     <div onClick={() => router.push('/Produtos/seo')} className={styles.SliderC}>
                         <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/seo.png')`}}/>
+                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/seo.webp')`}}/>
                             </div>
                         </div>
                         <div className={styles.text}>
@@ -81,7 +81,7 @@ const Servicos = () => {
                     <div onClick={() => router.push('/Produtos/marketingdigital')} className={styles.SliderC}>
                         <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/maketing.png')`}}/>
+                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/maketing.webp')`}}/>
                             </div>
                         </div>
                         <div className={styles.text}>
@@ -117,7 +117,7 @@ const Servicos = () => {
                  >
                         <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                                <div className={styles.imagem}/>
+                                <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/computer.png')`}}/>
                             </div>
                         </div>
                         <div className={styles.text}>
@@ -142,7 +142,7 @@ const Servicos = () => {
                         </div>
                         <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                                <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/app.png')`}}/>
+                                <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/app.webp')`}}/>
                             </div>
                         </div>
                         </motion.div>
@@ -162,7 +162,7 @@ const Servicos = () => {
                  >
                         <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/seo.png')`}}/>
+                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/seo.webp')`}}/>
                             </div>
                         </div>
                         <div className={styles.text}>
@@ -186,7 +186,7 @@ const Servicos = () => {
                         </div>
                         <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/maketing.png')`}}/>
+                            <div className={styles.imagem} style={{backgroundImage: `url('/assets/Products/maketing.webp')`}}/>
                             </div>
                         </div>
                         </motion.div>

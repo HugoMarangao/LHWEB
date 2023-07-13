@@ -275,7 +275,16 @@
     "servico5": "Email Marketing",
     "input4": "Description",
     "button": "Envoyer"
+},
+"intro":{
+  "titulo":"Construisez votre avenir avec",
+  "subtitulo":"campagnes publicitaires ciblées",
+  "subtitulo1":"stratégies de référencement avancées",
+  "subtitulo2":"marketing engageant sur les réseaux sociaux",
+  "subtitulo3":"développement de site web personnalisé",
+  "subtitulo4":"développement d'applications innovantes"
 }
+
 
 
 

@@ -1,6 +1,8 @@
 .container{
     width: 100%;
     color: black;
+    max-width: 1600px;
+    margin: 0 auto;
     .Conteudo{
         display: flex;
         width: 100%;
@@ -77,7 +79,7 @@
               .computer {
                 width: 100%;
                 height: 750px;
-                background-image: url('/assets/Products/mac.png');
+                background-image: url('/assets/Products/mac.webp');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: contain;
@@ -102,7 +104,7 @@
                         .logo{
                             width: 100%;
                             height: 100px;
-                            background-image: url('/logo.png');
+                            background-image: url('/logo.webp');
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: contain;
@@ -160,7 +162,7 @@
               .computer {
                 width: 100%;
                 height: 700px;
-                background-image: url('/assets/Products/mac.png');
+                background-image: url('/assets/Products/mac.webp');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: contain;
@@ -185,7 +187,7 @@
                         .logo{
                             width: 150px;
                             height: 150px;
-                            background-image: url('/logo.png');
+                            background-image: url('/logo.webp');
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: contain;
@@ -245,7 +247,7 @@
               .computer {
                 width: 100%;
                 height: 700px;
-                background-image: url('/assets/Products/iphone.png');
+                background-image: url('/assets/Products/iphone.webp');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: contain;
@@ -270,7 +272,7 @@
                         .logo{
                             width: 150px;
                             height: 150px;
-                            background-image: url('/logo.png');
+                            background-image: url('/logo.webp');
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: contain;

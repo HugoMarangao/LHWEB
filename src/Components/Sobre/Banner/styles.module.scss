@@ -1,6 +1,6 @@
 .container {
     overflow: hidden;
-   background-image: url('/assets/Banner/‎‎banner2.‎001.‎001.jpeg');
+   background-image: url('/assets/Banner/‎‎banner2.‎001.‎001.webp');
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -9,7 +9,8 @@
    display: flex;
    align-items: center;
    padding: 50px;
-  
+   max-width: 1600px;
+    margin: 0 auto;
 
    .text{
     width: 40%;
@@ -41,7 +42,7 @@
    .image{
     width: 60%;
     height: 150%;
-    background-image: url('/assets/Products/banner.png');
+    background-image: url('/assets/Products/banner.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +102,7 @@
     .image{
         width: 250%;
         margin-left: 90px;
-        background-image: url('/assets/Products/banner.png');
+        background-image: url('/assets/Products/banner.webp');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

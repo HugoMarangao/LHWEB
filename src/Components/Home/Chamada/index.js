@@ -14,7 +14,7 @@ const Chamada = () => {
            <div className={styles.ContainerUser}>
                 <div className={styles.user}>
                     <div className={styles.bol}>
-                        <div className={styles.bolciador} style={{backgroundImage: `url('/assets/criadores/luiz.jpeg')`}}/>
+                        <div className={styles.bolciador} style={{backgroundImage: `url('/assets/criadores/luiz.webp')`}}/>
                     </div>         
                     <div className={styles.text}>
                         <p>{t('chamada.description')}</p>
@@ -22,7 +22,7 @@ const Chamada = () => {
                 </div>
                 <div className={styles.user}>
                     <div className={styles.bol}>
-                        <div className={styles.bolciador} style={{backgroundImage: `url('/assets/criadores/hugo.png')`}}/>
+                        <div className={styles.bolciador} style={{backgroundImage: `url('/assets/criadores/hugo.webp')`}}/>
                     </div>      
                     <div className={styles.text}>
                         <p>{t('chamada.description1')}</p>

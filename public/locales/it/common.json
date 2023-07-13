@@ -277,7 +277,16 @@
     "servico5": "Email Marketing",
     "input4": "Descrizione",
     "button": "Inviare"
+},
+"intro":{
+  "titulo":"Costruisci il tuo futuro con",
+  "subtitulo":"campagne pubblicitarie mirate",
+  "subtitulo1":"strategie SEO avanzate",
+  "subtitulo2":"coinvolgente marketing sui social media",
+  "subtitulo3":"sviluppo di siti web personalizzati",
+  "subtitulo4":"sviluppo di applicazioni innovative"
 }
+
 
 
 

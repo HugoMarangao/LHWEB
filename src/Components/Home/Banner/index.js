@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import styles from './styles.module.scss';
-
+import { useTranslation } from 'next-i18next'; 
 const Banner = () => {
-    const dataText = ["campanhas publicitárias direcionadas", "estratégias avançadas de seo", "marketing de mídia social envolvente","desenvolvimento de site personalizado","desenvolvimento de aplicativos inovadores"];
+    const { t } = useTranslation('common');
+    const dataText = [t('intro.subtitulo'), t('intro.subtitulo1'), t('intro.subtitulo2'), t('intro.subtitulo3'), t('intro.subtitulo4')];
     const [index, setIndex] = useState(0);
     const [subIndex, setSubIndex] = useState(0);
     const [direction, setDirection] = useState(1); // 1 para escrever, -1 para apagar
     const [blink, setBlink] = useState(true);
+  
 
     // Blinker
     useEffect(() => {
@@ -43,7 +45,7 @@ const Banner = () => {
             </video>
 
             <div className={styles.overlayText}>
-                <h1>Construa seu futuro com</h1>
+                <h1>{t('intro.titulo')}</h1>
                 <h2>
                     {`${dataText[index].substring(0, subIndex)}${blink ? "|" : "|"}`}
                 </h2>

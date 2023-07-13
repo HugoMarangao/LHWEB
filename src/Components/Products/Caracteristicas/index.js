@@ -12,7 +12,7 @@ const Caracteristicas = () => {
         <div className={styles.container}>
             <div className={styles.flex}>
                 <div onClick={() => router.push('/Produtos/criacaodeapps')} className={styles.box}>
-                    <div className={styles.image} style={{backgroundImage: `url('/assets/Products/app.png')`}}/>
+                    <div className={styles.image} style={{backgroundImage: `url('/assets/Products/app.webp')`}}/>
                     <h1>{t('servicos.titulo')}</h1>
                     <p>{t('servicos.descricao')}</p>
                     <button>{t('servicos.button')}</button>
@@ -24,13 +24,13 @@ const Caracteristicas = () => {
                     <button>{t('servicos.button')}</button>
                 </div>
                 <div onClick={() => router.push('/Produtos/marketingdigital')} className={styles.box}>
-                    <div className={styles.image} style={{backgroundImage: `url('/assets/Products/maketing.png')`}}/>
+                    <div className={styles.image} style={{backgroundImage: `url('/assets/Products/maketing.webp')`}}/>
                     <h1>{t('servicos.titulo3')}</h1>
                     <p>{t('servicos.descricao3')}</p>
                     <button>{t('servicos.button')}</button>
                 </div>
                 <div onClick={() => router.push('/Produtos/seo')} className={styles.box}>
-                    <div className={styles.image} style={{backgroundImage: `url('/assets/Products/seo.png')`}}/>
+                    <div className={styles.image} style={{backgroundImage: `url('/assets/Products/seo.webp')`}}/>
                     <h1>{t('servicos.titulo2')}</h1>
                     <p>{t('servicos.descricao2')}</p>
                     <button>{t('servicos.button')}</button>
@@ -40,7 +40,7 @@ const Caracteristicas = () => {
                 <div className={styles.servicos}>
                     <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                                <div className={styles.imageS} style={{backgroundImage: `url('/assets/Products/iphone.png')`}}>
+                                <div className={styles.imageS} style={{backgroundImage: `url('/assets/Products/iphone.webp')`}}>
                                     <div className={styles.boxS}>
                                             <h2>{t('descricao.titulo')}</h2>
                                             <p>{t('descricao.descricao')}</p>
@@ -54,7 +54,7 @@ const Caracteristicas = () => {
                 <div className={styles.servicos2}>
                     <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                                <div className={styles.imageS} style={{backgroundImage: `url('/assets/Products/mac.png')`}}>
+                                <div className={styles.imageS} style={{backgroundImage: `url('/assets/Products/mac.webp')`}}>
                                     <div className={styles.boxS}>
                                             <h2>{t('descricao.titulo1')}</h2>
                                             <p>{t('descricao.descricao1')}</p>
@@ -71,7 +71,7 @@ const Caracteristicas = () => {
                 <div className={styles.servicos}>
                     <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                                <div className={styles.imageS} style={{backgroundImage: `url('/assets/Products/iphone.png')`}}>
+                                <div className={styles.imageS} style={{backgroundImage: `url('/assets/Products/iphone.webp')`}}>
                                     <div className={styles.boxS}>
                                             <h2>{t('descricao.titulo2')}</h2>
                                             <p>{t('descricao.descricao2')}</p>
@@ -85,7 +85,7 @@ const Caracteristicas = () => {
                 <div className={styles.servicos2}>
                     <div className={styles.bol}>
                             <div className={styles.boltrasada}>
-                                <div className={styles.imageS} style={{backgroundImage: `url('/assets/Products/mac.png')`}}>
+                                <div className={styles.imageS} style={{backgroundImage: `url('/assets/Products/mac.webp')`}}>
                                     <div className={styles.boxS}>
                                             <h2>{t('descricao.titulo3')}</h2>
                                             <p>{t('descricao.descricao3')}</p>

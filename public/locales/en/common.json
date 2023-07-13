@@ -275,7 +275,16 @@
   "servico5": "Email Marketing",
   "input4": "Description",
   "button": "Send"
+},
+"intro":{
+  "titulo":"Build your future with",
+  "subtitulo":"targeted advertising campaigns",
+  "subtitulo1":"advanced SEO strategies",
+  "subtitulo2":"engaging social media marketing",
+  "subtitulo3":"custom website development",
+  "subtitulo4":"innovative app development"
 }
+
 
 
 

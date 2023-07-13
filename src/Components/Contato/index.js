@@ -14,11 +14,11 @@ const Contato = () => {
            <div className={styles.box}>
                 <div className={styles.inputs}>
                     <input placeholder={t('contato.input')}/>
-                    <input placeholder={t('contato.input2')}/>
+                    <input placeholder={t('contato.input1')}/>
                 </div>
                 <div className={styles.inputs}>
+                    <input placeholder={t('contato.input2')}/>
                     <input placeholder={t('contato.input3')}/>
-                    <input placeholder={t('contato.input4')}/>
                 </div>
                 <h3>{t('contato.mensagem')}</h3>
                 <div className={styles.inputsS}>
@@ -49,7 +49,7 @@ const Contato = () => {
                         <label htmlFor="emailMarketing">{t('contato.servico5')}</label>
                     </div>
                 </div>
-                <textarea placeholder='descricao'/>
+                <textarea placeholder={t('contato.input4')}/>
                 <button>
                     {t('contato.button')}
                 </button>

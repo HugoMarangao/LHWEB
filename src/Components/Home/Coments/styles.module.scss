@@ -3,7 +3,8 @@
     display: flex;
     margin-top: 90px;
     flex-direction: column;
-     
+    max-width: 1600px;
+    margin: 0 auto;
     .Titulo{
         display: flex;
         align-items: center;
@@ -42,7 +43,7 @@
             }
 
             .product{
-                background-image: url('/assets/Products/iphone.png');
+                background-image: url('/assets/Products/iphone.webp');
                 background-size: contain;
                 width: 200px;
                 height: 400px;

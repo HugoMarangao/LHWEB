@@ -1,7 +1,9 @@
 .container{
     width: 100%;
     height: 100%;
-
+    max-width: 1600px;
+    margin: 0 auto;
+    
     .planos{//parte dos planos de servico
         width: 100%;
         height: 100%;
@@ -164,7 +166,7 @@
                 flex: 1;
                 width: 50%;
                 height: 500px;
-                background-image: url('/assets/Products/mac.png');
+                background-image: url('/assets/Products/mac.webp');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: contain;
@@ -193,7 +195,7 @@
                     }
 
                     .logo{
-                        background-image: url('/logo.png');
+                        background-image: url('/logo.webp');
                         width: 100px;
                         height: 50px;
                         background-position: center;
@@ -258,7 +260,7 @@
                     .Imagem{
                         width: 150%;
                         height: 600px;
-                        background-image: url('/assets/Products/mac.png');
+                        background-image: url('/assets/Products/mac.webp');
                         background-position: center;
                         background-repeat: no-repeat;
                         background-size: contain;
@@ -335,7 +337,7 @@
             }
 
             .product{
-                background-image: url('/assets/Products/mac.png');
+                background-image: url('/assets/Products/mac.webp');
                 background-size: contain;
                 width: 900px;
                 height: 400px;
@@ -522,7 +524,7 @@
                     .mobile{
                         width: 100%;
                         height: 400px;
-                        background-image: url('/assets/Products/mac.png');
+                        background-image: url('/assets/Products/mac.webp');
                         background-position: center;
                         background-repeat: no-repeat;
                         background-size: contain;
@@ -556,7 +558,7 @@
                             }
     
                             .logo{
-                                background-image: url('/logo.png');
+                                background-image: url('/logo.webp');
                                 width: 100px;
                                 height: 50px;
                                 background-position: center;
@@ -624,7 +626,7 @@
                         .Imagem{
                             width: 100%;
                             height: 250px;
-                            background-image: url('/assets/Products/mac.png');
+                            background-image: url('/assets/Products/mac.webp');
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: contain;
@@ -684,7 +686,7 @@
                   }
             
                   .product{
-                    background-image: url('/assets/Products/mac.png');
+                    background-image: url('/assets/Products/mac.webp');
                     background-size: contain;
                     background-position: center;
                     background-repeat: no-repeat;

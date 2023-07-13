@@ -282,6 +282,14 @@
         "servico5":"Email-Marketing",
         "input4":"descrição",
         "button":"Enviar"
+    },
+    "intro":{
+        "titulo":"Construa seu futuro com",
+        "subtitulo":"campanhas publicitárias direcionadas",
+        "subtitulo1":"estratégias avançadas de seo",
+        "subtitulo2":"marketing de mídia social envolvente",
+        "subtitulo3":"desenvolvimento de site personalizad",
+        "subtitulo4":"desenvolvimento de aplicativos inovadores"
     }
 
   }
