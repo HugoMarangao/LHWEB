@@ -33,10 +33,10 @@ const Footer = () => {
         <Rotas href="/Produtos" active={router.pathname === "/Produtos"}>
           {t('Header.product')}
         </Rotas>
-        <Rotas href="/Destaques" active={router.pathname === "/Destaques"}>
+        <Rotas href="/SobreNois" active={router.pathname === "/SobreNois"}>
           {t('Header.stars')}
         </Rotas>
-        <Rotas href="/Contatti" active={router.pathname === "/Contatti"}>
+        <Rotas href="/Contati" active={router.pathname === "/Contati"}>
           {t('Header.Contact')}
         </Rotas>       
       </div>

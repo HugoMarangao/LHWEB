@@ -258,7 +258,25 @@
       "title":"Offres exclusives!!!",
       "message":"Profitez des offres et produits exclusifs de l'application!!",
       "desc1":"Utilisez le visualiseur LHWEB pour tester votre application <b>avant même qu'elle ne soit publiée</b>"
-  }
+  },
+  "contato": {
+    "titulo": "Prenez Contact!",
+    "subtitulo": "Nous avons hâte de vous aider à booster le succès de votre entreprise!",
+    "input": "Nom Complet",
+    "input1": "Nom de l'Entreprise",
+    "input2": "Email",
+    "input3": "Téléphone",
+    "mensagem": "Services d'Intérêt:",
+    "servico": "Design Web",
+    "servico1": "Application",
+    "servico2": "SEO",
+    "servico3": "Média Sociale",
+    "servico4": "Marketing",
+    "servico5": "Email Marketing",
+    "input4": "Description",
+    "button": "Envoyer"
+}
+
 
 
 

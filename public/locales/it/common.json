@@ -260,7 +260,25 @@
       "title":"Offerte esclusive!!!",
       "message":"Approfitta delle offerte e prodotti esclusivi dell'app!!",
       "desc1":"Usa il visualizzatore LHWEB per testare la tua applicazione <b>prima che sia pubblicata</b>"
-  }
+  },
+  "contato": {
+    "titulo": "Mettiti in Contatto!",
+    "subtitulo": "Non vediamo l'ora di aiutarti a migliorare il successo della tua azienda!",
+    "input": "Nome Completo",
+    "input1": "Nome dell'Azienda",
+    "input2": "Email",
+    "input3": "Telefono",
+    "mensagem": "Servizi di Interesse:",
+    "servico": "Design Web",
+    "servico1": "App",
+    "servico2": "SEO",
+    "servico3": "Social Media",
+    "servico4": "Marketing",
+    "servico5": "Email Marketing",
+    "input4": "Descrizione",
+    "button": "Inviare"
+}
+
 
 
 

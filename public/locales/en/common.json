@@ -258,7 +258,25 @@
   "title": "Exclusive offers!!!",
   "message": "Take advantage of the app's exclusive offers and products!!",
   "desc": "Use the LHWEB viewer to test your app <b> even before it's published </b>"
+},
+"contato": {
+  "titulo": "Get in Touch!",
+  "subtitulo": "We are looking forward to helping you boost your business success!",
+  "input": "Full Name",
+  "input1": "Company Name",
+  "input2": "Email",
+  "input3": "Phone",
+  "mensagem": "Services of Interest:",
+  "servico": "Web Design",
+  "servico1": "App",
+  "servico2": "SEO",
+  "servico3": "Social Media",
+  "servico4": "Marketing",
+  "servico5": "Email Marketing",
+  "input4": "Description",
+  "button": "Send"
 }
+
 
 
 

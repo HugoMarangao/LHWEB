@@ -246,7 +246,25 @@
       "title":"Exklusive Angebote!!!",
       "message":"Nutzen Sie die exklusiven Angebote und Produkte aus der App!!",
       "desc1":"Verwenden Sie den LHWEB-Viewer, um Ihre Anwendung zu testen <b>noch bevor sie veröffentlicht wird</b>"
-  }
+  },
+  "contato": {
+    "titulo": "Nehmen Sie Kontakt auf!",
+    "subtitulo": "Wir freuen uns darauf, Ihnen dabei zu helfen, den Erfolg Ihres Unternehmens zu steigern!",
+    "input": "Vollständiger Name",
+    "input1": "Firmenname",
+    "input2": "E-Mail",
+    "input3": "Telefon",
+    "mensagem": "Dienstleistungen von Interesse:",
+    "servico": "Webdesign",
+    "servico1": "App",
+    "servico2": "SEO",
+    "servico3": "Social Media",
+    "servico4": "Marketing",
+    "servico5": "E-Mail-Marketing",
+    "input4": "Beschreibung",
+    "button": "Senden"
+}
+
 
 
 

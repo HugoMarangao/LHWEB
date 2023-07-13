@@ -2,12 +2,21 @@
     width: 100%;
     height: 100%;
     background-image: url('/assets/Banner/‎‎banner2.‎001.‎001.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     padding: 30px;
     flex-direction: column;
     position: relative; /* Adicione esta linha */
+    color: #ffffff;
 
+    h1{
+        font-size: 35px;
+        margin: 10px;
+        text-shadow: 1px 1px 2px #000000;
+    }
     .ContainerUser{
         display: flex;
         position: relative; /* Adicione esta linha */
@@ -30,7 +39,9 @@
                 width: 350px;
                 height: 350px;
                 border-radius: 50%;
-                background-color: #9e2121;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
                 position: relative;
                 top:30px;
             }
@@ -38,6 +49,8 @@
             .text{
                 width: 50%;
                 margin-left: 10px;
+                font-size: 18px;
+                text-shadow: 1px 1px 1px #000000;
             }
         }
     }

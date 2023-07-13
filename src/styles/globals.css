@@ -19,11 +19,13 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #F2F2F2;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .componentFullPage {
   width: 100vw;
   height: 100vh;
   scroll-snap-align: start;
+  
 }
 
