@@ -14,6 +14,7 @@ import { useTranslation } from 'next-i18next';
 const ConvencimentoDesign = ({id}) => {
       const [activeButton, setActiveButton] = useState(null);
       const { t } = useTranslation('common');
+      const router = useRouter();
 
       const [parceiros, setParceiros] = useState([
         { id: 1, src: '/assets/Parceiros/babita.png' },
@@ -183,6 +184,17 @@ const ConvencimentoDesign = ({id}) => {
         autoplay: true,
       };
 
+      const handlePlanClick = (planType) => {
+        // Aqui, estou supondo que sua página de checkout esteja em '/checkout'. Modifique conforme necessário.
+        router.push({
+            pathname: '/Checkout',
+            query: { 
+                plano: planType, 
+                servico: 'Criar Site' // Defina o serviço aqui. Adapte conforme sua necessidade.
+            }
+        });
+    }
+
     return(
 
         <div className={styles.container}>
@@ -321,7 +333,7 @@ const ConvencimentoDesign = ({id}) => {
                         <li>Otimização básica de SEO</li>
                         <li>Mapa de localização</li>
                         <p>99$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('Basico')}>
                             Crie seu site
                         </button>
                 </div>
@@ -333,7 +345,7 @@ const ConvencimentoDesign = ({id}) => {
                         <li>Autenticação de usuário e gerenciamento de perfil</li>
                         <li>Slide Show Dinâmico com Imagens</li>
                         <p>120$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('avancado')}>
                             Crie seu site
                         </button>
                 </div>
@@ -345,7 +357,7 @@ const ConvencimentoDesign = ({id}) => {
                         <li>Suporte para múltiplos idiomas</li>
                         <li>Otimização SEO Avançada  com Pesquisa de Palavras-chaves</li>
                         <p>🔒$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('Personalizado')}>
                             Crie seu App
                         </button>
                 </div>

@@ -10,8 +10,10 @@ import { FiUsers,FiPieChart,FiSearch,FiMail } from 'react-icons/fi';
 import { useTranslation } from 'next-i18next'; 
 import Head from 'next/head';
 const ConvencimentoMarketing = ({id}) => {
-      const [activeButton, setActiveButton] = useState(null);
+     
       const { t } = useTranslation('common');
+      const router = useRouter();
+
       const [parceiros, setParceiros] = useState([
         { id: 1, src: '/assets/Parceiros/babita.png' },
         { id: 2, src: '/assets/Parceiros/brilhodemulher.png' },
@@ -180,6 +182,18 @@ const ConvencimentoMarketing = ({id}) => {
         autoplay: true,
       };
 
+
+      const handlePlanClick = (planType) => {
+        // Aqui, estou supondo que sua página de checkout esteja em '/checkout'. Modifique conforme necessário.
+        router.push({
+            pathname: '/Checkout',
+            query: { 
+                plano: planType, 
+                servico: 'Markting Digital' // Defina o serviço aqui. Adapte conforme sua necessidade.
+            }
+        });
+    }
+
     return(
 
         <div className={styles.container}>
@@ -320,7 +334,7 @@ const ConvencimentoMarketing = ({id}) => {
                         <li>Campanhas de E-mail Marketing Segmentadas</li>
                         <li>Relatórios de Métricas de Engajamento</li>
                         <p>99$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('basico')}>
                             inicie sua campanha 
                         </button>
                 </div>
@@ -333,7 +347,7 @@ const ConvencimentoMarketing = ({id}) => {
                         <li>4 Campanhas redes sociais e  Google Ads</li>
                         <li>Otimização de Conversão e Experiência do Usuário</li>
                         <p>120$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('Avançado')}>
                             inicie sua campanha 
                         </button>
                 </div>
@@ -346,7 +360,7 @@ const ConvencimentoMarketing = ({id}) => {
                         <li>Monitoramento Avançado de Métricas, KPIs e ROI </li>
                         <li>sem limites de campahas </li>
                         <p>🔒$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('Personalizado')}>
                             inicie sua campanha 
                         </button>
                 </div>

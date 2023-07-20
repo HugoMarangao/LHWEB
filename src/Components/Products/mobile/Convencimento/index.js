@@ -15,7 +15,7 @@ import { useTranslation } from 'next-i18next';
 const ConvencimentoMobile = ({id}) => {
     
       const { t } = useTranslation('common');
-
+      const router = useRouter();
       const [activeButton, setActiveButton] = useState(null);
 
       const [parceiros, setParceiros] = useState([
@@ -184,6 +184,17 @@ switch(slide) {
         autoplay: true,
       };
 
+      const handlePlanClick = (planType) => {
+        // Aqui, estou supondo que sua página de checkout esteja em '/checkout'. Modifique conforme necessário.
+        router.push({
+            pathname: '/Checkout',
+            query: { 
+                plano: planType, 
+                servico: 'Criar App' // Defina o serviço aqui. Adapte conforme sua necessidade.
+            }
+        });
+    }
+
     return(
         
 
@@ -327,7 +338,7 @@ switch(slide) {
                         <li>Integração do sistema de mapas para localização</li>
                         <li>Suporte ao cliente dedicado</li>
                         <p>99$/mes</p>
-                        <button>
+                        <button  onClick={() => handlePlanClick('basico')}>
                             Crie seu App
                         </button>
                 </div>
@@ -339,7 +350,7 @@ switch(slide) {
                         <li>Autenticação de usuário e gerenciamento de perfil</li>
                         <li>Analíticas do aplicativo para monitorar o desempenho</li>
                         <p>120$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('avancado')}>
                             Crie seu App
                         </button>
                 </div>
@@ -351,7 +362,7 @@ switch(slide) {
                         <li>Suporte para múltiplos idiomas</li>
                         <li>SEO para aplicativos e estratégias de marketing de aplicativos</li>
                         <p>🔒$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('personalizado')}>
                             Crie seu App
                         </button>
                 </div>

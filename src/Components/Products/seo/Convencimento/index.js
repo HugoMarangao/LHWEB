@@ -1,6 +1,7 @@
 // components/Header.js
 import React, { useState, useEffect } from 'react';
 import styles from './styles.module.scss';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -13,6 +14,7 @@ import Head from 'next/head';
 const ConvencimentoSeo = ({id}) => {
       const [activeButton, setActiveButton] = useState(null);
       const { t } = useTranslation('common');
+      const router = useRouter();
       const [parceiros, setParceiros] = useState([
         { id: 1, src: '/assets/Parceiros/babita.png' },
         { id: 2, src: '/assets/Parceiros/brilhodemulher.png' },
@@ -182,6 +184,17 @@ switch(slide) {
         autoplay: true,
       };
 
+      const handlePlanClick = (planType) => {
+        // Aqui, estou supondo que sua página de checkout esteja em '/checkout'. Modifique conforme necessário.
+        router.push({
+            pathname: '/Checkout',
+            query: { 
+                plano: planType, 
+                servico: 'SEO' // Defina o serviço aqui. Adapte conforme sua necessidade.
+            }
+        });
+    }
+
     return(
 
         <div className={styles.container}>
@@ -327,7 +340,7 @@ switch(slide) {
                         <li>Criação e Otimização de URLs Amigáveis</li>
                         <li>Otimização de Imagens e Tags Alt</li>
                         <p>99$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('basico')}>
                             SEO 
                         </button>
                 </div>
@@ -341,7 +354,7 @@ switch(slide) {
                         <li>Otimização de Dados Estruturados (Schema Markup)</li>
                         <li>Relatórios de Análise de Tráfego e Tendências</li>
                         <p>120$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('avancado')}>
                             inicie sua campanha 
                         </button>
                 </div>
@@ -355,7 +368,7 @@ switch(slide) {
                         <li>Monitoramento de Marcas e Gerenciamento de Reputação Online</li>
                         <li>Relatórios Personalizados de Desempenho e Recomendações Estratégicas</li>
                         <p>🔒$/mes</p>
-                        <button>
+                        <button onClick={() => handlePlanClick('personalizado')}> 
                             inicie sua campanha 
                         </button>
                 </div>

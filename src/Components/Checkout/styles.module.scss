@@ -1,0 +1,246 @@
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: url('/assets/Banner/‎‎banner2.‎001.‎001.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: column;
+    color:#fff;
+    h1{
+        text-shadow: 2px 2px 2px #000000;
+        margin-top: 25px;
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 1px #000000;
+    }
+
+    textarea{
+        width: 90%;
+        height: 500px;
+        padding: 10px;
+        border-radius: 10px;
+        resize: none;
+    }
+
+    button{
+        background-color: #20D3FC;
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 25px;
+        transition: 1s;
+    }
+    button:hover{
+        background-color: #0f93b1;
+    }
+    .box{
+        width: 80%;
+        height: 550px;
+        background-color: #ffffffd5;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+
+        h3{
+            font-size: 25px;
+        }
+
+        .service{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            input{
+                width: 90%;
+                
+                padding: 10px;
+                border-radius: 10px;
+                resize: none;
+            }
+        }
+        .inputs{
+            display:  flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px;
+            input{
+                width: 50%;
+                padding: 10px;
+                border-radius: 8px;
+                color: black;
+                margin: 10px;
+            }
+        }
+
+        .inputsS {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px;
+        
+            .flex {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row; /* Adicionado para alinhar os itens em uma linha */
+                padding: 10px;
+                
+                input[type="checkbox"] {
+                    display: none;
+                }
+        
+                input[type="checkbox"] + label {
+                    position: relative;
+                    padding-left: 35px;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+        
+                input[type="checkbox"] + label:before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: -2px;
+                    width: 25px;
+                    height: 25px;
+                    border: 1px solid #c4c4c4ef;
+                    border-radius: 50%;
+                    background: #fff;
+                }
+        
+                input[type="checkbox"]:checked + label:before {
+                    background: #20D3FC;
+                }
+        
+                label {
+                    margin-left: 10px;
+                    font-size: 20px;
+                }
+            }
+        }
+        
+    }
+    @media screen and (max-width: 768px) {
+        h1{
+            margin-top: 45px;
+            font-size: 25px;
+        }
+    
+        h2{
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+    
+        textarea{
+            width: 90%;
+            height: 500px;
+            padding: 10px;
+            border-radius: 10px;
+            resize: none;
+        }
+    
+        button{
+            background-color: #20D3FC;
+            width: 50%;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 25px;
+        }
+        .box{
+            width: 100%;
+            height: 100%;
+            background-color: #ffffffd5;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: black;
+    
+            h3{
+                font-size: 20px;
+            }
+            .inputs{
+                display:  flex;
+                width: 100%;
+                padding: 5px 10px;
+                flex-direction: column;
+                align-items: center;
+                input{
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 8px;
+                    color: black;
+                    margin: 10px;
+                }
+            }
+    
+            .inputsS {
+                display: flex;
+                width: 100%;
+                padding: 10px;
+                flex-direction: column;
+                .flex {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    padding: 0px;
+                    flex-direction: column;
+                    
+                    input[type="checkbox"] {
+                        display: none;
+                    }
+            
+                    input[type="checkbox"] + label {
+                        position: relative;
+                        padding-left: 35px;
+                        margin-left: 10px;
+                        cursor: pointer;
+                    }
+            
+                    input[type="checkbox"] + label:before {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: -0px;
+                        width: 20px;
+                        height: 20px;
+                        border: 1px solid #c4c4c4ef;
+                        border-radius: 50%;
+                        background: #fff;
+                    }
+            
+                    input[type="checkbox"]:checked + label:before {
+                        background: #20D3FC;
+                    }
+            
+                    label {
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                }
+            }
+            
+        }
+
+    }
+    
+}

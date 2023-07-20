@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@fontsource/inter": "^5.0.5",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@paypal/payouts-sdk": "^1.1.1",
     "@vercel/analytics": "^1.0.1",
     "autoprefixer": "10.4.14",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.6",
+    "firebase": "^10.0.0",
     "framer-motion": "^10.12.17",
     "next": "13.4.6",
     "next-i18next": "^14.0.0",
