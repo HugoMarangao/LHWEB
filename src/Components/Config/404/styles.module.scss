@@ -1,0 +1,46 @@
+.container{
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    .bol{
+        background-color: #20D3FC;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
+
+    .containertext{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .title{
+            font-size: 25px;
+        }
+
+        .button{
+            background-color: #20D3FC;
+            width: 90%;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            color: #f2f2f2;
+            font-size: 20px;
+            margin: 10px;
+        }
+      .logo{
+        width: 280px;
+        height: 180px;
+        background-image: url('/logo.webp');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+}

@@ -238,26 +238,31 @@
   "descricoes22":"Our data-driven approach allows us to measure the success of our strategies and adjust as needed.",
   "descricoes23":"Our focus on innovation helps us stay ahead of trends and ensure that your brand is seen."
 },
-"slide0": {
-  "title": "Exclusive offers!!!",
-  "message": "Take advantage of the app's exclusive offers and products!!",
-  "desc1": "Want to advertise a special offer, exclusive discounts or remind your customers to finalize the purchase that was left in the shopping cart",
-  "desc2": "Notify them on your mobile at any time <b> without any risk of falling into spam! </b>"
+"slide0":{
+  "title":"Exclusive offers!!!",
+  "message":"Take advantage of the exclusive offers and products of the application!!",
+  "desc1":"Want to announce a special offer, exclusive discounts or remind your customers to finalize the purchase left in the cart",
+  "desc2":"Notify them on their mobile at any time ",
+  "descS":"with no risk of ending up in spam!"
 },
-"slide1": {
-  "title": "Exclusive offers!!!",
-  "message": "Take advantage of the app's exclusive offers and products!!",
-  "desc": "Registered a new product in your store's panel? it will be available at the same moment in your app"
+"slide1":{
+  "title":"Exclusive offers!!!",
+  "message":"Take advantage of the exclusive offers and products of the application!!",
+  "desc":"Have you registered a new product in your shop panel? it will be available in your application at the same time"
 },
-"slide2": {
-  "title": "Exclusive offers!!!",
-  "message": "Take advantage of the app's exclusive offers and products!!",
-  "desc": "Your own app available for download in the <b> Android </b> and <b> IOS </b> stores."
+"slide2":{
+  "title":"Exclusive offers!!!",
+  "message":"Take advantage of the exclusive offers and products of the application!!",
+  "desc":"Your own application available for download in the stores of and",
+  "desc1":" and",
+  "descS":"Android",
+  "descS1":"IOS"
 },
-"slide3": {
-  "title": "Exclusive offers!!!",
-  "message": "Take advantage of the app's exclusive offers and products!!",
-  "desc": "Use the LHWEB viewer to test your app <b> even before it's published </b>"
+"slide3":{
+  "title":"Exclusive offers!!!",
+  "message":"Take advantage of the exclusive offers and products of the application!!",
+  "desc":"Use the LHWEB viewer to test your application",
+  "descS":"before it gets published  "
 },
 "contato": {
   "titulo": "Get in Touch!",
@@ -283,6 +288,132 @@
   "subtitulo2":"engaging social media marketing",
   "subtitulo3":"custom website development",
   "subtitulo4":"innovative app development"
+},
+"slideM":{
+  "titulo":"Understand Your Audience",
+  "subtitulo":"Track your audience's metrics and behavior in real time.",
+  "desc":"Do you want to better understand your audience's behavior, know which strategies are working and which need adjustments?",
+  "desc2":"Through the ",
+  "descS":"Analytics",
+  "desc3":", you have access to real-time data."
+},
+"slideM1":{
+  "titulo":"Search Engine Optimization",
+  "subtitulo":"Appear at the top of search engines and increase your brand's visibility.",
+  "desc":"Want to attract more customers and appear at the top of search engines like Google, Bing, Yahoo, and others?",
+  "desc2":"With a ",
+  "descS":"SEO",
+  "desc3":" strategy, it's possible to achieve these goals and much more!"
+},
+"slideM2":{
+  "titulo":"Engage Your Audience",
+  "subtitulo":"Reach and engage your audience through popular social media.",
+  "desc":"Looking for ways to increase your audience engagement and reach a broader customer base?",
+  "desc2":"With the ",
+  "descS":"Social Media Advertising",
+  "desc3":", you can directly connect with your target audience."
+},
+"slideM3":{
+  "titulo":"Connect with Your Customers",
+  "subtitulo":"Keep your customers informed and engaged with effective email marketing campaigns.",
+  "desc":"Looking for ways to keep your customers engaged and informed about new products, promotions, and updates?",
+  "desc2":"The ",
+  "descS":"Email Marketing",
+  "desc3":" is an effective way to keep your customers connected."
+},
+"slideD":{
+  "titulo":"Responsive Design!!!",
+  "subtitulo":"Your website's design adapts to any device!",
+  "desc":"A website that adapts to any screen size is crucial nowadays, where people use various devices to browse.",
+  "desc2":"Ensure the best experience for your user in any situation!"
+},
+"slideD1":{
+  "titulo":"Search Engine Optimization!!!",
+  "subtitulo":"Your website will be more easily found by search engines!",
+  "desc":"Search Engine Optimization (SEO) is crucial for your site to be easily found in search results.",
+  "desc2":"With SEO optimization, you ",
+  "descS":"increase your visibility and attract more visitors to your site."
+},
+"slideD2":{
+  "titulo":"User Experience Design!!!",
+  "subtitulo":"Provide a pleasant browsing experience for users!",
+  "desc":"The user experience (UX) is a fundamental factor for your site visitor's satisfaction.",
+  "desc2":"A well-done UX design",
+  "descS":" makes users stay longer on your site and return more often!"
+},
+"slideD3":{
+  "titulo":"High-Speed Performance!!!",
+  "subtitulo":"Your website loads quickly, keeping users engaged and improving SEO!",
+  "desc":"A website's loading speed is a crucial factor for the user experience and for ranking in search engines.",
+  "desc2":"With a high-performance site, you",
+  "descS":" keep your users engaged and improve your ranking in search results."
+},
+"slideS":{
+  "titulo":"Exclusive Offers!!!",
+  "subtitulo":"Take advantage of the app's exclusive offers and products!!",
+  "desc":"Want to better understand your site's performance and where there's room for improvements? ",
+  "desc2":"Our ",
+  "descS":"comprehensive SEO analysis",
+  "desc3":" provides valuable insights that allow you to optimize your site and increase your traffic and conversions."
+},
+"slideS1":{
+  "titulo":"Exclusive Offers!!!",
+  "subtitulo":"Take advantage of the app's exclusive offers and products!!",
+  "desc":"Want to reach the right audience and improve your ranking in searches?",
+  "desc2":"With the ",
+  "descS":"keyword optimization",
+  "desc3":", we help you choose the right keywords to direct the right audience to your site."
+},
+"slideS2":{
+  "titulo":"Exclusive Offers!!!",
+  "subtitulo":"Take advantage of the app's exclusive offers and products!!",
+  "desc":"Want your site to appear at the top of search results?",
+  "desc2":"Our SEO techniques increase your ",
+  "descS":"site's visibility",
+  "desc3":", making it easier to be found by search engines."
+}, 
+"slideS3":{
+  "titulo":"Exclusive Offers!!!",
+  "subtitulo":"Take advantage of the app's exclusive offers and products!!",
+  "desc":"Want to increase the number of visitors to your site without spending on ads?",
+  "desc2":"Our SEO services give a ",
+  "descS":"boost to your organic traffic",
+  "desc3":", attracting more visitors through organic search results."
+},
+"metas": {
+  "title": "LH Web | Specialists in Digital Marketing, App Development & SEO",
+  "description": "LH Web is your trusted partner in digital marketing, app development, SEO, email marketing, and more. We elevate brands and businesses with innovative solutions and personalized digital strategies.",
+  "keywords": "marketing agency, mobile app creation, app development, website development, marketing strategy, digital marketing, SEO optimization"
+},
+"metasSobreNois": {
+  "title": "About Us | LH Web: Our Mission, Vision, Values, and Goals",
+  "description": "At LH Web, our mission is to drive our clients' growth through innovative web marketing strategies. Discover more about our vision, values, and future objectives.",
+  "keywords": "LH Web, mission, vision, values, web marketing, marketing strategies, digital growth, objectives, online presence, innovation, digital success, leadership, trust, excellence, segmentation, SEO, performance analysis, customer satisfaction"
+},
+"metasProdutos": {
+  "title": "LH Web | Our Products & Services - Marketing & Development Solutions",
+  "description": "Discover our digital marketing, SEO, automation products and services, tailored strategies, and more. We uplift brands and businesses with innovative solutions and personalized digital strategies.",
+  "keywords": "LH Web products, LH Web services, marketing solutions, SEO optimization, marketing automation, tailored strategies, digital innovation, data-driven marketing"
+},
+"metasMobile": {
+  "title": "App Creation: Direct Connection with Your Customer | LH Web",
+  "description": "LH Web turns your vision into reality with bespoke apps. Establish a direct connection with your customers and boost your marketing. Experience the power of a mobile platform today.",
+  "keywords": "LH Web, app creation, direct marketing, marketing platform, customer connection, user experience, Android app, iOS app, push notifications, engagement, loyalty"
+},
+"metasSeo": {
+  "title": "SEO Optimization: Connect with Your Audience and Boost Traffic | LH Web",
+  "description": "LH Web understands the importance of SEO optimization to connect your brand to your target audience. Go beyond simple rankings and offer the best search experience. Discover how to turn SEO into your main marketing tool.",
+  "keywords": "LH Web, SEO optimization, search marketing, organic traffic, SEO analysis, keyword optimization, website visibility, marketing tool"
+},
+"metasMarketing": {
+  "title": "Digital Marketing: Engage and Speak Directly to Your Audience | LH Web",
+  "description": "LH Web believes in the power of digital marketing as a differentiator for your brand. We create strategies that establish a closer, engaged relationship with your audience, delivering relevant and personalized content. Discover the potential of direct channels with your target audience and boost your business.",
+  "keywords": "LH Web, marketing, digital marketing, engagement, direct channel, target audience, engaged relationship, analytics, SEO, social media advertising, email marketing"
+},
+"metasDesing": {
+  "title": "Website Design: Optimized Experience and Engagement | LH Web",
+  "description": "LH Web doesn't just see a website as an online presence. To us, it's a direct interaction channel with your customers. We offer a well-structured design that elevates the browsing experience, boosts engagement, and accelerates sales. Transform your online presence today.",
+  "keywords": "LH Web, website design, direct interaction, optimized experience, brand recognition, customer engagement, responsive design, SEO optimization, user experience, high performance"
 }
 
 

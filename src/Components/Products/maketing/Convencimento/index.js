@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FiUsers,FiPieChart,FiSearch,FiMail } from 'react-icons/fi';
 import { useTranslation } from 'next-i18next'; 
-
+import Head from 'next/head';
 const ConvencimentoMarketing = ({id}) => {
       const [activeButton, setActiveButton] = useState(null);
       const { t } = useTranslation('common');
@@ -59,15 +59,14 @@ const ConvencimentoMarketing = ({id}) => {
                   <h2>12:30</h2>
                   <div className={styles.box}>
                   <div className={styles.logo}/>
-                  <h2>Entenda seu Público</h2>
-                  <p>Acompanhe as <b>métricas</b> e comportamentos do seu público em tempo real.</p>
+                  <h2>{t('slideM.titulo')}</h2>
+                  <p>{t('slideM.subtitulo')}</p>
               </div>
               </div>
               <div className={styles.conteudo}>
                   <div className={styles.box}>
-                  <p>Quer entender melhor o comportamento do seu público,
-                      saber quais estratégias estão funcionando e quais precisam de ajustes?</p>
-                  <p>Através do <b>Analytics</b>, você tem acesso a dados em tempo real.</p>
+                  <p>{t('slideM.desc')}</p>
+                  <p>{t('slideM.desc2')}<b>{t('slideM.descS')}</b>{t('slideM.desc3')}</p>
                   </div>
               </div>
             </div>
@@ -77,20 +76,19 @@ const ConvencimentoMarketing = ({id}) => {
         case 1:
           slideContent = (
            <>
-            <div className={styles.funcao} >
+             <div className={styles.funcao} >
               <div className={styles.mobile}>
-                  <h2>12:30</h2>
+                  <h2>13:30</h2>
                   <div className={styles.box}>
                   <div className={styles.logo}/>
-                  <h2>Otimização para Motores de Busca</h2>
-                  <p>Apareça nas primeiras posições dos motores de busca e aumente a visibilidade da sua <b>marca</b>.</p>
+                  <h2>{t('slideM1.titulo')}</h2>
+                  <p>{t('slideM1.subtitulo')}</p>
               </div>
               </div>
               <div className={styles.conteudo}>
                   <div className={styles.box}>
-                  <p>Quer atrair mais clientes e aparecer nas primeiras posições
-                      nos motores de busca como Google, Bing, Yahoo e outros?</p>
-                  <p>Com uma estratégia de <b>SEO</b> eficaz, é possível alcançar esses objetivos e muito mais!</p>
+                  <p>{t('slideM1.desc')}</p>
+                  <p>{t('slideM1.desc2')}<b>{t('slideM1.descS')}</b>{t('slideM1.desc3')}</p>
                   </div>
               </div>
             </div>
@@ -100,20 +98,19 @@ const ConvencimentoMarketing = ({id}) => {
         case 2:
           slideContent = (
            <>
-            <div className={styles.funcao}>
+            <div className={styles.funcao} >
               <div className={styles.mobile}>
                   <h2>13:00</h2>
                   <div className={styles.box}>
                   <div className={styles.logo}/>
-                  <h2>Engaje Seu Público</h2>
-                  <p>Alcance e engaje seu público através de <b>mídias sociais</b> populares.</p>
+                  <h2>{t('slideM2.titulo')}</h2>
+                  <p>{t('slideM2.subtitulo')}</p>
               </div>
               </div>
               <div className={styles.conteudo}>
                   <div className={styles.box}>
-                  <p>Procurando maneiras de aumentar o engajamento do seu público
-                      e alcançar uma base de clientes mais ampla?</p>
-                  <p>Com a <b>Publicidade em Mídias Sociais</b>, é possível conectar-se diretamente com seu público-alvo.</p>
+                  <p>{t('slideM2.desc')}</p>
+                  <p>{t('slideM2.desc2')}<b>{t('slideM2.descS')}</b>{t('slideM2.desc3')}</p>
                   </div>
               </div>
             </div>
@@ -128,15 +125,14 @@ const ConvencimentoMarketing = ({id}) => {
                   <h2>13:30</h2>
                   <div className={styles.box}>
                   <div className={styles.logo}/>
-                  <h2>Conecte-se com Seus Clientes</h2>
-                  <p>Mantenha seus clientes informados e envolvidos com eficazes campanhas de <b>e-mail marketing</b>.</p>
+                  <h2>{t('slideM3.titulo')}</h2>
+                  <p>{t('slideM3.subtitulo')}</p>
               </div>
               </div>
               <div className={styles.conteudo}>
                   <div className={styles.box}>
-                  <p>Procurando maneiras de manter seus clientes envolvidos e informados
-                      sobre novos produtos, promoções e atualizações?</p>
-                  <p>O <b>E-mail Marketing</b> é uma maneira eficaz de manter seus clientes conectados.</p>
+                  <p>{t('slideM3.desc')}</p>
+                  <p>{t('slideM3.desc2')}<b>{t('slideM3.descS')}</b>{t('slideM3.desc3')}</p>
                   </div>
               </div>
             </div>
@@ -187,6 +183,21 @@ const ConvencimentoMarketing = ({id}) => {
     return(
 
         <div className={styles.container}>
+            <Head>
+                <title>{t('metasMarketing.title')}</title>
+                
+                <meta name="description" content={t('metasMarketing.description')} />
+                
+                <meta name="keywords" content={t('metasMarketing.keywords')} />
+                
+                <meta property="og:title" content={t('metasMarketing.title')} />
+                <meta property="og:description" content={t('metasMarketing.description')}/>
+                <meta property="og:image" content="https://media.licdn.com/dms/image/D4E03AQG-mMsf0AQTWA/profile-displayphoto-shrink_800_800/0/1685707206328?e=2147483647&v=beta&t=RwPm_QVU4iLnehPufd2el601sa5m1PsOh2tKzxyP5Oc" />
+                <meta property="og:url" content="https://lhweb.vercel.app/Produtos/marketingdigital" />
+                
+                <link rel="canonical" href="https://lhweb.vercel.app/Produtos/marketingdigital" />
+            </Head>
+
            <div className={styles.flex}> 
                 <div className={styles.produto}>
                     <div className={styles.bol}> 
@@ -300,36 +311,43 @@ const ConvencimentoMarketing = ({id}) => {
             </div>
             <div className={styles.containerplanos}>
             <div className={styles.box}>
-                        <h2>Essencial</h2>
-                        <li>Desenvolvimento de um aplicativo funcional e intuitivo que atenda às necessidades básicas dos usuários.</li>
-                        <li>Recursos principais, como cadastro de usuários, autenticação, navegação básica entre telas e notificações push para manter os usuários engajados</li>
-                        <li>Design limpo e responsivo que proporciona uma experiência de usuário agradável.</li>
-                        <li>Suporte técnico básico para resolver questões técnicas e responder a dúvidas dos usuários.</li>
-                        <h3>R$99/mês</h3>
+                        <h2>Plano Basico</h2>
+                        <h3>Ideal para iniciantes, startups ou empresas de pequeno porte que desejam estabelecer sua presença no mundo digital. Este plano oferece:</h3>
+                        <li>Análise de Público-Alvo e Definição de Personas</li>
+                        <li>Análise do Funil de Vendas e Identificação de Melhoria</li>
+                        <li>Otimização de Páginas de Destino e CTA</li>
+                        <li>2 Campanhas redes sociais e Google Ads</li>
+                        <li>Campanhas de E-mail Marketing Segmentadas</li>
+                        <li>Relatórios de Métricas de Engajamento</li>
+                        <p>99$/mes</p>
                         <button>
-                            Crie seu App
+                            inicie sua campanha 
                         </button>
                 </div>
                 <div className={styles.box}>
-                        <h2>Personalizado</h2>
-                        <li>Todos os recursos do Plano Básico, além de recursos adicionais para aprimorar a funcionalidade do aplicativo.</li>
-                        <li>Integração de API para conectar o aplicativo a outros sistemas e serviços externos, possibilitando recursos como login com redes sociais e integração de pagamentos online.</li>
-                        <li>Recursos avançados de análise de dados para acompanhar o desempenho do aplicativo e obter insights valiosos sobre o comportamento dos usuários.</li>
-                        <li>Design personalizado e atraente que destaca a identidade da marca e cria uma experiência de usuário diferenciada.</li>
-                        <h3></h3>
+                        <h2>Plano Avançado (Recomendado)</h2>
+                        <h3>Este plano é perfeito para empresas de médio porte que estão procurando adicionar mais funcionalidades ao seu site. Ele inclui tudo do Plano Básico, além de:</h3>
+                        <li>Análise abrangente da presença online atual da empresa</li>
+                        <li>Gerenciamento de redes sociais</li>
+                        <li>Parcerias estratégicas e influenciadores</li>
+                        <li>4 Campanhas redes sociais e  Google Ads</li>
+                        <li>Otimização de Conversão e Experiência do Usuário</li>
+                        <p>120$/mes</p>
                         <button>
-                            Crie seu App
+                            inicie sua campanha 
                         </button>
                 </div>
                 <div className={styles.box}>
-                        <h2>Premium</h2>
-                        <li>Todos os recursos do Plano Avançado, com ênfase em personalização e funcionalidade avançada.</li>
-                        <li>Desenvolvimento de um aplicativo altamente personalizado, adaptado às necessidades específicas do negócio.</li>
-                        <li>Integração com sistemas externos e APIs complexas para oferecer recursos avançados, como processamento de pagamentos complexos, integração com CRM ou ERP e automação de processos.</li>
-                        <li>Design sofisticado e exclusivo que reflete a identidade da marca e proporciona uma experiência de usuário excepcional.</li>
-                        <h3></h3>
+                        <h2>Plano Personalizado</h2>
+                        <h3>Criado para empresas maiores ou para aquelas com necessidades específicas, este plano oferece uma solução personalizada que se adapta perfeitamente à sua marca e aos seus objetivos. Ele inclui tudo do Plano Avançado, além de:</h3>
+                        <li>Recursos personalizados conforme as necessidades da sua empresa</li>
+                        <li>Análise Preditiva de Dados e Modelagem de Funil de Vendas</li>
+                        <li>Personalização Avançada de Experiência do Usuário</li>
+                        <li>Monitoramento Avançado de Métricas, KPIs e ROI </li>
+                        <li>sem limites de campahas </li>
+                        <p>🔒$/mes</p>
                         <button>
-                            Crie seu App
+                            inicie sua campanha 
                         </button>
                 </div>
             </div>

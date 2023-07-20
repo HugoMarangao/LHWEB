@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaSearch } from 'react-icons/fa';
 import { RiLayoutGridLine,RiSpeedLine,RiUserHeartLine} from 'react-icons/ri';
-
+import Head from 'next/head';
 import { useTranslation } from 'next-i18next'; 
 
 const ConvencimentoDesign = ({id}) => {
@@ -62,15 +62,14 @@ const ConvencimentoDesign = ({id}) => {
                       <h2>12:00</h2>
                       <div className={styles.box}>
                           <div className={styles.logo}/>
-                          <h2>Design Responsivo!!!</h2>
-                          <p>O design do seu site se adapta a qualquer dispositivo!</p>
+                          <h2>{t('slideD.titulo')}</h2>
+                          <p>{t('slideD.subtitulo')}</p>
                       </div>
                   </div>
                   <div className={styles.conteudo}>
                       <div className={styles.box}>
-                          <p>Um site que se adapta a qualquer tamanho de tela é fundamental 
-                              hoje em dia, onde as pessoas usam diversos dispositivos para navegar.</p>
-                          <p><b>Garanta a melhor experiência para o seu usuário em qualquer situação!</b></p>
+                          <p>{t('slideD.desc')}</p>
+                          <p><b>{t('slideD.desc2')}</b></p>
                       </div>
                   </div>
               </div>
@@ -85,15 +84,14 @@ const ConvencimentoDesign = ({id}) => {
                       <h2>13:00</h2>
                       <div className={styles.box}>
                           <div className={styles.logo}/>
-                          <h2>Otimização para motores de busca!!!</h2>
-                          <p>Seu site será encontrado mais facilmente pelos motores de busca!</p>
+                          <h2>{t('slideD1.titulo')}</h2>
+                          <p>{t('slideD1.subtitulo')}</p>
                       </div>
                   </div>
                   <div className={styles.conteudo}>
                       <div className={styles.box}>
-                          <p>A otimização para motores de busca (SEO) é fundamental para 
-                              que seu site seja encontrado facilmente nos resultados de busca.</p>
-                          <p>Com a otimização SEO, você <b>aumenta sua visibilidade e atrai mais visitantes para o seu site.</b></p>
+                          <p>{t('slideD1.desc')}</p>
+                          <p>{t('slideD1.desc2')}<b>{t('slideD1.descS')}</b></p>
                       </div>
                   </div>
               </div>
@@ -107,19 +105,18 @@ const ConvencimentoDesign = ({id}) => {
                       <div className={styles.mobile}>
                           <h2>13:30</h2>
                           <div className={styles.box}>
-                              <div className={styles.logo}/>
-                              <h2>User Experience Design!!!</h2>
-                              <p>Ofereça uma experiência de navegação agradável para os usuários!</p>
-                          </div>
-                      </div>
-                      <div className={styles.conteudo}>
-                          <div className={styles.box}>
-                              <p>A experiência do usuário (UX) é um fator fundamental para a 
-                                  satisfação dos visitantes do seu site.</p>
-                              <p>Um design de UX bem feito<b> faz com que os usuários fiquem mais tempo no seu site e voltem mais vezes!</b></p>
-                          </div>
+                          <div className={styles.logo}/>
+                          <h2>{t('slideD2.titulo')}</h2>
+                          <p>{t('slideD2.subtitulo')}</p>
                       </div>
                   </div>
+                  <div className={styles.conteudo}>
+                      <div className={styles.box}>
+                          <p>{t('slideD2.desc')}</p>
+                          <p>{t('slideD2.desc2')}<b>{t('slideD2.descS')}</b></p>
+                      </div>
+                  </div>
+              </div>
                   </>
               );
               break;
@@ -130,19 +127,18 @@ const ConvencimentoDesign = ({id}) => {
                           <div className={styles.mobile}>
                               <h2>14:00</h2>
                               <div className={styles.box}>
-                                  <div className={styles.logo}/>
-                                  <h2>Desempenho de Alta Velocidade!!!</h2>
-                                  <p>Seu site carrega rapidamente, mantendo os usuários envolvidos e melhorando o SEO!</p>
-                              </div>
-                          </div>
-                          <div className={styles.conteudo}>
-                              <div className={styles.box}>
-                                  <p>A velocidade de carregamento de um site é um fator crucial para a 
-                                      experiência do usuário e para a classificação nos motores de busca.</p>
-                                  <p>Com um site de alta performance, você<b> mantém seus usuários envolvidos e melhora o seu ranking nos resultados de busca.</b></p>
-                              </div>
-                          </div>
+                          <div className={styles.logo}/>
+                          <h2>{t('slideD3.titulo')}</h2>
+                          <p>{t('slideD3.subtitulo')}</p>
                       </div>
+                  </div>
+                  <div className={styles.conteudo}>
+                      <div className={styles.box}>
+                          <p>{t('slideD3.desc')}</p>
+                          <p>{t('slideD3.desc2')}<b>{t('slideD3.descS')}</b></p>
+                      </div>
+                  </div>
+              </div>
                       </>
                   );
                   break;
@@ -190,6 +186,20 @@ const ConvencimentoDesign = ({id}) => {
     return(
 
         <div className={styles.container}>
+            <Head>
+                <title>{t('metasDesing.title')}</title>
+                
+                <meta name="description" content={t('metasDesing.description')} />
+                
+                <meta name="keywords" content={t('metasDesing.keywords')} />
+                
+                <meta property="og:title" content={t('metasDesing.title')} />
+                <meta property="og:description" content={t('metasDesing.description')} />
+                <meta property="og:image" content="https://media.licdn.com/dms/image/D4E03AQG-mMsf0AQTWA/profile-displayphoto-shrink_800_800/0/1685707206328?e=2147483647&v=beta&t=RwPm_QVU4iLnehPufd2el601sa5m1PsOh2tKzxyP5Oc" />
+                <meta property="og:url" content="https://lhweb.vercel.app/Produtos/designweb" />
+                
+                <link rel="canonical" href="https://lhweb.vercel.app/Produtos/designweb" />
+            </Head>
            <div className={styles.flex}> 
                 <div className={styles.produto}>
                     <div className={styles.bol}> 
@@ -297,39 +307,44 @@ const ConvencimentoDesign = ({id}) => {
            </div>
            <div className={styles.planos}>
             <div className={styles.titulo}> 
-                <h2>Crie o app da sua loja</h2>
+                <h2>Crie o site da sua loja</h2>
                 <h3>escolha seu plano!</h3>
             </div>
             <div className={styles.containerplanos}>
             <div className={styles.box}>
-                        <h2>Essencial</h2>
-                        <li>Desenvolvimento de um aplicativo funcional e intuitivo que atenda às necessidades básicas dos usuários.</li>
-                        <li>Recursos principais, como cadastro de usuários, autenticação, navegação básica entre telas e notificações push para manter os usuários engajados</li>
-                        <li>Design limpo e responsivo que proporciona uma experiência de usuário agradável.</li>
-                        <li>Suporte técnico básico para resolver questões técnicas e responder a dúvidas dos usuários.</li>
-                        <h3>R$99/mês</h3>
+                        <h2>Plano Basico</h2>
+                        <h3>Ideal para iniciantes, startups ou empresas de pequeno porte que desejam estabelecer sua presença no mundo digital. Este plano oferece:</h3>
+                        <li>Website com 1 Páginas</li>
+                        <li>Hospedagem Segura</li>
+                        <li>Formulario de Contato</li>
+                        <li>Integração de mídia social</li>
+                        <li>Otimização básica de SEO</li>
+                        <li>Mapa de localização</li>
+                        <p>99$/mes</p>
                         <button>
-                            Crie seu App
+                            Crie seu site
                         </button>
                 </div>
                 <div className={styles.box}>
-                        <h2>Personalizado</h2>
-                        <li>Todos os recursos do Plano Básico, além de recursos adicionais para aprimorar a funcionalidade do aplicativo.</li>
-                        <li>Integração de API para conectar o aplicativo a outros sistemas e serviços externos, possibilitando recursos como login com redes sociais e integração de pagamentos online.</li>
-                        <li>Recursos avançados de análise de dados para acompanhar o desempenho do aplicativo e obter insights valiosos sobre o comportamento dos usuários.</li>
-                        <li>Design personalizado e atraente que destaca a identidade da marca e cria uma experiência de usuário diferenciada.</li>
-                        <h3></h3>
+                        <h2>Plano Avançado (Recomendado)</h2>
+                        <h3>Este plano é perfeito para empresas de médio porte que estão procurando adicionar mais funcionalidades ao seu site. Ele inclui tudo do Plano Básico, além de:</h3>
+                        <li>Notificações push para engajamento do usuário</li>
+                        <li>Sistema de pagamento integrado</li>
+                        <li>Autenticação de usuário e gerenciamento de perfil</li>
+                        <li>Slide Show Dinâmico com Imagens</li>
+                        <p>120$/mes</p>
                         <button>
-                            Crie seu App
+                            Crie seu site
                         </button>
                 </div>
                 <div className={styles.box}>
-                        <h2>Premium</h2>
-                        <li>Todos os recursos do Plano Avançado, com ênfase em personalização e funcionalidade avançada.</li>
-                        <li>Desenvolvimento de um aplicativo altamente personalizado, adaptado às necessidades específicas do negócio.</li>
-                        <li>Integração com sistemas externos e APIs complexas para oferecer recursos avançados, como processamento de pagamentos complexos, integração com CRM ou ERP e automação de processos.</li>
-                        <li>Design sofisticado e exclusivo que reflete a identidade da marca e proporciona uma experiência de usuário excepcional.</li>
-                        <h3></h3>
+                        <h2>Plano Personalizado</h2>
+                        <h3>Criado para empresas maiores ou para aquelas com necessidades específicas, este plano oferece uma solução personalizada que se adapta perfeitamente à sua marca e aos seus objetivos. Ele inclui tudo do Plano Avançado, além de:</h3>
+                        <li>Recursos personalizados conforme as necessidades da sua empresa</li>
+                        <li>Integração com Ferramentas de Automação de Marketing</li>
+                        <li>Suporte para múltiplos idiomas</li>
+                        <li>Otimização SEO Avançada  com Pesquisa de Palavras-chaves</li>
+                        <p>🔒$/mes</p>
                         <button>
                             Crie seu App
                         </button>

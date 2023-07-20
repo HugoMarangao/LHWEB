@@ -225,28 +225,32 @@
   "descricoes21":"Wir werden Social Media und andere digitale Plattformen nutzen, um die Sichtbarkeit Ihrer Marke zu erhöhen.",
   "descricoes22":"Unser datengetriebener Ansatz ermöglicht es uns, den Erfolg unserer Strategien zu messen und bei Bedarf anzupassen.",
   "descricoes23":"Unser Fokus auf Innovation hilft uns, Trends vorauszusehen und sicherzustellen, dass Ihre Marke gesehen wird."
+},"slide0":{
+  "title":"Exklusive Angebote!!!",
+  "message":"Nutzen Sie die exklusiven Angebote und Produkte der Anwendung!!",
+  "desc1":"Möchten Sie ein Sonderangebot, exklusive Rabatte ankündigen oder Ihre Kunden daran erinnern, den Kauf abzuschließen, der im Warenkorb liegen geblieben ist",
+  "desc2":"Benachrichtigen Sie sie jederzeit auf ihrem Handy ",
+  "descS":"ohne die Gefahr, im Spam zu landen!"
 },
-  "slide0":{
-      "title":"Exklusive Angebote!!!",
-      "message":"Nutzen Sie die exklusiven Angebote und Produkte aus der App!!",
-      "desc1":"Möchten Sie ein spezielles Angebot, exklusive Rabatte bekannt geben oder Ihre Kunden daran erinnern, den Kauf abzuschließen, der im Warenkorb liegen geblieben ist?",
-      "desc2":"Benachrichtigen Sie sie jederzeit per Telefon<b> ohne jegliches Risiko, im Spam zu landen!</b>"
-  },
-  "slide1":{
-      "title":"Exklusive Angebote!!!",
-      "message":"Nutzen Sie die exklusiven Angebote und Produkte aus der App!!",
-      "desc1":"Haben Sie ein neues Produkt in Ihrem Shop-Panel registriert? es wird jederzeit<b> in Ihrer App verfügbar sein</b>"
-  },
-  "slide2":{
-      "title":"Exklusive Angebote!!!",
-      "message":"Nutzen Sie die exklusiven Angebote und Produkte aus der App!!",
-      "desc1":"Ihre eigene App zum Download in den <b> Android</b> und <b>IOS</b> Stores."
-  },
-  "slide3":{
-      "title":"Exklusive Angebote!!!",
-      "message":"Nutzen Sie die exklusiven Angebote und Produkte aus der App!!",
-      "desc1":"Verwenden Sie den LHWEB-Viewer, um Ihre Anwendung zu testen <b>noch bevor sie veröffentlicht wird</b>"
-  },
+"slide1":{
+  "title":"Exklusive Angebote!!!",
+  "message":"Nutzen Sie die exklusiven Angebote und Produkte der Anwendung!!",
+  "desc":"Haben Sie ein neues Produkt in Ihrem Shop-Panel registriert? es wird gleichzeitig in Ihrer Anwendung verfügbar sein"
+},
+"slide2":{
+  "title":"Exklusive Angebote!!!",
+  "message":"Nutzen Sie die exklusiven Angebote und Produkte der Anwendung!!",
+  "desc":"Ihre eigene Anwendung zum Download in den Geschäften von und",
+  "desc1":" und",
+  "descS":"Android",
+  "descS1":"IOS"
+},
+"slide3":{
+  "title":"Exklusive Angebote!!!",
+  "message":"Nutzen Sie die exklusiven Angebote und Produkte der Anwendung!!",
+  "desc":"Verwenden Sie den LHWEB-Viewer, um Ihre Anwendung zu testen",
+  "descS":"bevor sie veröffentlicht wird  "
+},
   "contato": {
     "titulo": "Nehmen Sie Kontakt auf!",
     "subtitulo": "Wir freuen uns darauf, Ihnen dabei zu helfen, den Erfolg Ihres Unternehmens zu steigern!",
@@ -271,16 +275,134 @@
   "subtitulo2":"ansprechendes Social-Media-Marketing",
   "subtitulo3":"individuelle Website-Entwicklung",
   "subtitulo4":"innovative App-Entwicklung"
+},
+
+  "slideM":{
+      "titulo":"Verstehen Sie Ihre Zielgruppe",
+      "subtitulo":"Verfolgen Sie die Metriken und das Verhalten Ihrer Zielgruppe in Echtzeit.",
+      "desc":"Möchten Sie das Verhalten Ihrer Zielgruppe besser verstehen, wissen, welche Strategien funktionieren und welche Anpassungen benötigen?",
+      "desc2":"Mit dem ",
+      "descS":"Analytics",
+      "desc3":" haben Sie Zugang zu Echtzeitdaten."
+  },
+  "slideM1":{
+      "titulo":"Suchmaschinenoptimierung",
+      "subtitulo":"Erscheinen Sie an der Spitze von Suchmaschinen und erhöhen Sie die Sichtbarkeit Ihrer Marke.",
+      "desc":"Möchten Sie mehr Kunden anziehen und an der Spitze von Suchmaschinen wie Google, Bing, Yahoo und anderen erscheinen?",
+      "desc2":"Mit einer effektiven ",
+      "descS":"SEO",
+      "desc3":"-Strategie ist es möglich, diese Ziele und noch viel mehr zu erreichen!"
+  },
+  "slideM2":{
+      "titulo":"Binden Sie Ihr Publikum ein",
+      "subtitulo":"Erreichen und binden Sie Ihr Publikum über beliebte soziale Medien.",
+      "desc":"Suchen Sie nach Möglichkeiten, das Engagement Ihrer Zielgruppe zu erhöhen und eine breitere Kundenbasis zu erreichen?",
+      "desc2":"Mit der ",
+      "descS":"Social-Media-Werbung",
+      "desc3":" können Sie sich direkt mit Ihrer Zielgruppe verbinden."
+  },
+  "slideM3":{
+      "titulo":"Verbinden Sie sich mit Ihren Kunden",
+      "subtitulo":"Halten Sie Ihre Kunden mit effektiven E-Mail-Marketing-Kampagnen informiert und engagiert.",
+      "desc":"Suchen Sie nach Möglichkeiten, Ihre Kunden über neue Produkte, Aktionen und Updates informiert und engagiert zu halten?",
+      "desc2":"Das ",
+      "descS":"E-Mail-Marketing",
+      "desc3":" ist eine effektive Methode, um Ihre Kunden zu binden."
+  },
+  "slideD":{
+      "titulo":"Responsives Design!!!",
+      "subtitulo":"Das Design Ihrer Website passt sich jedem Gerät an!",
+      "desc":"Eine Website, die sich jeder Bildschirmgröße anpasst, ist heutzutage unerlässlich, wo Menschen verschiedene Geräte zum Surfen verwenden.",
+      "desc2":"Gewährleisten Sie das beste Erlebnis für Ihren Benutzer in jeder Situation!"
+  },
+  "slideD1":{
+      "titulo":"Suchmaschinenoptimierung!!!",
+      "subtitulo":"Ihre Website wird leichter von Suchmaschinen gefunden!",
+      "desc":"Suchmaschinenoptimierung (SEO) ist entscheidend dafür, dass Ihre Website leicht in Suchergebnissen gefunden wird.",
+      "desc2":"Mit der SEO-Optimierung erhöhen Sie ",
+      "descS":"Ihre Sichtbarkeit und ziehen mehr Besucher auf Ihre Website."
+  },
+  "slideD2":{
+      "titulo":"User Experience Design!!!",
+      "subtitulo":"Bieten Sie den Nutzern ein angenehmes Surferlebnis!",
+      "desc":"Das Nutzererlebnis (UX) ist ein grundlegender Faktor für die Zufriedenheit der Besucher Ihrer Website.",
+      "desc2":"Ein gut gemachtes UX-Design",
+      "descS":" sorgt dafür, dass Benutzer länger auf Ihrer Website bleiben und häufiger zurückkehren!"
+  },
+  "slideD3":{
+      "titulo":"Hohe Performance-Geschwindigkeit!!!",
+      "subtitulo":"Ihre Website lädt schnell und hält die Benutzer bei der Stange und verbessert SEO!",
+      "desc":"Die Ladegeschwindigkeit einer Website ist ein entscheidender Faktor für das Nutzererlebnis und das Ranking in Suchmaschinen.",
+      "desc2":"Mit einer leistungsstarken Website ",
+      "descS":"halten Sie Ihre Benutzer bei der Stange und verbessern Ihr Ranking in Suchergebnissen."
+  },
+  "slideS":{
+      "titulo":"Exklusive Angebote!!!",
+      "subtitulo":"Nutzen Sie die exklusiven Angebote und Produkte der App!!",
+      "desc":"Möchten Sie die Leistung Ihrer Website besser verstehen und sehen, wo es Verbesserungsmöglichkeiten gibt? ",
+      "desc2":"Unsere ",
+      "descS":"umfassende SEO-Analyse",
+      "desc3":" liefert wertvolle Einblicke, die Ihnen helfen, Ihre Website zu optimieren und Ihren Traffic und Ihre Konversionen zu steigern."
+  },
+  "slideS1":{
+      "titulo":"Exklusive Angebote!!!",
+      "subtitulo":"Nutzen Sie die exklusiven Angebote und Produkte der App!!",
+      "desc":"Möchten Sie die richtige Zielgruppe erreichen und Ihr Ranking in Suchen verbessern?",
+      "desc2":"Mit der ",
+      "descS":"Keyword-Optimierung",
+      "desc3":" helfen wir Ihnen, die richtigen Keywords auszuwählen, um die richtige Zielgruppe auf Ihre Website zu lenken."
+  },
+  "slideS2":{
+      "titulo":"Exklusive Angebote!!!",
+      "subtitulo":"Nutzen Sie die exklusiven Angebote und Produkte der App!!",
+      "desc":"Möchten Sie, dass Ihre Website an der Spitze der Suchergebnisse erscheint?",
+      "desc2":"Unsere SEO-Techniken erhöhen die ",
+      "descS":"Sichtbarkeit Ihrer Website",
+      "desc3":", sodass sie leichter von Suchmaschinen gefunden wird."
+  }, 
+  "slideS3":{
+      "titulo":"Exklusive Angebote!!!",
+      "subtitulo":"Nutzen Sie die exklusiven Angebote und Produkte der App!!",
+      "desc":"Möchten Sie die Anzahl der Besucher auf Ihrer Website erhöhen, ohne für Werbung zu zahlen?",
+      "desc2":"Unsere SEO-Dienstleistungen geben Ihrem ",
+      "descS":"organischen Traffic einen Schub",
+      "desc3":", indem sie mehr Besucher über organische Suchergebnisse anziehen."
+  },
+  "metas": {
+    "title": "LH Web | Experten für digitales Marketing, App-Entwicklung & SEO",
+    "description": "LH Web ist Ihr vertrauenswürdiger Partner in digitalem Marketing, App-Entwicklung, SEO, E-Mail-Marketing und mehr. Wir heben Marken und Unternehmen mit innovativen Lösungen und maßgeschneiderten digitalen Strategien hervor.",
+    "keywords": "Marketingagentur, mobile App-Erstellung, App-Entwicklung, Webseiten-Entwicklung, Marketingstrategie, digitales Marketing, SEO-Optimierung"
+},
+"metasSobreNois": {
+    "title": "Über Uns | LH Web: Unsere Mission, Vision, Werte und Ziele",
+    "description": "Bei LH Web besteht unsere Mission darin, das Wachstum unserer Kunden durch innovative Webmarketing-Strategien zu fördern. Erfahren Sie mehr über unsere Vision, Werte und zukünftige Ziele.",
+    "keywords": "LH Web, Mission, Vision, Werte, Webmarketing, Marketingstrategien, digitales Wachstum, Ziele, Online-Präsenz, Innovation, digitaler Erfolg, Führung, Vertrauen, Exzellenz, Segmentierung, SEO, Performance-Analyse, Kundenzufriedenheit"
+},
+"metasProdutos": {
+    "title": "LH Web | Unsere Produkte & Dienstleistungen - Marketing & Entwicklungslösungen",
+    "description": "Entdecken Sie unser digitales Marketing, SEO, Automatisierungsprodukte und -dienstleistungen, maßgeschneiderte Strategien und mehr. Mit innovativen Lösungen und maßgeschneiderten digitalen Strategien heben wir Marken und Unternehmen hervor.",
+    "keywords": "LH Web Produkte, LH Web Dienstleistungen, Marketinglösungen, SEO-Optimierung, Marketingautomatisierung, maßgeschneiderte Strategien, digitale Innovation, datenbasiertes Marketing"
+},
+"metasMobile": {
+    "title": "App-Erstellung: Direkte Verbindung zu Ihren Kunden | LH Web",
+    "description": "LH Web verwandelt Ihre Vision mit maßgeschneiderten Apps in Realität. Bauen Sie eine direkte Verbindung zu Ihren Kunden auf und steigern Sie Ihr Marketing. Erleben Sie heute die Kraft einer mobilen Plattform.",
+    "keywords": "LH Web, App-Erstellung, Direktmarketing, Marketingplattform, Kundenbindung, Benutzererfahrung, Android-App, iOS-App, Push-Benachrichtigungen, Engagement, Treue"
+},
+"metasSeo": {
+    "title": "SEO-Optimierung: Verbinden Sie sich mit Ihrem Publikum und steigern Sie den Traffic | LH Web",
+    "description": "LH Web erkennt die Bedeutung der SEO-Optimierung, um Ihre Marke mit Ihrer Zielgruppe zu verbinden. Gehen Sie über einfache Rankings hinaus und bieten Sie das beste Sucherlebnis. Erfahren Sie, wie Sie SEO zu Ihrem Hauptmarketinginstrument machen.",
+    "keywords": "LH Web, SEO-Optimierung, Suchmaschinenmarketing, organischer Traffic, SEO-Analyse, Keyword-Optimierung, Website-Sichtbarkeit, Marketingtool"
+},
+"metasMarketing": {
+    "title": "Digitales Marketing: Engagieren Sie sich und sprechen Sie Ihr Publikum direkt an | LH Web",
+    "description": "LH Web glaubt an die Kraft des digitalen Marketings als Differenzierer für Ihre Marke. Wir erstellen Strategien, die eine engere und engagiertere Beziehung zu Ihrem Publikum herstellen, indem wir relevanten und personalisierten Content liefern. Entdecken Sie das Potenzial von direkten Kanälen zu Ihrer Zielgruppe und steigern Sie Ihr Geschäft.",
+    "keywords": "LH Web, Marketing, digitales Marketing, Engagement, direkter Kanal, Zielgruppe, engagierter Kontakt, Analytik, SEO, Social Media Werbung, E-Mail-Marketing"
+},
+"metasDesing": {
+    "title": "Webdesign: Optimiertes Erlebnis und Engagement | LH Web",
+    "description": "Für LH Web ist eine Website nicht nur eine Online-Präsenz. Für uns ist es ein direkter Interaktionskanal mit Ihren Kunden. Wir bieten ein gut strukturiertes Design, das das Surferlebnis erhöht, das Engagement steigert und den Verkauf beschleunigt. Verwandeln Sie Ihre Online-Präsenz heute.",
+    "keywords": "LH Web, Webdesign, direkte Interaktion, optimiertes Erlebnis, Markenerkennung, Kundenengagement, responsives Design, SEO-Optimierung, Benutzererfahrung, Hochleistung"
 }
-
-
-
-
-
-
-
-
-
 
   
   }

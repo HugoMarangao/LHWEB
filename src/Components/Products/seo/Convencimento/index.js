@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { FiTarget,FiTrendingUp } from 'react-icons/fi';
 import { useTranslation } from 'next-i18next'; 
 import { FaChartLine,FaRegEye } from 'react-icons/fa';
-
+import Head from 'next/head';
 
 const ConvencimentoSeo = ({id}) => {
       const [activeButton, setActiveButton] = useState(null);
@@ -60,14 +60,14 @@ switch(slide) {
             <h2>12:25</h2>
             <div className={styles.box}>
             <div className={styles.logo}/>
-            <h2>Ofertas exclusivas!!!</h2>
-            <p>Aproveite as ofertas e produtos exclusivos do aplicativo!!</p>
+            <h2>{t('slideS.titulo')}</h2>
+            <p>{t('slideS.subtitulo')}</p>
         </div>
         </div>
         <div className={styles.conteudo}>
             <div className={styles.box}>
-            <p>Quer compreender melhor o desempenho do seu site e onde há espaço para melhorias? </p>
-            <p>Nossa <b>análise SEO abrangente</b> fornece insights valiosos que permitem otimizar seu site e aumentar seu tráfego e conversões.</p>
+            <p>{t('slideS.desc')}</p>
+            <p>{t('slideS.desc2')}<b>{t('slideS.descS')}</b>{t('slideS.desc3')}</p>
             </div>
         </div>
     </div>
@@ -82,14 +82,14 @@ switch(slide) {
        <h2>12:25</h2>
        <div className={styles.box}>
        <div className={styles.logo}/>
-       <h2>Ofertas exclusivas!!!</h2>
-       <p>Aproveite as ofertas e produtos exclusivos do aplicativo!!</p>
+        <h2>{t('slideS1.titulo')}</h2>
+        <p>{t('slideS1.subtitulo')}</p>
    </div>
    </div>
    <div className={styles.conteudo}>
        <div className={styles.box}>
-       <p>Deseja alcançar o público certo e melhorar seu ranking nas pesquisas?</p>
-       <p>Com a <b>otimização de palavras-chave</b>, ajudamos você a escolher as palavras-chave certas para direcionar o público certo para o seu site.</p>
+        <p>{t('slideS1.desc')}</p>
+        <p>{t('slideS1.desc2')}<b>{t('slideS1.descS')}</b>{t('slideS1.desc3')}</p>
        </div>
    </div>
 </div>
@@ -104,14 +104,14 @@ switch(slide) {
            <h2>12:25</h2>
            <div className={styles.box}>
            <div className={styles.logo}/>
-           <h2>Ofertas exclusivas!!!</h2>
-           <p>Aproveite as ofertas e produtos exclusivos do aplicativo!!</p>
+           <h2>{t('slideS.titulo')}</h2>
+           <p>{t('slideS.subtitulo')}</p>
        </div>
        </div>
        <div className={styles.conteudo}>
            <div className={styles.box}>
-           <p>Quer que seu site apareça nas primeiras posições dos resultados de busca?</p>
-           <p>Nossas técnicas de SEO aumentam a <b>visibilidade do seu site</b>, tornando-o mais fácil de ser encontrado pelos motores de busca.</p>
+           <p>{t('slideS2.desc')}</p>
+           <p>{t('slideS2.desc2')}<b>{t('slideS2.descS')}</b>{t('slideS2.desc3')}</p>
            </div>
        </div>
    </div>
@@ -126,14 +126,14 @@ switch(slide) {
                <h2>12:25</h2>
                <div className={styles.box}>
                <div className={styles.logo}/>
-               <h2>Ofertas exclusivas!!!</h2>
-               <p>Aproveite as ofertas e produtos exclusivos do aplicativo!!</p>
-           </div>
-           </div>
-           <div className={styles.conteudo}>
-               <div className={styles.box}>
-               <p>Quer aumentar a quantidade de visitantes no seu site sem gastar com anúncios?</p>
-                    <p>Nossos serviços de SEO dão um <b>impulso no seu tráfego orgânico</b>, atraindo mais visitantes através de resultados de busca orgânicos.</p>
+               <h2>{t('slideS3.titulo')}</h2>
+           <p>{t('slideS3.subtitulo')}</p>
+       </div>
+       </div>
+       <div className={styles.conteudo}>
+           <div className={styles.box}>
+           <p>{t('slideS3.desc')}</p>
+           <p>{t('slideS3.desc2')}<b>{t('slideS3.descS')}</b>{t('slideS3.desc3')}</p>
                </div>
            </div>
        </div>
@@ -185,6 +185,21 @@ switch(slide) {
     return(
 
         <div className={styles.container}>
+            <Head>
+                <title>{t('metasSeo.title')}</title>
+                
+                <meta name="description" content={t('metasSeo.description')}/>
+                
+                <meta name="keywords" content={t('metasSeo.keywords')}/>
+                
+                <meta property="og:title" content={t('metasSeo.title')} />
+                <meta property="og:description" content={t('metasSeo.description')} />
+                <meta property="og:image" content="https://media.licdn.com/dms/image/D4E03AQG-mMsf0AQTWA/profile-displayphoto-shrink_800_800/0/1685707206328?e=2147483647&v=beta&t=RwPm_QVU4iLnehPufd2el601sa5m1PsOh2tKzxyP5Oc" />
+                <meta property="og:url" content="https://lhweb.vercel.app/Produtos/seo" />
+                
+                <link rel="canonical" href="https://lhweb.vercel.app/Produtos/seo" />
+            </Head>
+
            <div className={styles.flex}> 
                 <div className={styles.produto}>
                     <div className={styles.bol}> 
@@ -303,36 +318,45 @@ switch(slide) {
             </div>
             <div className={styles.containerplanos}>
             <div className={styles.box}>
-                        <h2>Essencial</h2>
-                        <li>Desenvolvimento de um aplicativo funcional e intuitivo que atenda às necessidades básicas dos usuários.</li>
-                        <li>Recursos principais, como cadastro de usuários, autenticação, navegação básica entre telas e notificações push para manter os usuários engajados</li>
-                        <li>Design limpo e responsivo que proporciona uma experiência de usuário agradável.</li>
-                        <li>Suporte técnico básico para resolver questões técnicas e responder a dúvidas dos usuários.</li>
-                        <h3>R$99/mês</h3>
+                        <h2>Plano Basico</h2>
+                        <h3>Ideal para iniciantes, startups ou empresas de pequeno porte que desejam estabelecer sua presença no mundo digital. Este plano oferece:</h3>
+                        <li>Análise de Palavras-chave e Pesquisa de Concorrentes</li>
+                        <li>Otimização de Títulos, Meta Tags e Descrições</li>
+                        <li>Melhoria de Estrutura e Navegabilidade do Site</li>
+                        <li>Otimização de Velocidade de Carregamento de Páginas</li>
+                        <li>Criação e Otimização de URLs Amigáveis</li>
+                        <li>Otimização de Imagens e Tags Alt</li>
+                        <p>99$/mes</p>
                         <button>
-                            Crie seu App
+                            SEO 
                         </button>
                 </div>
                 <div className={styles.box}>
-                        <h2>Personalizado</h2>
-                        <li>Todos os recursos do Plano Básico, além de recursos adicionais para aprimorar a funcionalidade do aplicativo.</li>
-                        <li>Integração de API para conectar o aplicativo a outros sistemas e serviços externos, possibilitando recursos como login com redes sociais e integração de pagamentos online.</li>
-                        <li>Recursos avançados de análise de dados para acompanhar o desempenho do aplicativo e obter insights valiosos sobre o comportamento dos usuários.</li>
-                        <li>Design personalizado e atraente que destaca a identidade da marca e cria uma experiência de usuário diferenciada.</li>
-                        <h3></h3>
+                        <h2>Plano Avançado (Recomendado)</h2>
+                        <h3>Este plano é perfeito para empresas de médio porte que estão procurando adicionar mais funcionalidades ao seu site. Ele inclui tudo do Plano Básico, além de:</h3>
+                        <li>Análise de Backlinks e Estratégia de Link Building</li>
+                        <li>Otimização de Conteúdo com Base em Palavras-chave</li>
+                        <li>Melhoria da Experiência do Usuário (UI/UX)</li>
+                        <li>Otimização de Estrutura de URLs e Redirecionamentos</li>
+                        <li>Otimização de Dados Estruturados (Schema Markup)</li>
+                        <li>Relatórios de Análise de Tráfego e Tendências</li>
+                        <p>120$/mes</p>
                         <button>
-                            Crie seu App
+                            inicie sua campanha 
                         </button>
                 </div>
                 <div className={styles.box}>
-                        <h2>Premium</h2>
-                        <li>Todos os recursos do Plano Avançado, com ênfase em personalização e funcionalidade avançada.</li>
-                        <li>Desenvolvimento de um aplicativo altamente personalizado, adaptado às necessidades específicas do negócio.</li>
-                        <li>Integração com sistemas externos e APIs complexas para oferecer recursos avançados, como processamento de pagamentos complexos, integração com CRM ou ERP e automação de processos.</li>
-                        <li>Design sofisticado e exclusivo que reflete a identidade da marca e proporciona uma experiência de usuário excepcional.</li>
-                        <h3></h3>
+                        <h2>Plano Personalizado</h2>
+                        <h3>Criado para empresas maiores ou para aquelas com necessidades específicas, este plano oferece uma solução personalizada que se adapta perfeitamente à sua marca e aos seus objetivos. Ele inclui tudo do Plano Avançado, além de:</h3>
+                        <li>Auditoria Técnica do Site e Correções</li>
+                        <li>Estratégias Avançadas de Link Building e Link Earning</li>
+                        <li>Pesquisa e Otimização de Palavras-chave Long-tail</li>
+                        <li>Otimização para Dispositivos Móveis (Mobile SEO)</li>
+                        <li>Monitoramento de Marcas e Gerenciamento de Reputação Online</li>
+                        <li>Relatórios Personalizados de Desempenho e Recomendações Estratégicas</li>
+                        <p>🔒$/mes</p>
                         <button>
-                            Crie seu App
+                            inicie sua campanha 
                         </button>
                 </div>
             </div>

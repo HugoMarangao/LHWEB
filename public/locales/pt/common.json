@@ -249,7 +249,8 @@
         "title":"Ofertas exclusivas!!!",
         "message":"Aproveite as ofertas e produtos exclusivos do aplicativo!!",
         "desc1":"Quer anunciar uma oferta especial, descontos exclusivos ou lembrar seus clientes de finalizar a compra que ficou parada no carrinho",
-        "desc2":"Notifique-os pelo celular a qualquer momento <b> sem nenhum risco de cair no spam! </b>"
+        "desc2":"Notifique-os pelo celular a qualquer momento ",
+        "descS":"sem nenhum risco de cair no spam!"
     },
     "slide1":{
         "title":"Ofertas exclusivas!!!",
@@ -259,12 +260,16 @@
     "slide2":{
         "title":"Ofertas exclusivas!!!",
         "message":"Aproveite as ofertas e produtos exclusivos do aplicativo!!",
-        "desc":"Seu próprio aplicativo disponível para download nas lojas do <b> Android </b> e <b> IOS </b>."
+        "desc":"Seu próprio aplicativo disponível para download nas lojas do  e ",
+        "desc1":"  e  ",
+        "descS":"Android ",
+        "descS1":"IOS "
     },
     "slide3":{
         "title":"Ofertas exclusivas!!!",
         "message":"Aproveite as ofertas e produtos exclusivos do aplicativo!!",
-        "desc":"Utilize o visualizador da LHWEB para testar seu aplicativo <b> antes mesmo de ele ser publicado </b>"
+        "desc":"Utilize o visualizador da LHWEB para testar seu aplicativo",
+        "descS":"antes mesmo de ele ser publicado  "
     },
     "contato":{
         "titulo":"Entre em Contato!",
@@ -290,6 +295,133 @@
         "subtitulo2":"marketing de mídia social envolvente",
         "subtitulo3":"desenvolvimento de site personalizad",
         "subtitulo4":"desenvolvimento de aplicativos inovadores"
+    },
+    "slideM":{
+        "titulo":"Entenda seu Público",
+        "subtitulo":"Acompanhe as métricas e comportamentos do seu público em tempo real.",
+        "desc":"Quer entender melhor o comportamento do seu público,saber quais estratégias estão funcionando e quais precisam de ajustes?",
+        "desc2":"Através do ",
+        "descS":"Analytics",
+        "desc3":", você tem acesso a dados em tempo real."
+    },
+    "slideM1":{
+        "titulo":"Otimização para Motores de Busca",
+        "subtitulo":"Apareça nas primeiras posições dos motores de busca e aumente a visibilidade da sua marca.",
+        "desc":"Quer atrair mais clientes e aparecer nas primeiras posições nos motores de busca como Google, Bing, Yahoo e outros?",
+        "desc2":"Com uma estratégia de ",
+        "descS":"SEO",
+        "desc3":"eficaz, é possível alcançar esses objetivos e muito mais!"
+    },
+    "slideM2":{
+        "titulo":"Engaje Seu Público",
+        "subtitulo":"Alcance e engaje seu público através de mídias sociais populares.",
+        "desc":"Procurando maneiras de aumentar o engajamento do seu público e alcançar uma base de clientes mais ampla?",
+        "desc2":"Com a ",
+        "descS":"Publicidade em Mídias Sociais",
+        "desc3":", é possível conectar-se diretamente com seu público-alvo."
+    },
+    "slideM3":{
+        "titulo":"Conecte-se com Seus Clientes",
+        "subtitulo":"Mantenha seus clientes informados e envolvidos com eficazes campanhas de e-mail marketing.",
+        "desc":"Procurando maneiras de manter seus clientes envolvidos e informados sobre novos produtos, promoções e atualizações?",
+        "desc2":"O ",
+        "descS":"E-mail Marketing",
+        "desc3":" é uma maneira eficaz de manter seus clientes conectados."
+    },
+    "slideD":{
+        "titulo":"Design Responsivo!!!",
+        "subtitulo":"O design do seu site se adapta a qualquer dispositivo!",
+        "desc":"Um site que se adapta a qualquer tamanho de tela é fundamental hoje em dia, onde as pessoas usam diversos dispositivos para navegar.",
+        "desc2":"Garanta a melhor experiência para o seu usuário em qualquer situação!"
+    },
+    "slideD1":{
+        "titulo":"Otimização para motores de busca!!!",
+        "subtitulo":"Seu site será encontrado mais facilmente pelos motores de busca!",
+        "desc":"A otimização para motores de busca (SEO) é fundamental para que seu site seja encontrado facilmente nos resultados de busca.",
+        "desc2":"Com a otimização SEO, você ",
+        "descS":"aumenta sua visibilidade e atrai mais visitantes para o seu site."
+    },
+    "slideD2":{
+        "titulo":"User Experience Design!!!",
+        "subtitulo":"Ofereça uma experiência de navegação agradável para os usuários!",
+        "desc":"A experiência do usuário (UX) é um fator fundamental para a satisfação dos visitantes do seu site.",
+        "desc2":"Um design de UX bem feito",
+        "descS":" faz com que os usuários fiquem mais tempo no seu site e voltem mais vezes!"
+    },
+    "slideD3":{
+        "titulo":"Desempenho de Alta Velocidade!!!",
+        "subtitulo":"Seu site carrega rapidamente, mantendo os usuários envolvidos e melhorando o SEO!",
+        "desc":"A velocidade de carregamento de um site é um fator crucial para a experiência do usuário e para a classificação nos motores de busca.",
+        "desc2":"Com um site de alta performance, você",
+        "descS":" mantém seus usuários envolvidos e melhora o seu ranking nos resultados de busca."
+    },
+    "slideS":{
+        "titulo":"Ofertas exclusivas!!!",
+        "subtitulo":"Aproveite as ofertas e produtos exclusivos do aplicativo!!",
+        "desc":"Quer compreender melhor o desempenho do seu site e onde há espaço para melhorias? ",
+        "desc2":"Nossa ",
+        "descS":"análise SEO abrangente",
+        "desc3":" fornece insights valiosos que permitem otimizar seu site e aumentar seu tráfego e conversões."
+    },
+    "slideS1":{
+        "titulo":"Ofertas exclusivas!!!",
+        "subtitulo":"Aproveite as ofertas e produtos exclusivos do aplicativo!!",
+        "desc":"Deseja alcançar o público certo e melhorar seu ranking nas pesquisas?",
+        "desc2":"Com a ",
+        "descS":"otimização de palavras-chave",
+        "desc3":", ajudamos você a escolher as palavras-chave certas para direcionar o público certo para o seu site."
+    },
+    "slideS2":{
+        "titulo":"Ofertas exclusivas!!!",
+        "subtitulo":"Aproveite as ofertas e produtos exclusivos do aplicativo!!",
+        "desc":"Quer que seu site apareça nas primeiras posições dos resultados de busca?",
+        "desc2":"Nossas técnicas de SEO aumentam a ",
+        "descS":"visibilidade do seu site",
+        "desc3":", tornando-o mais fácil de ser encontrado pelos motores de busca."
+    }, 
+    "slideS3":{
+        "titulo":"Ofertas exclusivas!!!",
+        "subtitulo":"Aproveite as ofertas e produtos exclusivos do aplicativo!!",
+        "desc":"Quer aumentar a quantidade de visitantes no seu site sem gastar com anúncios?",
+        "desc2":"Nossos serviços de SEO dão um ",
+        "descS":"impulso no seu tráfego orgânico",
+        "desc3":", atraindo mais visitantes através de resultados de busca orgânicos."
+    },
+    "metas":{
+        "title":"LH Web | Especialistas em Marketing Digital, Desenvolvimento de Apps & SEO",
+        "description":"LH Web é sua parceira confiável em marketing digital, desenvolvimento de aplicativos, SEO, email marketing e muito mais. Elevamos marcas e negócios com soluções inovadoras e estratégias digitais personalizadas.",
+        "keywords":"agência de marketing, criar aplicativo móvel, desenvolvendo app, desenvolver site, estratégia de marketing, marketing digital, otimização de SEO"
+    },
+    "metasSobreNois":{
+        "title":"Sobre Nós | LH Web: Nossa Missão, Visão, Valores e Objetivos",
+        "description":"Na LH Web, nossa missão é impulsionar o crescimento dos nossos clientes por meio de estratégias inovadoras de web marketing. Saiba mais sobre nossa visão, valores e objetivos para o futuro.",
+        "keywords":"LH Web, missão, visão, valores, web marketing, estratégias de marketing, crescimento digital, objetivos, presença online, inovação, sucesso digital, liderança, confiança, excelência, segmentação, SEO, análise de desempenho, satisfação do cliente"
+    },
+    "metasProdutos":{
+        "title":"LH Web | Nossos Produtos & Serviços - Soluções de Marketing & Desenvolvimento",
+        "description":"Descubra nossos produtos e serviços em marketing digital, SEO, automação, estratégias adaptadas e muito mais. Elevamos marcas e negócios com soluções inovadoras e estratégias digitais personalizadas.",
+        "keywords":"produtos LH Web, serviços LH Web, soluções de marketing, otimização SEO, automação de marketing, estratégias adaptadas, inovação digital, marketing orientado a dados"
+    },
+    "metasMobile":{
+        "title":"Criação de Aplicativos: Conexão Direta com Seu Cliente | LH Web",
+        "description":"A LH Web transforma sua visão em realidade com aplicativos personalizados. Estabeleça uma conexão direta com seus clientes e potencialize seu marketing. Descubra o poder de uma plataforma móvel hoje mesmo.",
+        "keywords":"LH Web, criação de aplicativos, marketing direto, plataforma de marketing, conexão com cliente, experiência do usuário, aplicativo Android, aplicativo iOS, notificações push, engajamento, fidelidade"
+    },
+    "metasSeo":{
+        "title":"Otimização SEO: Conecte-se com Seu Público e Aumente o Tráfego | LH Web",
+        "description":"A LH Web entende a importância da otimização SEO para conectar sua marca ao seu público-alvo. Vá além do simples ranking e ofereça a melhor experiência de busca. Descubra como transformar o SEO em sua principal ferramenta de marketing.",
+        "keywords":"LH Web, otimização SEO, marketing de busca, tráfego orgânico, análise SEO, otimização de palavras-chave, visibilidade do site, ferramenta de marketing"
+    },
+    "metasMarketing":{
+        "title":"Marketing Digital: Engaje e Converse Diretamente com Seu Público | LH Web",
+        "description":"A LH Web acredita no poder do marketing digital como diferencial para sua marca. Criamos estratégias que estabelecem uma relação mais próxima e engajada com seu público, oferecendo conteúdo relevante e personalizado. Descubra o potencial do canal direto com seu público-alvo e impulsione seu negócio.",
+        "keywords":"LH Web, marketing, marketing digital, engajamento, canal direto, público-alvo, relação engajada, analytics, SEO, publicidade em mídias sociais, e-mail marketing"
+    },
+    "metasDesing":{
+        "title":"Design de Website: Experiência Otimizada e Engajamento | LH Web",
+        "description":"A LH Web não vê um website apenas como uma presença online. Para nós, é um canal direto de interação com seus clientes. Oferecemos design bem estruturado que eleva a experiência de navegação, impulsiona o engajamento e acelera as vendas. Transforme sua presença online hoje.",
+        "keywords":"LH Web, design de website, interação direta, experiência otimizada, reconhecimento de marca, engajamento de cliente, design responsivo, otimização SEO, experiência do usuário, alta performance"
     }
+
 
   }

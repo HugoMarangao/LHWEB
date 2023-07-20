@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import styles from './styles.module.scss';
 import Image from 'next/image';
 import { useTranslation } from 'next-i18next'; 
+
 const Apresentacao = () => {
     const { t } = useTranslation('common');
     return(
@@ -22,6 +23,7 @@ const Apresentacao = () => {
                     <p>Coloque sua empresa em app com nossa empresa Gestao de modo eficiente, teste agora</p>
                 </div>
             </div>
+           
         </div>
     
     );

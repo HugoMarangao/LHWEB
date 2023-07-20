@@ -8,6 +8,7 @@ import ConvencimentoSeo from '@/Components/Products/seo/Convencimento';
 import Apresentacao from '@/Components/Products/Apresentacao';
 import { useRouter } from 'next/router';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import Contato from '@/Components/Contato';
 
 const Produto = () => {
     const router = useRouter();
@@ -36,6 +37,7 @@ const Produto = () => {
        <Header/>
         <Apresentacao/>
         {ConvencimentoComponent && <ConvencimentoComponent />}
+        <Contato/>
         <WhatsAppButton/>    
         <Footer/>
         </>

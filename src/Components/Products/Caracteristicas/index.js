@@ -45,7 +45,7 @@ const Caracteristicas = () => {
                                             <h2>{t('descricao.titulo')}</h2>
                                             <p>{t('descricao.descricao')}</p>
                                             <p>{t('descricao.descricaop')}</p>
-                                            <button>{t('descricao.button')}</button>
+                                            <button  onClick={() => router.push('/Produtos/criacaodeapps')}>{t('descricao.button')}</button>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ const Caracteristicas = () => {
                                             <h2>{t('descricao.titulo1')}</h2>
                                             <p>{t('descricao.descricao1')}</p>
                                             <p>{t('descricao.descricaop1')}</p>
-                                            <button>{t('descricao.button')}</button>
+                                            <button onClick={() => router.push('/Produtos/designweb')}>{t('descricao.button')}</button>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ const Caracteristicas = () => {
                                             <h2>{t('descricao.titulo2')}</h2>
                                             <p>{t('descricao.descricao2')}</p>
                                             <p>{t('descricao.descricaop2')}</p>
-                                            <button>{t('descricao.button')}</button>
+                                            <button onClick={() => router.push('/Produtos/marketingdigital')}>{t('descricao.button')}</button>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ const Caracteristicas = () => {
                                             <h2>{t('descricao.titulo3')}</h2>
                                             <p>{t('descricao.descricao3')}</p>
                                             <p>{t('descricao.descricaop3')}</p>
-                                            <button>{t('descricao.button')}</button>
+                                            <button onClick={() => router.push('/Produtos/seo')}>{t('descricao.button')}</button>
                                     </div>
                                 </div>
                             </div>

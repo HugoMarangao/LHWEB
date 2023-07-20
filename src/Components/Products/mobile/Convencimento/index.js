@@ -10,8 +10,10 @@ import { FiBell } from 'react-icons/fi';
 import { AiOutlineMobile} from 'react-icons/ai';
 import { FaVial } from 'react-icons/fa';
 import {FcMultipleDevices} from 'react-icons/fc';
+import Head from 'next/head';
 import { useTranslation } from 'next-i18next'; 
 const ConvencimentoMobile = ({id}) => {
+    
       const { t } = useTranslation('common');
 
       const [activeButton, setActiveButton] = useState(null);
@@ -70,7 +72,7 @@ switch(slide) {
         <div className={styles.conteudo}>
             <div className={styles.box}>
             <p>{t('slide0.desc1')}</p>
-            <p>{t('slide0.desc2')}</p>
+            <p>{t('slide0.desc2')}<b>{t('slide0.descS')}</b></p>
             </div>
         </div>
     </div>
@@ -106,13 +108,13 @@ switch(slide) {
            <h2>12:25</h2>
            <div className={styles.box}>
            <div className={styles.logo}/>
-           <h2>{t('slide1.desc')}</h2>
-           <p>Aproveite as ofertas e produtos exclusivos do aplicativo!!</p>
+           <h2>{t('slide2.title')}</h2>
+           <p>{t('slide2.message')}</p>
        </div>
        </div>
        <div className={styles.conteudo}>
            <div className={styles.box}>
-           <p>Seu proprio aplicativo disponivel para download nas lojas do <b> Android</b> e <b>IOS.</b></p>
+           <p>{t('slide2.desc')}<b> {t('slide2.descS')}</b> {t('slide2.desc1')} <b>{t('slide2.descS1')}</b></p>
            </div>
        </div>
    </div>
@@ -127,13 +129,13 @@ switch(slide) {
                <h2>12:25</h2>
                <div className={styles.box}>
                <div className={styles.logo}/>
-               <h2>Ofertas exclusivas!!!</h2>
-               <p>Aproveite as ofertas e produtos exclusivos do aplicativo!!</p>
+               <h2>{t('slide3.title')}</h2>
+                <p>{t('slide3.message')}</p>
            </div>
            </div>
            <div className={styles.conteudo}>
                <div className={styles.box}>
-               <p>Utilize o vizualizador da LHWEB para testar seu aplicativo <b>antes mesmo de ele ser publicado</b></p>
+               <p>{t('slide3.desc')}<b>{t('slide3.descS')}</b></p>
                </div>
            </div>
        </div>
@@ -183,8 +185,23 @@ switch(slide) {
       };
 
     return(
+        
 
         <div className={styles.container}>
+             <Head>
+            <title>{t('metasMobile.title')}</title>
+            
+            <meta name="description" content={t('metasMobile.description')} />
+            
+            <meta name="keywords" content={t('metasMobile.keywords')} />
+            
+            <meta property="og:title" content={t('metasMobile.title')}  />
+            <meta property="og:description" content={t('metasMobile.description')} />
+            <meta property="og:image" content="https://media.licdn.com/dms/image/D4E03AQG-mMsf0AQTWA/profile-displayphoto-shrink_800_800/0/1685707206328?e=2147483647&v=beta&t=RwPm_QVU4iLnehPufd2el601sa5m1PsOh2tKzxyP5Oc" />
+            <meta property="og:url" content="https://lhweb.vercel.app/Produtos/criacaodeapps" />
+            
+            <link rel="canonical" href="https://lhweb.vercel.app/Produtos/criacaodeapps" />
+        </Head>
            <div className={styles.flex}> 
                 <div className={styles.produto}>
                     <div className={styles.bol}> 
@@ -304,34 +321,36 @@ switch(slide) {
             </div>
             <div className={styles.containerplanos}>
             <div className={styles.box}>
-                        <h2>Essencial</h2>
-                        <li>Desenvolvimento de um aplicativo funcional e intuitivo que atenda às necessidades básicas dos usuários.</li>
-                        <li>Recursos principais, como cadastro de usuários, autenticação, navegação básica entre telas e notificações push para manter os usuários engajados</li>
-                        <li>Design limpo e responsivo que proporciona uma experiência de usuário agradável.</li>
-                        <li>Suporte técnico básico para resolver questões técnicas e responder a dúvidas dos usuários.</li>
-                        <h3>R$99/mês</h3>
+                        <h2>Plano Basico</h2>
+                        <h3>Ideal para iniciantes, startups ou empresas de pequeno porte que desejam estabelecer sua presença no mundo dos aplicativos. Este plano oferece:</h3>
+                        <li>Desenvolvimento de aplicativo multiplataforma (Android e iOS)</li>
+                        <li>Integração do sistema de mapas para localização</li>
+                        <li>Suporte ao cliente dedicado</li>
+                        <p>99$/mes</p>
                         <button>
                             Crie seu App
                         </button>
                 </div>
                 <div className={styles.box}>
-                        <h2>Personalizado</h2>
-                        <li>Todos os recursos do Plano Básico, além de recursos adicionais para aprimorar a funcionalidade do aplicativo.</li>
-                        <li>Integração de API para conectar o aplicativo a outros sistemas e serviços externos, possibilitando recursos como login com redes sociais e integração de pagamentos online.</li>
-                        <li>Recursos avançados de análise de dados para acompanhar o desempenho do aplicativo e obter insights valiosos sobre o comportamento dos usuários.</li>
-                        <li>Design personalizado e atraente que destaca a identidade da marca e cria uma experiência de usuário diferenciada.</li>
-                        <h3></h3>
+                        <h2>Plano Avançado (Recomendado)</h2>
+                        <h3>Este plano é perfeito para empresas de médio porte que estão procurando adicionar mais funcionalidades ao seu aplicativo. Ele inclui tudo do Plano Básico, além de:</h3>
+                        <li>Notificações push para engajamento do usuário</li>
+                        <li>Sistema de pagamento integrado</li>
+                        <li>Autenticação de usuário e gerenciamento de perfil</li>
+                        <li>Analíticas do aplicativo para monitorar o desempenho</li>
+                        <p>120$/mes</p>
                         <button>
                             Crie seu App
                         </button>
                 </div>
                 <div className={styles.box}>
-                        <h2>Premium</h2>
-                        <li>Todos os recursos do Plano Avançado, com ênfase em personalização e funcionalidade avançada.</li>
-                        <li>Desenvolvimento de um aplicativo altamente personalizado, adaptado às necessidades específicas do negócio.</li>
-                        <li>Integração com sistemas externos e APIs complexas para oferecer recursos avançados, como processamento de pagamentos complexos, integração com CRM ou ERP e automação de processos.</li>
-                        <li>Design sofisticado e exclusivo que reflete a identidade da marca e proporciona uma experiência de usuário excepcional.</li>
-                        <h3></h3>
+                        <h2>Plano Personalizado</h2>
+                        <h3>Criado para empresas maiores ou para aquelas com necessidades específicas, este plano oferece uma solução personalizada que se adapta perfeitamente à sua marca e aos seus objetivos. Ele inclui tudo do Plano Avançado, além de:</h3>
+                        <li>Recursos personalizados conforme as necessidades da sua empresa</li>
+                        <li>Integração com outros sistemas (CRM, ERP etc.)</li>
+                        <li>Suporte para múltiplos idiomas</li>
+                        <li>SEO para aplicativos e estratégias de marketing de aplicativos</li>
+                        <p>🔒$/mes</p>
                         <button>
                             Crie seu App
                         </button>

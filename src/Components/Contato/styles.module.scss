@@ -84,6 +84,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                flex-direction: row; /* Adicionado para alinhar os itens em uma linha */
                 padding: 10px;
                 
                 input[type="checkbox"] {
