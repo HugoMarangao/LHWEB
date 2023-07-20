@@ -1,5 +1,5 @@
 import paypal from '@paypal/checkout-server-sdk';
-import { cliente } from '../../Components/Config/paypalConfig'; // Importando a função cliente do arquivo paypalConfig
+import { cliente } from '../../Components/Config/paypal/paypalConfig'; // Importando a função cliente do arquivo paypalConfig
 
 const payPalClient = cliente();  // Use a função para pegar a instância do cliente
 
