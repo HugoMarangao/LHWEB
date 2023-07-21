@@ -1,52 +1,42 @@
-export default (req, res) => {
-    const baseUrl = 'https://lhweb.vercel.app';
-    const languages = ['en', 'pt', 'de', 'it', 'fr'];
+// pages/api/sitemap.xml.js
+import { SitemapStream, streamToPromise } from 'sitemap';
+
+export default async (req, res) => {
+  if (!res) return {};
+  res.setHeader('Content-Type', 'application/xml');
   
-    const pages = [
-      '/',
-      '/Produtos',
-      '/Produtos/criacaodeapps',
-      '/Produtos/designweb',
-      '/Produtos/marketingdigital',
-      '/Produtos/seo',
-      '/SobreNois'
-    ];
-  
-    let urls = [];
-  
-    languages.forEach((lang) => {
-      pages.forEach((page) => {
-        const prefix = lang === 'en' ? '' : `/${lang}`;
-        urls.push({
-          loc: `${baseUrl}${prefix}${page}`,
-          changefreq: 'daily',
-          priority: 0.8
-        });
-      });
-    });
-  
-    const sitemap = generateSitemap(urls);
-  
-    res.setHeader('Content-Type', 'text/xml');
-    res.status(200).send(sitemap);
-  };
-  
-  function generateSitemap(urls) {
-    let sitemap = '<?xml version="1.0" encoding="UTF-8"?>';
-    sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
-  
-    urls.forEach((url) => {
-      sitemap += `
-        <url>
-            <loc>${url.loc}</loc>
-            <lastmod>${new Date().toISOString()}</lastmod>
-            <changefreq>${url.changefreq}</changefreq>
-            <priority>${url.priority}</priority>
-        </url>
-      `;
-    });
-  
-    sitemap += '</urlset>';
-    return sitemap;
+  // Iniciando SitemapStream sem o gzip por enquanto.
+  const smStream = new SitemapStream({
+    hostname: 'https://lhweb.vercel.app/',
+  });
+
+  // Lista de rotas
+  const routes = [
+    '/',
+    '/Produtos',
+    '/Produtos/criacaodeapps',
+    '/Produtos/designweb',
+    '/Produtos/marketingdigital',
+    '/Produtos/seo',
+    '/SobreNois'
+  ];
+
+  // Línguas suportadas
+  const languages = ['pt', 'fr', 'de', 'it'];
+
+  for (let route of routes) {
+    // Adicionar rota padrão (sem prefixo de linguagem)
+    smStream.write({ url: route, changefreq: 'daily', priority: 0.8 });
+
+    // Adicionar rotas localizadas
+    for (let lang of languages) {
+      let localizedRoute = route === '/' ? `${lang}` : `${lang}${route}`;
+      smStream.write({ url: localizedRoute, changefreq: 'daily', priority: 0.8 });
+    }
   }
-  
+
+  smStream.end();
+
+  // Finaliza a stream e envia o sitemap para o cliente
+  streamToPromise(smStream).then((sm) => res.write(sm)).finally(() => res.end());
+};
