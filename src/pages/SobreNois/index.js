@@ -12,7 +12,8 @@ export default function SobreNois() {
     <>
     <Head>
           <title>{t('metasSobreNois.title')}</title>
-          
+          <link rel="icon" href="/favicon.ico" />
+
           <meta name="description" content={t('metasSobreNois.description')} />
           
           <meta name="keywords" content={t('metasSobreNois.keywords')} />

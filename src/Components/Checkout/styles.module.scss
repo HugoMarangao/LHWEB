@@ -49,93 +49,55 @@
     }
     .box{
         width: 80%;
-        height: 550px;
+        height: 100%;
         background-color: #ffffffd5;
         border-radius: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         color: black;
 
-        h3{
-            font-size: 25px;
+        h1{
+          color: #000000;
+          font-size: 30px;
+          text-shadow: none;
         }
 
-        .service{
-            width: 100%;
+        form{
+            width: 90%;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
+            flex-direction: column;
+
             input{
-                width: 90%;
-                
-                padding: 10px;
-                border-radius: 10px;
-                resize: none;
-            }
-        }
-        .inputs{
-            display:  flex;
-            justify-content: space-between;
-            width: 100%;
-            padding: 10px;
-            input{
-                width: 50%;
-                padding: 10px;
-                border-radius: 8px;
-                color: black;
                 margin: 10px;
+                padding: 10px;
+                border-radius: 9px;
             }
+        }
+    }
+    .flex{
+        display: flex;
+        width: 100%;
+        height: 300px;
+
+        .card{
+            width: 50%;
+            height: 300px;
         }
 
-        .inputsS {
+        .form{
+            width: 50%;
+            height: 300px;
             display: flex;
-            justify-content: space-between;
-            width: 100%;
-            padding: 10px;
-        
-            .flex {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: row; /* Adicionado para alinhar os itens em uma linha */
+            flex-direction: column;
+            color: #000000;
+            input{
                 padding: 10px;
-                
-                input[type="checkbox"] {
-                    display: none;
-                }
-        
-                input[type="checkbox"] + label {
-                    position: relative;
-                    padding-left: 35px;
-                    margin-left: 10px;
-                    cursor: pointer;
-                }
-        
-                input[type="checkbox"] + label:before {
-                    content: '';
-                    position: absolute;
-                    left: 0;
-                    top: -2px;
-                    width: 25px;
-                    height: 25px;
-                    border: 1px solid #c4c4c4ef;
-                    border-radius: 50%;
-                    background: #fff;
-                }
-        
-                input[type="checkbox"]:checked + label:before {
-                    background: #20D3FC;
-                }
-        
-                label {
-                    margin-left: 10px;
-                    font-size: 20px;
-                }
+                margin: 10px;
+                border-radius: 8px;
             }
         }
-        
     }
     @media screen and (max-width: 768px) {
         h1{

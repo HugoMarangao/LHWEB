@@ -18,6 +18,7 @@ export default function Home() {
             {/* Título */}
             <title>{t('metas.title')}</title>
             <meta name="google-site-verification" content="mKnTPaR52ePtyChlAfUYZ0ftkVYW0gMITYC-GDyu7Og" />
+            <link rel="icon" href="/favicon.ico" />
 
             {/* Descrição */}
             <meta name="description" content={t('metas.description')} />

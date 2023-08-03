@@ -201,7 +201,8 @@ switch(slide) {
         <div className={styles.container}>
              <Head>
             <title>{t('metasMobile.title')}</title>
-            
+            <link rel="icon" href="/favicon.ico" />
+
             <meta name="description" content={t('metasMobile.description')} />
             
             <meta name="keywords" content={t('metasMobile.keywords')} />

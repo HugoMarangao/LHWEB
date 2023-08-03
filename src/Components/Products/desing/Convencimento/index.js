@@ -200,7 +200,8 @@ const ConvencimentoDesign = ({id}) => {
         <div className={styles.container}>
             <Head>
                 <title>{t('metasDesing.title')}</title>
-                
+                <link rel="icon" href="/favicon.ico" />
+
                 <meta name="description" content={t('metasDesing.description')} />
                 
                 <meta name="keywords" content={t('metasDesing.keywords')} />

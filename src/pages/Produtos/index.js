@@ -14,6 +14,7 @@ export default function Produtos() {
      <Head>
     {/* Título */}
     <title>{t('metasProdutos.title')}</title>
+    <link rel="icon" href="/favicon.ico" />
 
     {/* Descrição */}
     <meta name="description" content={t('metasProdutos.description')} />

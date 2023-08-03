@@ -146,7 +146,7 @@ const Contato = () => {
               checked={servicos.socialMediaManager}
               onChange={handleServicosChange}
             />
-            <label htmlFor="socialMediaManager">{t('contato.servico4')}</label>
+            <label htmlFor="socialMediaManager">{t('contato.servico1')}</label>
           </div>
           <div className={styles.flex}>
             <input

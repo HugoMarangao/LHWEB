@@ -1,35 +1,37 @@
-import paypal from '@paypal/checkout-server-sdk';
-import { cliente } from '../../Components/Config/paypal/paypalConfig'; // Importando a função cliente do arquivo paypalConfig
+import Stripe from 'stripe';
 
-const payPalClient = cliente();  // Use a função para pegar a instância do cliente
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
-export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    res.status(405).end();
-    return;
-  }
+const handlePayment = async (req, res) => {
+    const { amount, id: paymentMethodId } = req.body;
+    
+    if (req.method === 'POST') {
+        const { amount } = req.body;
 
-  try {
-    const request = new paypal.orders.OrdersCreateRequest();
-    request.prefer('return=representation');
-    request.requestBody({
-      intent: 'CAPTURE',
-      purchase_units: [
-        {
-          amount: {
-            currency_code: 'USD',
-            value: '99.00',
-          },
-        },
-      ],
-    });
+        if (typeof amount !== 'number' || amount <= 0) {
+            return res.status(400).json({ statusCode: 400, message: "Invalid amount." });
+        }
 
-    const order = await payPalClient.execute(request);
-    const orderID = order.result.id;
+        try {
+            const paymentIntent = await stripe.paymentIntents.create({
+                amount,
+                currency: 'brl',
+                payment_method: paymentMethodId,  // Adicione isso
+                confirm: true,  // E isso para confirmar o pagamento imediatamente
+            });
 
-    res.status(200).json({ orderID });
-  } catch (error) {
-    console.error('Erro ao criar a ordem de pagamento:', error.message, error.stack); 
-    res.status(500).json({ error: 'Ocorreu um erro ao processar o pagamento. Por favor, tente novamente mais tarde.', detailedError: error.message });
-  }
-}
+            res.status(200).send(paymentIntent.client_secret);
+        } catch (err) {
+            if (err.type === 'StripeCardError') {
+                // Tratar erros relacionados ao cartão aqui
+                console.error("StripeCardError:", err.message);
+            }
+            res.status(500).json({ statusCode: 500, message: err.message });
+        }
+    } else {
+        res.setHeader('Allow', 'POST');
+        res.status(405).end('Method Not Allowed');
+    }
+};
+
+export default handlePayment;
